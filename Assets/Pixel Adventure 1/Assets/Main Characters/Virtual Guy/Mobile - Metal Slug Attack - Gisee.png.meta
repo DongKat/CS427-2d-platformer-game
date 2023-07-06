@@ -1,0 +1,6850 @@
+fileFormatVersion: 2
+guid: 1e27fbfdd7bb39f48aa6810ce370b659
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_0
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1903
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126faec72fe796047957d06fb3818baf
+      internalID: 164685391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1903
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6502af62992ec794f9a8d013ff9813d0
+      internalID: 1106939595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1903
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf4bcaa121d294fb6b241a78728f9c
+      internalID: -299914034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1893
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfcd74e88e501f44a89a94de75a5a0a
+      internalID: 2026739372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_4
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1892
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4934e24a7958c746bc348cc70091097
+      internalID: 653640447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1891
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258e4fd09a93e864da2ef2c9190eec2c
+      internalID: -460591725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_6
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1891
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42d847bca37f254d8f3219e43b81506
+      internalID: 150556711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_7
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1891
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e992bff867a0094489a0cdf48dd6681
+      internalID: -2069170049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_8
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1890
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f13854df439a0f409b7d898eb94e07c
+      internalID: -1811885255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1889
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929d66ef4d6f085449905a0e0ff239d0
+      internalID: -2120750347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_10
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1889
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cace76cdfc8294f9c07b692c2c19cd
+      internalID: 779936230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1841
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ea2953cd9060e43805569ca2b4f505
+      internalID: -1262105436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1841
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94cac0437e83494e8b43e01e7d1d765
+      internalID: -1785511623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1841
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4ffb9b8f09eaa4f803f650d7aa5ff5
+      internalID: 151727596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1841
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4141c875b284848a9218c6aabf16b8
+      internalID: -2029270586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1824
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f5b587dabe0a341b97da8e5c5e6bc8
+      internalID: -514643326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_16
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1824
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97af8db075d9d284989f191359dfd779
+      internalID: 1036257778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1824
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6198f8ce39e83bf4aaeded0050842f6d
+      internalID: 926390690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_18
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1824
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914d8edb3337bc647b7c121cbffaaff4
+      internalID: 809391950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_19
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1824
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6caa1d0a9cd8e4888626854b733bfb
+      internalID: -1196412191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_20
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1824
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd4e9bbc3f6264a9f080c68dafe38a
+      internalID: 737713325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_21
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1825
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45936a69720ee446b576f02884d4362
+      internalID: -268025757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_22
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1826
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1853af0b6f6c774ea8e092db3720540
+      internalID: 2130842629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_23
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1824
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebe1615fb5cfae42bccf9e2c67b1ef7
+      internalID: 1767432150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_24
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1824
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4175045b78e8ad4aa07e2fe72d4933c
+      internalID: -642922880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1793
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26a9d9eb980ca04cade80cfa5833de3
+      internalID: 739507860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1793
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502d3a0e05e61b443b9205ce302871a4
+      internalID: -249430379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1793
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d4bb44535d28f42994c86bc2471923
+      internalID: -909816286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1793
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8630d13044f7c5f4e9128e1341869578
+      internalID: -115202290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1793
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb2c86cb3323241953d28d5fd71fff
+      internalID: -1973939356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1793
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607c4343dedc622459321e5e2164cac6
+      internalID: -32272584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_31
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1793
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef791fa4d2cd184abac9633a2fea522
+      internalID: -1232934161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1793
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8b3815ae9767e44af6878fadc099fb
+      internalID: 992607391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1793
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baaa09221d3ce14fa61156247e0c2b1
+      internalID: 195832424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_34
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1745
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95513cb477059a46bdca6093123d5e9
+      internalID: 540244922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_35
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1745
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da47259a97082b40b7bd2a5564ffbd0
+      internalID: -843751786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_36
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1745
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce945c924dcb0846a8504c3e83a1c75
+      internalID: -945151805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_37
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1746
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500e97760ec53b641b33761711389528
+      internalID: 729841149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gisee_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1746
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c129c5dc66b0a54ca2f5f10a4a7fbaa
+      internalID: -2012537056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_39
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1745
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014baf4b8a964504d83e91e540cdb8b6
+      internalID: -390204651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1745
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222415755e0b9a4fb734ec616cbd16f
+      internalID: 1361803523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1745
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f671621b5c4fe4da0fcc6dc5e53a50
+      internalID: 713922499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_42
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1745
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af93c57b3e2891459b2de827fe3f118
+      internalID: -1460949616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_43
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1745
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b65805cb4ade674f9f7d574e8da9739
+      internalID: -1565037416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_44
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1746
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be7af92557468b42aedd1c72a4b9a14
+      internalID: -2086352437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_45
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1746
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1f0bc8f45b74143b07a87068b80aaf
+      internalID: 1933684675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_46
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1746
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff232391c39757441afc09de7aeefb09
+      internalID: -1114605795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_47
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1746
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf38bc28a37784bb6c95e0b6fd89e6
+      internalID: -1194549606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_48
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1746
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8c75fb6fa3e6d4e9d595153ac683ab
+      internalID: -1865974655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_49
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1746
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2252c39ddf70abb43957d61ec4cbda6e
+      internalID: 1900586916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_50
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1746
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f246dfc7a92f944fa928e05dfcdc6dd
+      internalID: -193030708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_51
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1746
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3444d379e1580a4ca525d96bb70208d
+      internalID: 748220375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1715
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e33accb1975146a26776a65f6d865
+      internalID: 582512583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_53
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1715
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a552a376d16759479f41f5a2f14f432
+      internalID: -52173349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_54
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1715
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890e9112361816d479bf681e4eb34451
+      internalID: 1966250380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_55
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1715
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be12fcd31c03aa4e9f1dd8f643fb027
+      internalID: -368533669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_56
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1715
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d42d3c53d071944be3a81853e582c7
+      internalID: 1447190004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_57
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1665
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691f6a7421c85a948bb8cd723295b4aa
+      internalID: -775272841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1665
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8faf8b60c9c76e408a3c67fc8a1527b
+      internalID: 370251101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_59
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1665
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a3b05acc238b641a80275f06659a5c
+      internalID: 284438786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_60
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1665
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d905b5c01685e1b4199c46dc10ba24f5
+      internalID: 41944084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_61
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1665
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9c163a648046f408f1a3520da71802
+      internalID: -112535704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_62
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1665
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2784362189395c2438c154e494c257b2
+      internalID: 863312988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_63
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1665
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6acc7b50518d4f4abce48510c4de35d
+      internalID: 1345753781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_64
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1665
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b0d16f8570fdf4882ac145dd237dd3
+      internalID: -189966624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_65
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1665
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a59bc7ff05c9e946b07b3c8db75abad
+      internalID: 131517481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_66
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1666
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f390c2b0353984597ea146f1d27cc9
+      internalID: -1519996037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_67
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1666
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d51baeb6bfbe6e499e1d357ff86d53c
+      internalID: -1487771707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_68
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1666
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a793a289bb3ef4dbb7d6079b891e93
+      internalID: 1695270670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_69
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1665
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a7596788f6ef489c1aec81674de7d
+      internalID: -1095959666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_70
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1665
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fac91202e5c244d951c678fdf174f7
+      internalID: -423450183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_71
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1666
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a670b8383e29c8429e33de0d521d763
+      internalID: 1161108214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_72
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1666
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80b76719d9571946affa0e0044edf34
+      internalID: -12200668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_73
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1666
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b137cef91c2ea41a835bb78be81bc1
+      internalID: -695165388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_74
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1666
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ad55a17aa2ec845abc0734ed2275c9
+      internalID: -1005437586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1602
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6d2c28b89de5d40afce376dc83b96a
+      internalID: 993731728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_76
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1602
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ae2b2e55d7e184f958cbde0d8b5f40
+      internalID: -299342402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_77
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1601
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d915f849b77b604c81fa95ac12be2f7
+      internalID: 815341273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_78
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1601
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68ba6a67c311fd4a9ba7761fcf98d10
+      internalID: -1172552338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_79
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1601
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d411f695b0ffcc940b929679410f1d83
+      internalID: -800037418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_80
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1601
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d335f540fce344498caa009df96578a
+      internalID: 1451574819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1538
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7f0d42488052a46a44d3c883e1fe40
+      internalID: 867225321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_82
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1538
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9bcacc4752b0943afeb8ca7ed829ef
+      internalID: 719915146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_83
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1533
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f821d5b5166ce439625e7f931fbab3
+      internalID: -1639071220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_84
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1533
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c45066ae5e4348ad6186da260ca02
+      internalID: -504946715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_85
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1533
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3df55220b6655429d5ec79215ca132
+      internalID: -263827949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_86
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1533
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aae75cccb2a0c1448f4b6b086fc61f3
+      internalID: -915000719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_87
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1533
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bb141f65d8dbb469aaedfc22bbf24a
+      internalID: 794253733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_88
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1533
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221ca6a98fe31aa45b33f208bbfc4c60
+      internalID: 1033689880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_89
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1533
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b456152f4ced31e498d0b4175fdb40f3
+      internalID: -613644869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_90
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1533
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be14a8105ab1334b8d1dd3f0a5acef4
+      internalID: 346833253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_91
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1478
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e3785b301291e45807bb34f7d78bb5
+      internalID: -1557294727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_92
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1478
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a2be9111baa5c40a838fe177e25472
+      internalID: -1220846629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_93
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1478
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d994258c2a9145f4bb07022fe17a9769
+      internalID: -1233424182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_94
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1478
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2c8fbe5dd3b87498faefdfa5d49263
+      internalID: 1832982510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_95
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1427
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994d518c1a7afd047aa1425e44d99c21
+      internalID: -40538797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_96
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1427
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419bdac70c87b0e4a899e138ce131657
+      internalID: -505672566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_97
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1427
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c762781a1bc798e4bbe8b72afd87f382
+      internalID: -210857307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_98
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1427
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39100e4b548b3724baffadee63d0c509
+      internalID: -1669763685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_99
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1415
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629061244c58e3646a6fc2e4d2b9d33c
+      internalID: 1441253017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_100
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1415
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e1849b88f41d94191eafa9f4e0a37f
+      internalID: -1718311300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_101
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1415
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1953ec3ad36ad14386a376897ebfd9b
+      internalID: 1163857504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_102
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1416
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051be9bf452d89f4cb7e7b26d1c60e70
+      internalID: -2137995979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_103
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1353
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd38bd967e8aec4386a7909e8cb9520
+      internalID: -211004787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_104
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1353
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aa115dcd691a3469f44c58db50ec5e
+      internalID: -584789419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_105
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1353
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f541ba4445fd2f547bceff5218f7d1a3
+      internalID: 1994068733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_106
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1353
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9310a0b852e855544935548e241df1bb
+      internalID: 1766851718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_107
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1317
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eaeb6bef563404c994ddcb8c2bce9e
+      internalID: 1303161259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_108
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1316
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bba3892cf8f2940ae1fc6c2ccb4106
+      internalID: 1579252137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_109
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1315
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6339180a99dc64949b6def79cb24d9df
+      internalID: -1547519130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_110
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1314
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714d9257517f2e84ba2df038948e45ee
+      internalID: 30015584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_111
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1317
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23da8fc201387af4f8f89d70b19b418a
+      internalID: -121276126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_112
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1314
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0497a61c9ce0f4fab69f319b8bf032
+      internalID: -2122705835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_113
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1317
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c45c3f0543d3f14182824d374014e32
+      internalID: 1738520455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_114
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1314
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54e11794d93eec4895fdd173d9985fc
+      internalID: -242737971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_115
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1318
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814ec3a661e59934db520baaa15e4fed
+      internalID: -121470347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_116
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1314
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6208b5bd283c414cb6e21b12213b72b
+      internalID: -1956145649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_117
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1317
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f91b7b9a842a8429e2753841f04711
+      internalID: -1634523669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_118
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1272
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2156bbb7cb4eb84091a9b856aa8423a
+      internalID: 1484946383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_119
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1272
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506d44cf8ff8aad4aa94c5bbf8447d0e
+      internalID: 597187724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_120
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1272
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e634cbb318eac324c8e650b3c730b9d0
+      internalID: 782407431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_121
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1272
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c76618d96ba8e144a673b6e699dbe3d
+      internalID: 694645633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_122
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1272
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b011d809ae7f51447aaaff1b3d6c91dc
+      internalID: -888983779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_123
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1255
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1741128868bee65479654476dc41098a
+      internalID: 1351397509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_124
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1255
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6d187c43a0bb64bb8050ca874d511f
+      internalID: 273177681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_125
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1255
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9609c4e1bdf875e4aa075cc1462ff67c
+      internalID: 140690184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_126
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1255
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f447f811d234b46b882465705a97e0
+      internalID: 1333678436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_127
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1255
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31baf45e945c7c42acd844aab334587
+      internalID: -1185015406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_128
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1215
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6e0bcffaef3c4e9c630ad60c09560
+      internalID: -1600816152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_129
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1215
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17669c357685981469547fae8f912580
+      internalID: -164797748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1215
+        width: 68
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3417239ac5fad4c964b8316ffd2163
+      internalID: 387881683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_131
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1204
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f74db8bd9fc54996e62f9211382cf
+      internalID: -428103345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_132
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1202
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c00b077b99e7e469934f8994a9f76d
+      internalID: 1213680298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_133
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1202
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2242fe4685b6d498acddd5118e3515
+      internalID: 1641246429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_134
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1199
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdee7240d31b4d4b823bb803b2006ed
+      internalID: -1627009764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_135
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1197
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c65cc92f4571c543a02f3e4a516ef1c
+      internalID: -1324961034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_136
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1198
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05be2fd83ab86b141b391f88604bf61a
+      internalID: 1121836264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_137
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1196
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2448b15446b2af42a628b8facb29d62
+      internalID: 842716195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_138
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1198
+        width: 51
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c802b5d85e385c4fa62b17258b39b4f
+      internalID: -365932498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_139
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1195
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc8db10e8e943e478f2374a665e60cf
+      internalID: -1308835820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_140
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1196
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4a271b7b13a5a49af91df26090aa61
+      internalID: -1782281663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_141
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1130
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d13459c41770b468a3659cf6661768
+      internalID: 963215058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_142
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1163
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0da5a42161acd4d9cf0baab46e7c39
+      internalID: -1988094607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_143
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1130
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4fa5f79b0433448bbde87fd0c76a9a
+      internalID: 946391561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_144
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1129
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae593df8a4842ae4e9314f6b404f1dae
+      internalID: -1454080486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_145
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1123
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6956f6ae08947b4999db8c70a618179
+      internalID: 1260372109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_146
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1137
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768af0104d48ab64a8993863b64b1937
+      internalID: 365845630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_147
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1137
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302b75b89059c1249a1f474cd7848b70
+      internalID: -1113033330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_148
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1130
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c00ae699d2ec0a4eac3da8b5f8b5261
+      internalID: -1017872033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_149
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1129
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52517d109ebc4444bd85f2b23c09448
+      internalID: -2147437819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_150
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1129
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a406dce773504d447a65f1d7428c719b
+      internalID: 1517043066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_151
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1129
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52f336f19c0dea46a4c7756f58958c7
+      internalID: -795070410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_152
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1126
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa9eb807b556c74da01fbf338c32a5e
+      internalID: 476197204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_153
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1068
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cddc305cf05fe469f60dcabb21cdc1
+      internalID: -1157986690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_154
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1068
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5677b46162ada6341a2e69ed73827866
+      internalID: 1246724997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_155
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1068
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85c6855b3887e442b7730382d2e1580
+      internalID: 1836713514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_156
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1068
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502d4c8e143722843849a4cb7eb12dcd
+      internalID: -1408453824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_157
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7545dec65dae07c499c398969324bf55
+      internalID: -796035574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_158
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fb6a38429d92d4289b46c36fbfd3d7
+      internalID: -943289438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_159
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1079
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d011c052003794fa2c1a728ae816a3
+      internalID: -1752143708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_160
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1079
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6297856f41d6f04a9167924f4b925db
+      internalID: 1739111260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_161
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4386ffe3d5c6de644b7170bad1e8533b
+      internalID: 1396970432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_162
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35421484069ac87408c5fe304fee0def
+      internalID: 1630728347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_163
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17db0e6f18c923d4893a95e4bdbd5118
+      internalID: -1731278625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_164
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0e22b212a193d45aafcdc3f013da2f
+      internalID: -1978768380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_165
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1079
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3f9afc70ce7514fa80a3fabd161d03
+      internalID: 1227794204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_166
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1079
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b7fa77da17d154e96c99f278cd1aa9
+      internalID: 1276185386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_167
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261c19311da714f48827600a605c0632
+      internalID: -1745425539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_168
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c271477ec6e1e49abc143014efd6be
+      internalID: 495455827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_169
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c3eb4d19e3caf4e9ee2ee4e0a59daa
+      internalID: -666788759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_170
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a79ebd772e86bd4f8f0e89a457ff0cc
+      internalID: 1916290905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_171
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1054
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5a0f6c1869d5b46a1654ebbf6c0c50
+      internalID: -1193119876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_172
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1054
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4525b6cb1029c374c8968582667b7fe1
+      internalID: 568116687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_173
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e124ce099703d0f4ba182f370bea7e3a
+      internalID: 2027415112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_174
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd78967c4c0630419dfc7888e89bfff
+      internalID: 184623344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_175
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c73b335b695fa4d97ed56f97686b15
+      internalID: 451683749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_176
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114aa1d608a3b5d40993e756371fdb70
+      internalID: -599459866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_177
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1054
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b55f5de3d9bef744be01071951ccd3d
+      internalID: 157136291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_178
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1054
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5b5366743515f4d9538078b3516492
+      internalID: 2025653761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_179
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bc9d051d36e5540a57fa12d906bb1e
+      internalID: -846569557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_180
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1054
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035b1f32c2dcb324f879cad3b823acb0
+      internalID: -1297356852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_181
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 986
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d905ec7e0e931234ca915b693ff6bafe
+      internalID: 1125783718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_182
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 981
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28da2fc5bc765e45999fd66bdf51798
+      internalID: -1419268227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_183
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 982
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30953df5e0e4c994a851755dac2ab39b
+      internalID: -855689127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_184
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 978
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4d0f03e3c39614ea4f3c5b748fd75d
+      internalID: 1193593173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_185
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 980
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454449c5702bb3e41bae2b314819fb18
+      internalID: -1719528486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_186
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 985
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51f6cb00085f3c4fb47d5a8c09d84f4
+      internalID: 1711743332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_187
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 977
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931ad42ba1012164392173900621ca6a
+      internalID: -470827648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_188
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 987
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b271bc4b11c0cb542be8dc3f4027b487
+      internalID: -395056640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_189
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 985
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6055c9ce40c6a6419d37d4abe2d14d8
+      internalID: -1998165698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_190
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 985
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ba4b2d992744546a891df7a966e908
+      internalID: 1270440215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_191
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 902
+        width: 119
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9790258270da42409f0b8196a3c3f6a
+      internalID: -98391389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_192
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 902
+        width: 141
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6fad435c11f854284b95eaaa4f9e71
+      internalID: -1922657071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_193
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 918
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c14aa276258864eb7d1a81a7bd472b
+      internalID: 69297085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_194
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 903
+        width: 148
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03986077f5a85554b963a1354f236acd
+      internalID: -927985684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_195
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 903
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0314bcc623bb8ae4db9c2eb539bf49e0
+      internalID: -211145048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_196
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 912
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ec369b4ded7a44c9c25f95cd308d3f
+      internalID: 2063399502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_197
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 930
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571a6e6f2b6af3a478faf5b0f408122d
+      internalID: -962427857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_198
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 915
+        width: 116
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3849fd362b4ee478e934d02ea72b1c
+      internalID: -539834212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_199
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 906
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db678101d3cf9a4392010ba72518461
+      internalID: -629122847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_200
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 914
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cd3e3ea9fe18b44833ae4eb3fe5c3d
+      internalID: -2016709786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_201
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 910
+        width: 61
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaf598e40b18824a909ee9b94f44e36
+      internalID: 1088543065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_202
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 904
+        width: 72
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018b56880a81d6a4d9c78fe032449273
+      internalID: -1856110870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_203
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 929
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f42e3670a85544abf8d1de4a0f4745
+      internalID: -696582894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_204
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 929
+        width: 60
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ba84061976494d9476512bb901565
+      internalID: 157691755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_205
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 910
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c47f02487ed8e9498f06195df42ae28
+      internalID: -1337599579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_206
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 921
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486dd00e37f5c5a4190dacb89c105ce7
+      internalID: 1035010379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_207
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 920
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b3c3bb986c063408ce1a4d80d5bec1
+      internalID: -1723632209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_208
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 904
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b468060982d74992d31447b0fd84a
+      internalID: -219092367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_209
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 944
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266a5b750768c464e91a4c1383533482
+      internalID: -956127020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_210
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 932
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3786e6afba69b4d4ab566b0380d37b8b
+      internalID: 808471798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_211
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 907
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8881f7bc3331043b3cccfb0e50d70d
+      internalID: -1092286395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_212
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 833
+        width: 58
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a68b4e2b87fc964e8da48dd775698f7
+      internalID: 245875793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_213
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 827
+        width: 56
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c92f1f5baea45a48af2ce495e04ff70
+      internalID: 773030950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_214
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 807
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e6a57fe5e51ae40bf672ec94fbd5ba
+      internalID: -413331203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_215
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 833
+        width: 44
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e9650e79f71bb4191282c70df6c5eb
+      internalID: 1566495744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_216
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 827
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70fcf78f5436543a4a91368eea9771
+      internalID: -832960878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_217
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 824
+        width: 46
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df242175e69be77419a3947e45ca3771
+      internalID: -106109882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_218
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 828
+        width: 71
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8daa1a90af09b45964690876de8aa1
+      internalID: -468424526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_219
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 824
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd7c6e2a0506147b844fbdb300f73f
+      internalID: -728397348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_220
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 826
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721fa0a134f0c394fab4039536c8398d
+      internalID: 332449768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_221
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 814
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8907e7b3fa3698443a02da9c37e05c0b
+      internalID: 1643210011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_222
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 826
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082cc519822319143a312343f166b295
+      internalID: 294419888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_223
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 825
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3acdf261d5cdc3458dfb281ba6bc441
+      internalID: -1255855528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_224
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 806
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479020efcc1edad499bf711144b16f53
+      internalID: 574804889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_225
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 823
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57891b340c478e0429871c355b1259bf
+      internalID: -1449855978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_226
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 804
+        width: 51
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c00ab5768e9205498a8cbad1633dd5b
+      internalID: -438855051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_227
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 803
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1419394a5640b4881ce47ae4165872
+      internalID: -323788625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_228
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 808
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6113266e368654a8fb680a3d9186c4
+      internalID: -559185668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_229
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 805
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea2bcce568af1e4d81ecf264167fd51
+      internalID: -67213517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_230
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 803
+        width: 53
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3068cd6e2e385458c5b6e2920a31c4
+      internalID: 675115561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_231
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 806
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f62ee25db82d5d4e9e2169c57a8fef9
+      internalID: -539277910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_232
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 803
+        width: 76
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68b27abdb2ec2f4ba203c1cd3f1c784
+      internalID: 598779508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_233
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 810
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98665560a747aec4aa1f821e8b2a5e33
+      internalID: -857055251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_234
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 769
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016eac45d51e1b84287c820e160c0170
+      internalID: -1330484018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_235
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 766
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90386fc8e6a244e46b76bc72d6779669
+      internalID: -1048858312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_236
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 770
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d729b94deb0c6944a419419af62fe5d
+      internalID: -795011549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_237
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 765
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f0057f80d099b4da3672c488d32510
+      internalID: -1765984481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_238
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 770
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bcf89576f531144afc47bf4f008d7c
+      internalID: 153452546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_239
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 765
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cbdc0cd093d8d4dacf270a068ad3d0
+      internalID: -2030558126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_240
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 758
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8fe8195c0c48040a6f4d4da26e70ac
+      internalID: 2143457680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_241
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 764
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cf217e19d9d1045a84dd0e9b81f58d
+      internalID: -1874802743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_242
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 769
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdead0dd6162b0148bcddcc2210c0ace
+      internalID: 1763101947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_243
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 769
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db622b6f2f5621e41881b8948c4b9dba
+      internalID: 1608814558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_244
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 768
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b49388dbbb080142a78ff9187c08967
+      internalID: -284535406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_245
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 757
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4c6c535dd2eb941911237fdab86992
+      internalID: 1847173047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_246
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 758
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90234e1697c2974b8e4ad0022834138
+      internalID: 1356093117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_247
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 765
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879292e2dafbeae40ab928730942aaac
+      internalID: -1456507443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_248
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 765
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc67ddc9d875d342bf3373a06f00eea
+      internalID: -134276630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_249
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 746
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d08fd5e6a52241ab4f099c8b71e88
+      internalID: 907878071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_250
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 746
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d5e4936454df4c919cb8599efad52
+      internalID: -601735764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_251
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 745
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bbb91986965e842b9780d1af24c348
+      internalID: -724092257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_252
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 748
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775fefbed7ac4f8419b100219bf0a8f1
+      internalID: 1511819802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_253
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 756
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4185daf9298354db991ef072f4f07f
+      internalID: 473650437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_254
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 756
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072a493d831f65742879785114175d02
+      internalID: 533016099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_255
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 756
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfcc1447d92354d876c62258e0d0f7
+      internalID: -402248433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_256
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 747
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac90b5c2d75af74b953a1a2da666b31
+      internalID: 2129969752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_257
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 746
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cc96d863c327645ba04a5aa158b951
+      internalID: -1544432422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_258
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 745
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4a5b4572bd533469653de36fd9ea8c
+      internalID: 1808027836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_259
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 745
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7c0791ad21f164c9a928fbbe72527b
+      internalID: 824684583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_260
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 745
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7facda63884f0c94da9855e6abfeec16
+      internalID: 1174186168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_261
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 748
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca51004a3aaac254da3c79a0a5ee6e0e
+      internalID: -32845060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_262
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 749
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aab45571bf2f0246a64cf543ec106be
+      internalID: -1553947300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_263
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 746
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d01e4ee55d63647b70e632c1649889
+      internalID: 575682007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_264
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 745
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55121c2191baef94fa3538a2616cf4eb
+      internalID: -1558668979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_265
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 745
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47ec082371642940a6d3cb9487b249b
+      internalID: -1525589042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_266
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 710
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e9a70d18e4f8c4db9218ec957e6d9b
+      internalID: -646794455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_267
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 710
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848242c5769558a4695c00f8392c47ce
+      internalID: -643574910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_268
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 711
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546cd42132ddb2b40941c1f5cea23cf6
+      internalID: 243271630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_269
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 712
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab176dab20f6f3468cfde7b76f372a9
+      internalID: 563662102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_270
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 713
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795456c06302ddf4ab334a1eab24ff16
+      internalID: -705508003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_271
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 714
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78771dc144207848af8ef234e14439e
+      internalID: 900621586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_272
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 713
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1318f2afca52c2548b23b5bca70a770b
+      internalID: -1268847333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_273
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 712
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fae4799600bc44fabf03b8c8f2df07
+      internalID: -1983364891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_274
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 97
+        width: 1005
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949618f4ef4332d4b88c9d2f498778a6
+      internalID: 74169824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_275
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 5
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34afb7b882edb348a8e64f24c0c20e6
+      internalID: -1163379709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_276
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d345d05ba7fae2544a6d5465fc3b97c4
+      internalID: 443743240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_277
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c07c74b5c6e014ab77d161c04ea9d0
+      internalID: -542124529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_278
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb48543846ab3c48983a85a24fa7658
+      internalID: 927538134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_279
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 50
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17865db0fee4b1f4ca0ea49b24def3b2
+      internalID: 1960027660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_280
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaffe7cd7c318a45819bc30ec4cfafc
+      internalID: -1160841945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_281
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0928a9d4d537e2a40a285c69e51c63aa
+      internalID: 930945323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_282
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa6f866bd336b44cb396f6af57ecf00
+      internalID: -973054809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_283
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 50
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2429b3eae388e49abb7a1bcacc7edf
+      internalID: -1623304979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_284
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311f661686d7b27429c72c25d9c47f79
+      internalID: 1743519632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_285
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2628933dd57e0942ad52367549b7a65
+      internalID: -1601225384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_286
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af32531069e06904c93e30cd44b93f97
+      internalID: -2110518036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_287
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1024d2867f3160e45bb1ee8b6c4bb80a
+      internalID: 1706591133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_288
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ee48478443bb74088275b247fcc3d5
+      internalID: 1923760744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_289
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee8b1fdb6e3c6e4c8e68a3b368dea3e
+      internalID: -165228229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_290
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 50
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d463bbb1888bd34fa08ddeb623c1b08
+      internalID: 1886271425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_291
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc0b9cf5cb8d8d46968b461b1b2620b
+      internalID: 1710549318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_292
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b56aa9352c800f4fa9c84fa7e7cceb2
+      internalID: -796327593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_293
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1701d41fa3c65f74eaf47d0dc020517a
+      internalID: 1042688381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_294
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 50
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5c13ec7452e2944bdda08644973644
+      internalID: -1304017633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_295
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 50
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4c9075c1a884f4fac224d6d36597c4
+      internalID: 1721775168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_296
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 14
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c94a26c9af844045922e93ea4b8d400
+      internalID: 196248976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_297
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 14
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d219c8279614cbf458e48170753ea483
+      internalID: -881516618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_298
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 14
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88173d18d810c1645886209b1a7b8d1c
+      internalID: -1533174155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_299
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 14
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365b3aaca4ae79543987568c50bfa795
+      internalID: -44178121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_300
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 14
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f29c6f043b4fa4197091e73ef18f6d
+      internalID: -2114578972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_301
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 14
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed561ed6e51677e4da6e708559af0932
+      internalID: 1054055556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_302
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 14
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262c988ab4738b549ab81858d9635ebe
+      internalID: 1787609433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_303
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 14
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff124f6888d190648b4301a5dbe7bdb6
+      internalID: 1127122406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Attack - Gisee_304
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 14
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce523bae118cb4438ab9ba09b31e165
+      internalID: -974591532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gisee_38: -2012537056
+      Mobile - Metal Slug Attack - Gisee_0: 164685391
+      Mobile - Metal Slug Attack - Gisee_1: 1106939595
+      Mobile - Metal Slug Attack - Gisee_10: 779936230
+      Mobile - Metal Slug Attack - Gisee_100: -1718311300
+      Mobile - Metal Slug Attack - Gisee_101: 1163857504
+      Mobile - Metal Slug Attack - Gisee_102: -2137995979
+      Mobile - Metal Slug Attack - Gisee_103: -211004787
+      Mobile - Metal Slug Attack - Gisee_104: -584789419
+      Mobile - Metal Slug Attack - Gisee_105: 1994068733
+      Mobile - Metal Slug Attack - Gisee_106: 1766851718
+      Mobile - Metal Slug Attack - Gisee_107: 1303161259
+      Mobile - Metal Slug Attack - Gisee_108: 1579252137
+      Mobile - Metal Slug Attack - Gisee_109: -1547519130
+      Mobile - Metal Slug Attack - Gisee_11: -1262105436
+      Mobile - Metal Slug Attack - Gisee_110: 30015584
+      Mobile - Metal Slug Attack - Gisee_111: -121276126
+      Mobile - Metal Slug Attack - Gisee_112: -2122705835
+      Mobile - Metal Slug Attack - Gisee_113: 1738520455
+      Mobile - Metal Slug Attack - Gisee_114: -242737971
+      Mobile - Metal Slug Attack - Gisee_115: -121470347
+      Mobile - Metal Slug Attack - Gisee_116: -1956145649
+      Mobile - Metal Slug Attack - Gisee_117: -1634523669
+      Mobile - Metal Slug Attack - Gisee_118: 1484946383
+      Mobile - Metal Slug Attack - Gisee_119: 597187724
+      Mobile - Metal Slug Attack - Gisee_12: -1785511623
+      Mobile - Metal Slug Attack - Gisee_120: 782407431
+      Mobile - Metal Slug Attack - Gisee_121: 694645633
+      Mobile - Metal Slug Attack - Gisee_122: -888983779
+      Mobile - Metal Slug Attack - Gisee_123: 1351397509
+      Mobile - Metal Slug Attack - Gisee_124: 273177681
+      Mobile - Metal Slug Attack - Gisee_125: 140690184
+      Mobile - Metal Slug Attack - Gisee_126: 1333678436
+      Mobile - Metal Slug Attack - Gisee_127: -1185015406
+      Mobile - Metal Slug Attack - Gisee_128: -1600816152
+      Mobile - Metal Slug Attack - Gisee_129: -164797748
+      Mobile - Metal Slug Attack - Gisee_13: 151727596
+      Mobile - Metal Slug Attack - Gisee_130: 387881683
+      Mobile - Metal Slug Attack - Gisee_131: -428103345
+      Mobile - Metal Slug Attack - Gisee_132: 1213680298
+      Mobile - Metal Slug Attack - Gisee_133: 1641246429
+      Mobile - Metal Slug Attack - Gisee_134: -1627009764
+      Mobile - Metal Slug Attack - Gisee_135: -1324961034
+      Mobile - Metal Slug Attack - Gisee_136: 1121836264
+      Mobile - Metal Slug Attack - Gisee_137: 842716195
+      Mobile - Metal Slug Attack - Gisee_138: -365932498
+      Mobile - Metal Slug Attack - Gisee_139: -1308835820
+      Mobile - Metal Slug Attack - Gisee_14: -2029270586
+      Mobile - Metal Slug Attack - Gisee_140: -1782281663
+      Mobile - Metal Slug Attack - Gisee_141: 963215058
+      Mobile - Metal Slug Attack - Gisee_142: -1988094607
+      Mobile - Metal Slug Attack - Gisee_143: 946391561
+      Mobile - Metal Slug Attack - Gisee_144: -1454080486
+      Mobile - Metal Slug Attack - Gisee_145: 1260372109
+      Mobile - Metal Slug Attack - Gisee_146: 365845630
+      Mobile - Metal Slug Attack - Gisee_147: -1113033330
+      Mobile - Metal Slug Attack - Gisee_148: -1017872033
+      Mobile - Metal Slug Attack - Gisee_149: -2147437819
+      Mobile - Metal Slug Attack - Gisee_15: -514643326
+      Mobile - Metal Slug Attack - Gisee_150: 1517043066
+      Mobile - Metal Slug Attack - Gisee_151: -795070410
+      Mobile - Metal Slug Attack - Gisee_152: 476197204
+      Mobile - Metal Slug Attack - Gisee_153: -1157986690
+      Mobile - Metal Slug Attack - Gisee_154: 1246724997
+      Mobile - Metal Slug Attack - Gisee_155: 1836713514
+      Mobile - Metal Slug Attack - Gisee_156: -1408453824
+      Mobile - Metal Slug Attack - Gisee_157: -796035574
+      Mobile - Metal Slug Attack - Gisee_158: -943289438
+      Mobile - Metal Slug Attack - Gisee_159: -1752143708
+      Mobile - Metal Slug Attack - Gisee_16: 1036257778
+      Mobile - Metal Slug Attack - Gisee_160: 1739111260
+      Mobile - Metal Slug Attack - Gisee_161: 1396970432
+      Mobile - Metal Slug Attack - Gisee_162: 1630728347
+      Mobile - Metal Slug Attack - Gisee_163: -1731278625
+      Mobile - Metal Slug Attack - Gisee_164: -1978768380
+      Mobile - Metal Slug Attack - Gisee_165: 1227794204
+      Mobile - Metal Slug Attack - Gisee_166: 1276185386
+      Mobile - Metal Slug Attack - Gisee_167: -1745425539
+      Mobile - Metal Slug Attack - Gisee_168: 495455827
+      Mobile - Metal Slug Attack - Gisee_169: -666788759
+      Mobile - Metal Slug Attack - Gisee_17: 926390690
+      Mobile - Metal Slug Attack - Gisee_170: 1916290905
+      Mobile - Metal Slug Attack - Gisee_171: -1193119876
+      Mobile - Metal Slug Attack - Gisee_172: 568116687
+      Mobile - Metal Slug Attack - Gisee_173: 2027415112
+      Mobile - Metal Slug Attack - Gisee_174: 184623344
+      Mobile - Metal Slug Attack - Gisee_175: 451683749
+      Mobile - Metal Slug Attack - Gisee_176: -599459866
+      Mobile - Metal Slug Attack - Gisee_177: 157136291
+      Mobile - Metal Slug Attack - Gisee_178: 2025653761
+      Mobile - Metal Slug Attack - Gisee_179: -846569557
+      Mobile - Metal Slug Attack - Gisee_18: 809391950
+      Mobile - Metal Slug Attack - Gisee_180: -1297356852
+      Mobile - Metal Slug Attack - Gisee_181: 1125783718
+      Mobile - Metal Slug Attack - Gisee_182: -1419268227
+      Mobile - Metal Slug Attack - Gisee_183: -855689127
+      Mobile - Metal Slug Attack - Gisee_184: 1193593173
+      Mobile - Metal Slug Attack - Gisee_185: -1719528486
+      Mobile - Metal Slug Attack - Gisee_186: 1711743332
+      Mobile - Metal Slug Attack - Gisee_187: -470827648
+      Mobile - Metal Slug Attack - Gisee_188: -395056640
+      Mobile - Metal Slug Attack - Gisee_189: -1998165698
+      Mobile - Metal Slug Attack - Gisee_19: -1196412191
+      Mobile - Metal Slug Attack - Gisee_190: 1270440215
+      Mobile - Metal Slug Attack - Gisee_191: -98391389
+      Mobile - Metal Slug Attack - Gisee_192: -1922657071
+      Mobile - Metal Slug Attack - Gisee_193: 69297085
+      Mobile - Metal Slug Attack - Gisee_194: -927985684
+      Mobile - Metal Slug Attack - Gisee_195: -211145048
+      Mobile - Metal Slug Attack - Gisee_196: 2063399502
+      Mobile - Metal Slug Attack - Gisee_197: -962427857
+      Mobile - Metal Slug Attack - Gisee_198: -539834212
+      Mobile - Metal Slug Attack - Gisee_199: -629122847
+      Mobile - Metal Slug Attack - Gisee_2: -299914034
+      Mobile - Metal Slug Attack - Gisee_20: 737713325
+      Mobile - Metal Slug Attack - Gisee_200: -2016709786
+      Mobile - Metal Slug Attack - Gisee_201: 1088543065
+      Mobile - Metal Slug Attack - Gisee_202: -1856110870
+      Mobile - Metal Slug Attack - Gisee_203: -696582894
+      Mobile - Metal Slug Attack - Gisee_204: 157691755
+      Mobile - Metal Slug Attack - Gisee_205: -1337599579
+      Mobile - Metal Slug Attack - Gisee_206: 1035010379
+      Mobile - Metal Slug Attack - Gisee_207: -1723632209
+      Mobile - Metal Slug Attack - Gisee_208: -219092367
+      Mobile - Metal Slug Attack - Gisee_209: -956127020
+      Mobile - Metal Slug Attack - Gisee_21: -268025757
+      Mobile - Metal Slug Attack - Gisee_210: 808471798
+      Mobile - Metal Slug Attack - Gisee_211: -1092286395
+      Mobile - Metal Slug Attack - Gisee_212: 245875793
+      Mobile - Metal Slug Attack - Gisee_213: 773030950
+      Mobile - Metal Slug Attack - Gisee_214: -413331203
+      Mobile - Metal Slug Attack - Gisee_215: 1566495744
+      Mobile - Metal Slug Attack - Gisee_216: -832960878
+      Mobile - Metal Slug Attack - Gisee_217: -106109882
+      Mobile - Metal Slug Attack - Gisee_218: -468424526
+      Mobile - Metal Slug Attack - Gisee_219: -728397348
+      Mobile - Metal Slug Attack - Gisee_22: 2130842629
+      Mobile - Metal Slug Attack - Gisee_220: 332449768
+      Mobile - Metal Slug Attack - Gisee_221: 1643210011
+      Mobile - Metal Slug Attack - Gisee_222: 294419888
+      Mobile - Metal Slug Attack - Gisee_223: -1255855528
+      Mobile - Metal Slug Attack - Gisee_224: 574804889
+      Mobile - Metal Slug Attack - Gisee_225: -1449855978
+      Mobile - Metal Slug Attack - Gisee_226: -438855051
+      Mobile - Metal Slug Attack - Gisee_227: -323788625
+      Mobile - Metal Slug Attack - Gisee_228: -559185668
+      Mobile - Metal Slug Attack - Gisee_229: -67213517
+      Mobile - Metal Slug Attack - Gisee_23: 1767432150
+      Mobile - Metal Slug Attack - Gisee_230: 675115561
+      Mobile - Metal Slug Attack - Gisee_231: -539277910
+      Mobile - Metal Slug Attack - Gisee_232: 598779508
+      Mobile - Metal Slug Attack - Gisee_233: -857055251
+      Mobile - Metal Slug Attack - Gisee_234: -1330484018
+      Mobile - Metal Slug Attack - Gisee_235: -1048858312
+      Mobile - Metal Slug Attack - Gisee_236: -795011549
+      Mobile - Metal Slug Attack - Gisee_237: -1765984481
+      Mobile - Metal Slug Attack - Gisee_238: 153452546
+      Mobile - Metal Slug Attack - Gisee_239: -2030558126
+      Mobile - Metal Slug Attack - Gisee_24: -642922880
+      Mobile - Metal Slug Attack - Gisee_240: 2143457680
+      Mobile - Metal Slug Attack - Gisee_241: -1874802743
+      Mobile - Metal Slug Attack - Gisee_242: 1763101947
+      Mobile - Metal Slug Attack - Gisee_243: 1608814558
+      Mobile - Metal Slug Attack - Gisee_244: -284535406
+      Mobile - Metal Slug Attack - Gisee_245: 1847173047
+      Mobile - Metal Slug Attack - Gisee_246: 1356093117
+      Mobile - Metal Slug Attack - Gisee_247: -1456507443
+      Mobile - Metal Slug Attack - Gisee_248: -134276630
+      Mobile - Metal Slug Attack - Gisee_249: 907878071
+      Mobile - Metal Slug Attack - Gisee_25: 739507860
+      Mobile - Metal Slug Attack - Gisee_250: -601735764
+      Mobile - Metal Slug Attack - Gisee_251: -724092257
+      Mobile - Metal Slug Attack - Gisee_252: 1511819802
+      Mobile - Metal Slug Attack - Gisee_253: 473650437
+      Mobile - Metal Slug Attack - Gisee_254: 533016099
+      Mobile - Metal Slug Attack - Gisee_255: -402248433
+      Mobile - Metal Slug Attack - Gisee_256: 2129969752
+      Mobile - Metal Slug Attack - Gisee_257: -1544432422
+      Mobile - Metal Slug Attack - Gisee_258: 1808027836
+      Mobile - Metal Slug Attack - Gisee_259: 824684583
+      Mobile - Metal Slug Attack - Gisee_26: -249430379
+      Mobile - Metal Slug Attack - Gisee_260: 1174186168
+      Mobile - Metal Slug Attack - Gisee_261: -32845060
+      Mobile - Metal Slug Attack - Gisee_262: -1553947300
+      Mobile - Metal Slug Attack - Gisee_263: 575682007
+      Mobile - Metal Slug Attack - Gisee_264: -1558668979
+      Mobile - Metal Slug Attack - Gisee_265: -1525589042
+      Mobile - Metal Slug Attack - Gisee_266: -646794455
+      Mobile - Metal Slug Attack - Gisee_267: -643574910
+      Mobile - Metal Slug Attack - Gisee_268: 243271630
+      Mobile - Metal Slug Attack - Gisee_269: 563662102
+      Mobile - Metal Slug Attack - Gisee_27: -909816286
+      Mobile - Metal Slug Attack - Gisee_270: -705508003
+      Mobile - Metal Slug Attack - Gisee_271: 900621586
+      Mobile - Metal Slug Attack - Gisee_272: -1268847333
+      Mobile - Metal Slug Attack - Gisee_273: -1983364891
+      Mobile - Metal Slug Attack - Gisee_274: 74169824
+      Mobile - Metal Slug Attack - Gisee_275: -1163379709
+      Mobile - Metal Slug Attack - Gisee_276: 443743240
+      Mobile - Metal Slug Attack - Gisee_277: -542124529
+      Mobile - Metal Slug Attack - Gisee_278: 927538134
+      Mobile - Metal Slug Attack - Gisee_279: 1960027660
+      Mobile - Metal Slug Attack - Gisee_28: -115202290
+      Mobile - Metal Slug Attack - Gisee_280: -1160841945
+      Mobile - Metal Slug Attack - Gisee_281: 930945323
+      Mobile - Metal Slug Attack - Gisee_282: -973054809
+      Mobile - Metal Slug Attack - Gisee_283: -1623304979
+      Mobile - Metal Slug Attack - Gisee_284: 1743519632
+      Mobile - Metal Slug Attack - Gisee_285: -1601225384
+      Mobile - Metal Slug Attack - Gisee_286: -2110518036
+      Mobile - Metal Slug Attack - Gisee_287: 1706591133
+      Mobile - Metal Slug Attack - Gisee_288: 1923760744
+      Mobile - Metal Slug Attack - Gisee_289: -165228229
+      Mobile - Metal Slug Attack - Gisee_29: -1973939356
+      Mobile - Metal Slug Attack - Gisee_290: 1886271425
+      Mobile - Metal Slug Attack - Gisee_291: 1710549318
+      Mobile - Metal Slug Attack - Gisee_292: -796327593
+      Mobile - Metal Slug Attack - Gisee_293: 1042688381
+      Mobile - Metal Slug Attack - Gisee_294: -1304017633
+      Mobile - Metal Slug Attack - Gisee_295: 1721775168
+      Mobile - Metal Slug Attack - Gisee_296: 196248976
+      Mobile - Metal Slug Attack - Gisee_297: -881516618
+      Mobile - Metal Slug Attack - Gisee_298: -1533174155
+      Mobile - Metal Slug Attack - Gisee_299: -44178121
+      Mobile - Metal Slug Attack - Gisee_3: 2026739372
+      Mobile - Metal Slug Attack - Gisee_30: -32272584
+      Mobile - Metal Slug Attack - Gisee_300: -2114578972
+      Mobile - Metal Slug Attack - Gisee_301: 1054055556
+      Mobile - Metal Slug Attack - Gisee_302: 1787609433
+      Mobile - Metal Slug Attack - Gisee_303: 1127122406
+      Mobile - Metal Slug Attack - Gisee_304: -974591532
+      Mobile - Metal Slug Attack - Gisee_31: -1232934161
+      Mobile - Metal Slug Attack - Gisee_32: 992607391
+      Mobile - Metal Slug Attack - Gisee_33: 195832424
+      Mobile - Metal Slug Attack - Gisee_34: 540244922
+      Mobile - Metal Slug Attack - Gisee_35: -843751786
+      Mobile - Metal Slug Attack - Gisee_36: -945151805
+      Mobile - Metal Slug Attack - Gisee_37: 729841149
+      Mobile - Metal Slug Attack - Gisee_39: -390204651
+      Mobile - Metal Slug Attack - Gisee_4: 653640447
+      Mobile - Metal Slug Attack - Gisee_40: 1361803523
+      Mobile - Metal Slug Attack - Gisee_41: 713922499
+      Mobile - Metal Slug Attack - Gisee_42: -1460949616
+      Mobile - Metal Slug Attack - Gisee_43: -1565037416
+      Mobile - Metal Slug Attack - Gisee_44: -2086352437
+      Mobile - Metal Slug Attack - Gisee_45: 1933684675
+      Mobile - Metal Slug Attack - Gisee_46: -1114605795
+      Mobile - Metal Slug Attack - Gisee_47: -1194549606
+      Mobile - Metal Slug Attack - Gisee_48: -1865974655
+      Mobile - Metal Slug Attack - Gisee_49: 1900586916
+      Mobile - Metal Slug Attack - Gisee_5: -460591725
+      Mobile - Metal Slug Attack - Gisee_50: -193030708
+      Mobile - Metal Slug Attack - Gisee_51: 748220375
+      Mobile - Metal Slug Attack - Gisee_52: 582512583
+      Mobile - Metal Slug Attack - Gisee_53: -52173349
+      Mobile - Metal Slug Attack - Gisee_54: 1966250380
+      Mobile - Metal Slug Attack - Gisee_55: -368533669
+      Mobile - Metal Slug Attack - Gisee_56: 1447190004
+      Mobile - Metal Slug Attack - Gisee_57: -775272841
+      Mobile - Metal Slug Attack - Gisee_58: 370251101
+      Mobile - Metal Slug Attack - Gisee_59: 284438786
+      Mobile - Metal Slug Attack - Gisee_6: 150556711
+      Mobile - Metal Slug Attack - Gisee_60: 41944084
+      Mobile - Metal Slug Attack - Gisee_61: -112535704
+      Mobile - Metal Slug Attack - Gisee_62: 863312988
+      Mobile - Metal Slug Attack - Gisee_63: 1345753781
+      Mobile - Metal Slug Attack - Gisee_64: -189966624
+      Mobile - Metal Slug Attack - Gisee_65: 131517481
+      Mobile - Metal Slug Attack - Gisee_66: -1519996037
+      Mobile - Metal Slug Attack - Gisee_67: -1487771707
+      Mobile - Metal Slug Attack - Gisee_68: 1695270670
+      Mobile - Metal Slug Attack - Gisee_69: -1095959666
+      Mobile - Metal Slug Attack - Gisee_7: -2069170049
+      Mobile - Metal Slug Attack - Gisee_70: -423450183
+      Mobile - Metal Slug Attack - Gisee_71: 1161108214
+      Mobile - Metal Slug Attack - Gisee_72: -12200668
+      Mobile - Metal Slug Attack - Gisee_73: -695165388
+      Mobile - Metal Slug Attack - Gisee_74: -1005437586
+      Mobile - Metal Slug Attack - Gisee_75: 993731728
+      Mobile - Metal Slug Attack - Gisee_76: -299342402
+      Mobile - Metal Slug Attack - Gisee_77: 815341273
+      Mobile - Metal Slug Attack - Gisee_78: -1172552338
+      Mobile - Metal Slug Attack - Gisee_79: -800037418
+      Mobile - Metal Slug Attack - Gisee_8: -1811885255
+      Mobile - Metal Slug Attack - Gisee_80: 1451574819
+      Mobile - Metal Slug Attack - Gisee_81: 867225321
+      Mobile - Metal Slug Attack - Gisee_82: 719915146
+      Mobile - Metal Slug Attack - Gisee_83: -1639071220
+      Mobile - Metal Slug Attack - Gisee_84: -504946715
+      Mobile - Metal Slug Attack - Gisee_85: -263827949
+      Mobile - Metal Slug Attack - Gisee_86: -915000719
+      Mobile - Metal Slug Attack - Gisee_87: 794253733
+      Mobile - Metal Slug Attack - Gisee_88: 1033689880
+      Mobile - Metal Slug Attack - Gisee_89: -613644869
+      Mobile - Metal Slug Attack - Gisee_9: -2120750347
+      Mobile - Metal Slug Attack - Gisee_90: 346833253
+      Mobile - Metal Slug Attack - Gisee_91: -1557294727
+      Mobile - Metal Slug Attack - Gisee_92: -1220846629
+      Mobile - Metal Slug Attack - Gisee_93: -1233424182
+      Mobile - Metal Slug Attack - Gisee_94: 1832982510
+      Mobile - Metal Slug Attack - Gisee_95: -40538797
+      Mobile - Metal Slug Attack - Gisee_96: -505672566
+      Mobile - Metal Slug Attack - Gisee_97: -210857307
+      Mobile - Metal Slug Attack - Gisee_98: -1669763685
+      Mobile - Metal Slug Attack - Gisee_99: 1441253017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
