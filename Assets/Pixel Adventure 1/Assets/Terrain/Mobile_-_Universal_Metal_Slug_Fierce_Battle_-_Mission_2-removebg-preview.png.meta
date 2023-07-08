@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: e36da46f48fc10248aa5815ce975338f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 333
+        width: 132
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcf1a01c1a173048bcefe1aa22f3636
+      internalID: 582782672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 334
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcb9b90b72e30044ab7d520fe1b2e13
+      internalID: -25907764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 315
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d8dd0eeea63184697de51764268cab
+      internalID: -780119315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 324
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86acc00bc9aed44ea70471ba0ba845f
+      internalID: 2082664075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 120
+        width: 71
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9085189ef58637945ab8bd3fbb6dbe18
+      internalID: -1220460704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 296
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276c7fabe011b7442828031606e1eaf5
+      internalID: 1575524510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 244
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc694e3f5d25ed4087f6e5c1067fee8
+      internalID: -64487383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d228064742cf9c64394f7e00435bf476
+      internalID: 2077833062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 10
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1723ef8a175f54c9843b7f7519baf5
+      internalID: 273901472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 262
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f5058620e715c4c9f3e01e211e8484
+      internalID: -696283400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_0: 582782672
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_1: -25907764
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_2: -780119315
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_3: 2082664075
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_4: -1220460704
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_5: 1575524510
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_6: -64487383
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_7: 2077833062
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_8: 273901472
+      Mobile_-_Universal_Metal_Slug_Fierce_Battle_-_Mission_2-removebg-preview_9: -696283400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
