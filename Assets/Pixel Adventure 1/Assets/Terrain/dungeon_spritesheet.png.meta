@@ -1,0 +1,2478 @@
+fileFormatVersion: 2
+guid: c6d5c447fac747840935caac464b94d7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dungeon_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 999
+        width: 93
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed68831d2f445474088919eb6a5a113c
+      internalID: 1159255794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1001
+        width: 82
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c50bd8cf1a362c45b39f73ad989b0e0
+      internalID: 107764948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 985
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5380ee6a2465f84c9c3f54c13b281a2
+      internalID: -1554735266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 995
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6144003c336b62346bae0ad3b31ec704
+      internalID: 912320200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 934
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8794c1d5b38b4644f825f099e61052c1
+      internalID: -1809871802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 942
+        width: 101
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a135b62d1caf342a10c0c3f1db6920
+      internalID: -438021192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 977
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7c372b79c8a9b4b80d5cb220f225ec
+      internalID: -665037960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 977
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7724fe384417a40be089322120b162
+      internalID: -138818155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 977
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ccb44f21bcbe14da985a86f69fb0c5
+      internalID: -1912594066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 971
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435730924237abb4e90d9cd6764afa1d
+      internalID: 1705020129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 954
+        width: 151
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bd2503f5f18a04da023c373777d106
+      internalID: -1908976044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 989
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207a29ecfa1b1c54fb92407c814a871c
+      internalID: -1666401362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 970
+        width: 93
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee0485db8e37864a8607413abad6f40
+      internalID: -236457746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 971
+        width: 80
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc5654f59ba46b4795fbc1329aed725
+      internalID: 1723319406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 943
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2473f04b09bc23441841fab63667cd79
+      internalID: 102061828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 953
+        width: 107
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90b282cf8eb8e049b6b63ba4f46ef5c
+      internalID: -1476624031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 952
+        width: 68
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ade302bb539c9e4d92eb7d66da7cc87
+      internalID: 51906448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 928
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbef6c526e3c1564985053fd4a4b0eea
+      internalID: 1386199132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 923
+        width: 129
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e44f61a3cb10414cb5cdccc452a5df8
+      internalID: -1043251840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 872
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0149e44cc4ac834479dfe2fe6f65c6e6
+      internalID: 565681737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 797
+        width: 75
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e52031c9b2da248a66e5ed8aa43e6b
+      internalID: 1303645481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 830
+        width: 44
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235e6f2033524e84e9e6f15a457e033b
+      internalID: 1806336747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 907
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d239038131ed114fac5a765123ec91e
+      internalID: -1234179525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 929
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1782407a3d82a784f877db9988be6b96
+      internalID: -1613058099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 871
+        width: 136
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a928976f7f30b444a9090ba73c7509d5
+      internalID: -470242564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 905
+        width: 71
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3c5a44e6ddea94383e863d69bcd0a7
+      internalID: -372278825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 879
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52224138f00aa847afc940e1a548da7
+      internalID: 542764460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 868
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f16f7389b62cc40bd7f644750d01c7
+      internalID: 907792442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 862
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a82414cf45c4842843eb85f35eb510
+      internalID: 2094978466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 889
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55ffe8d2d24b7e41b084502074c1071
+      internalID: 217859580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 893
+        width: 5
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2750988ef409ad74d86f3c57fa65f77a
+      internalID: 1772680179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 896
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd91dee05907384ea48accaf2375c65
+      internalID: 231846492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 899
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c85405e10e355e40b40496996f590d2
+      internalID: 1180918809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 908
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117e8dea47421c74fbaeb1e09dd57a6a
+      internalID: 1246397179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 909
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9a5b9e84ca8cc40a302cfc62bd03ca
+      internalID: 594944780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 915
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3706630081f0a74b972903205e09f34
+      internalID: -959716788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 918
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eef6ecaa9cc93478b3ac69f3e12991
+      internalID: 744001249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 858
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404526386bc403a468993ccbdec7a410
+      internalID: 1299651969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 860
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7c2d37dffaed64797e9f556607b8c5
+      internalID: -196300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 871
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e82d7e56f7fc28419c903f07409da06
+      internalID: -507195297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 895
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81fcba0204aa3d4f8eb875b210df406
+      internalID: -112579022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 900
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b1bf5144798d640a00296887c23c2c
+      internalID: -1331263044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 899
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2866d35e90dece40b2a02d481478255
+      internalID: -1084088883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 875
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0351bc73d1219408fbc832599fd2db
+      internalID: -93296860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 816
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720d3a0e1b341bc48b46ca3fd4b8741a
+      internalID: -1879527169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 768
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d00db3c717afa64e9feec970de8aafb
+      internalID: 1838474240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 769
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a33a68be954b84d8c16bd7b93f08fe
+      internalID: 1712220702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6543a98c034b924c9ba6b117c8428bc
+      internalID: -1301349068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 861
+        width: 5
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851e4c6792884f34fa7bd6a8ef51e290
+      internalID: 417640308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 813
+        width: 132
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30073f60a3cc7724bba190a51c5f40e2
+      internalID: 2122218523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 814
+        width: 127
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea4b26a6811d024e95746c7403fac3b
+      internalID: -1784711437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 808
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260e93b82eb298e49bfd9aa6b3405414
+      internalID: 2020014646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 782
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d9907d79f0459468eb4b0d235acb66
+      internalID: 2125314743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 782
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1d5c1ef5052b5478e94e58b8eb6d31
+      internalID: -1447961396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 827
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcaa4d52dddaac4ca37627d5ab2eaa3
+      internalID: 1499948702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 832
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a555aa8f48b9e74489083e32bab5504
+      internalID: 1231464364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 782
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e370eff9d2fd4d49bd1b02e3c9cbe33
+      internalID: -265756845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 802
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8452ae273aeb7a245b6c9d91317a6d05
+      internalID: -504616351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 733
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368bcc6919b5eda41aae9fe5324b3c18
+      internalID: 960809488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 779
+        width: 58
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b062ef388b45c44b32e18e50d44233
+      internalID: -1293603770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 771
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c02211c200a4840a4c2a3e7628ad46
+      internalID: -775147046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 623
+        width: 117
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6331be341dd86a24c825743386b156d7
+      internalID: -365544693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 779
+        width: 134
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d7575d93472544aacfe23cd5d287dc
+      internalID: 846903781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 725
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b700a6a9da000446b10cc2146297577
+      internalID: 960341022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 748
+        width: 85
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9caec0cb52b3f149b02ad3594955164
+      internalID: -574065426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 736
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bacad40a0441d3488d045dd78515faa
+      internalID: -954687738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 702
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0babf015d911e43b15b4da5df4c133
+      internalID: -1206123274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 731
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a015977bf74594fa85452122786fe1
+      internalID: 1824914657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 725
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cbaa2357289994c92694256769de86
+      internalID: -1994504471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 681
+        width: 14
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec21e824bf0e64a8ff95ad9df5a122
+      internalID: 226718607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 680
+        width: 7
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82b20f5981753541802df74c8aff4dd
+      internalID: -734778005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 681
+        width: 8
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840c27b856de7844dbfab5d5cff278da
+      internalID: 1726281144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 681
+        width: 12
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1b6f4d75a44794aae31bbf75f2ab93
+      internalID: 434653860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 675
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2b3af5b8f0b154699a95aad83b0e57
+      internalID: -1810949244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 754
+        width: 71
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0e07eac430f1c46941eccb3ae234e8
+      internalID: -873942903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 676
+        width: 135
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38836a8ff50edff4794ec75a1ead20b2
+      internalID: -2039151582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 714
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d7e10cf258d02459b50f46eac00340
+      internalID: -564606736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 696
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c52b2f6dc43304aaa5dcc38da73d71
+      internalID: 545919821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 674
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c85455a5730640a14393637578650
+      internalID: -1521329400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 636
+        width: 23
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9b3177d29e1e0419b56c58305d9211
+      internalID: -1021390397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 618
+        width: 25
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b9ab720c4e48647bdd25830a1f4bcd
+      internalID: 384215361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 629
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b3ccd37a27e764186c0d7230b778f6
+      internalID: -1662989892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 589
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1329008a53e3148bc219181cb1577f
+      internalID: -1740137621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 533
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6352bcbadd85a84a969ef874be565aa
+      internalID: 1321300123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 557
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3975f539de72934ebcbd6d44e0167e5
+      internalID: 1064479501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 539
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de709fb38bca864198dba8d66d20513
+      internalID: -520844206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 599
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf920bdc08649744b595d52657949de
+      internalID: -1824424320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 589
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f55d5ea24005e54aa27f2dc04aa5d51
+      internalID: -1221639139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 565
+        width: 87
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e6f865b7c160c47a1d85e54b8c0a20
+      internalID: 1170069850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 283
+        width: 23
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb99188dee6948a46973cd68063e8874
+      internalID: -1123143610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 401
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d954194ed810d4d9f0a783eebfca9c
+      internalID: -833895629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 401
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8303a0b18c66e91488435fa77aacf026
+      internalID: -260968737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 388
+        width: 62
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af27159825fb98c4ba5ef38276d24373
+      internalID: -1786947672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 408
+        width: 62
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655d911a175c1984f8f1531c3c08522b
+      internalID: 875775935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 306
+        width: 23
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8f1dda2eae001449a9ea304c6fb4ac
+      internalID: 1960145421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 351
+        width: 125
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c07820c5b2ce34cb5de86bf47e0b71
+      internalID: 1421715909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 335
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d4ea7be0725704fb714bbbca638d2c
+      internalID: 631861365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 335
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a932595c9cbfd54438116d8a345a4425
+      internalID: -1452383761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 209
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1e4210dd993864f89bafa08684249d
+      internalID: -1999054547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 210
+        width: 134
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71b0cd91b37927448e653f80cb9c083
+      internalID: 2114193671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 134
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3468eec23e80fce4fa9a55de07b14fb6
+      internalID: 1530311983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 192
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c0b72af88c754b94f0fdb85f71285
+      internalID: 1126150079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 90
+        width: 133
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97cf25c9b4ffbf42a20c6779baf7c6e
+      internalID: -139129362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 157
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d41a79bb4c0748b9530e0c1c0622b
+      internalID: 1244441738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 85
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa3ae8120cd7a24fadc5494ed75f3cc
+      internalID: -327498747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dungeon_spritesheet_0: 1159255794
+      dungeon_spritesheet_1: 107764948
+      dungeon_spritesheet_10: -1908976044
+      dungeon_spritesheet_100: 384215361
+      dungeon_spritesheet_101: -1662989892
+      dungeon_spritesheet_102: -1740137621
+      dungeon_spritesheet_103: -1410483023
+      dungeon_spritesheet_104: 1192356699
+      dungeon_spritesheet_105: 1321300123
+      dungeon_spritesheet_106: 1064479501
+      dungeon_spritesheet_107: -520844206
+      dungeon_spritesheet_108: -1824424320
+      dungeon_spritesheet_109: -1221639139
+      dungeon_spritesheet_11: -1666401362
+      dungeon_spritesheet_110: 1170069850
+      dungeon_spritesheet_111: 645400106
+      dungeon_spritesheet_112: -1123143610
+      dungeon_spritesheet_113: -669297595
+      dungeon_spritesheet_114: -833895629
+      dungeon_spritesheet_115: -260968737
+      dungeon_spritesheet_116: -1786947672
+      dungeon_spritesheet_117: 875775935
+      dungeon_spritesheet_118: 1960145421
+      dungeon_spritesheet_119: 1421715909
+      dungeon_spritesheet_12: -236457746
+      dungeon_spritesheet_120: 631861365
+      dungeon_spritesheet_121: -1452383761
+      dungeon_spritesheet_122: -1999054547
+      dungeon_spritesheet_123: 2114193671
+      dungeon_spritesheet_124: 1530311983
+      dungeon_spritesheet_125: -1304904490
+      dungeon_spritesheet_126: -649480723
+      dungeon_spritesheet_127: 1126150079
+      dungeon_spritesheet_128: -139129362
+      dungeon_spritesheet_129: 703124814
+      dungeon_spritesheet_13: 1723319406
+      dungeon_spritesheet_130: 1244441738
+      dungeon_spritesheet_131: 1990680799
+      dungeon_spritesheet_132: -327498747
+      dungeon_spritesheet_14: 102061828
+      dungeon_spritesheet_15: 895545629
+      dungeon_spritesheet_16: -1476624031
+      dungeon_spritesheet_17: -2106510843
+      dungeon_spritesheet_18: 51906448
+      dungeon_spritesheet_19: 1386199132
+      dungeon_spritesheet_2: -1554735266
+      dungeon_spritesheet_20: -1043251840
+      dungeon_spritesheet_21: 565681737
+      dungeon_spritesheet_22: -913475010
+      dungeon_spritesheet_23: 1303645481
+      dungeon_spritesheet_24: 145139968
+      dungeon_spritesheet_25: 1806336747
+      dungeon_spritesheet_26: -1929830148
+      dungeon_spritesheet_27: -1234179525
+      dungeon_spritesheet_28: -1598436742
+      dungeon_spritesheet_29: 653617692
+      dungeon_spritesheet_3: 912320200
+      dungeon_spritesheet_30: -1613058099
+      dungeon_spritesheet_31: -470242564
+      dungeon_spritesheet_32: -372278825
+      dungeon_spritesheet_33: -649534163
+      dungeon_spritesheet_34: -1434961968
+      dungeon_spritesheet_35: 2022012267
+      dungeon_spritesheet_36: 542764460
+      dungeon_spritesheet_37: 907792442
+      dungeon_spritesheet_38: 2094978466
+      dungeon_spritesheet_39: 217859580
+      dungeon_spritesheet_4: -1809871802
+      dungeon_spritesheet_40: 1772680179
+      dungeon_spritesheet_41: 231846492
+      dungeon_spritesheet_42: 1180918809
+      dungeon_spritesheet_43: 1246397179
+      dungeon_spritesheet_44: 594944780
+      dungeon_spritesheet_45: -959716788
+      dungeon_spritesheet_46: 744001249
+      dungeon_spritesheet_47: 1299651969
+      dungeon_spritesheet_48: -196300082
+      dungeon_spritesheet_49: -507195297
+      dungeon_spritesheet_5: -438021192
+      dungeon_spritesheet_50: -112579022
+      dungeon_spritesheet_51: -1331263044
+      dungeon_spritesheet_52: -1084088883
+      dungeon_spritesheet_53: -93296860
+      dungeon_spritesheet_54: -1879527169
+      dungeon_spritesheet_55: 1838474240
+      dungeon_spritesheet_56: 1712220702
+      dungeon_spritesheet_57: -1301349068
+      dungeon_spritesheet_58: 417640308
+      dungeon_spritesheet_59: 2122218523
+      dungeon_spritesheet_6: -665037960
+      dungeon_spritesheet_60: -1342470914
+      dungeon_spritesheet_61: -1784711437
+      dungeon_spritesheet_62: 2020014646
+      dungeon_spritesheet_63: 2125314743
+      dungeon_spritesheet_64: -1447961396
+      dungeon_spritesheet_65: 1499948702
+      dungeon_spritesheet_66: 358599605
+      dungeon_spritesheet_67: -852059027
+      dungeon_spritesheet_68: 1231464364
+      dungeon_spritesheet_69: -470869706
+      dungeon_spritesheet_7: -138818155
+      dungeon_spritesheet_70: -265756845
+      dungeon_spritesheet_71: -504616351
+      dungeon_spritesheet_72: -1913511189
+      dungeon_spritesheet_73: -1656745446
+      dungeon_spritesheet_74: -7448723
+      dungeon_spritesheet_75: 72125305
+      dungeon_spritesheet_76: -490828878
+      dungeon_spritesheet_77: 1141873470
+      dungeon_spritesheet_78: 960809488
+      dungeon_spritesheet_79: -1293603770
+      dungeon_spritesheet_8: -1912594066
+      dungeon_spritesheet_80: -775147046
+      dungeon_spritesheet_81: -365544693
+      dungeon_spritesheet_82: 846903781
+      dungeon_spritesheet_83: 960341022
+      dungeon_spritesheet_84: -574065426
+      dungeon_spritesheet_85: -954687738
+      dungeon_spritesheet_86: -1206123274
+      dungeon_spritesheet_87: 1824914657
+      dungeon_spritesheet_88: -1994504471
+      dungeon_spritesheet_89: 226718607
+      dungeon_spritesheet_9: 1705020129
+      dungeon_spritesheet_90: -734778005
+      dungeon_spritesheet_91: 1726281144
+      dungeon_spritesheet_92: 434653860
+      dungeon_spritesheet_93: -1810949244
+      dungeon_spritesheet_94: -873942903
+      dungeon_spritesheet_95: -2039151582
+      dungeon_spritesheet_96: -564606736
+      dungeon_spritesheet_97: 545919821
+      dungeon_spritesheet_98: -1521329400
+      dungeon_spritesheet_99: -1021390397
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
