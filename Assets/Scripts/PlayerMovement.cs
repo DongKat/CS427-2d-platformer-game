@@ -57,7 +57,9 @@ public class PlayerMovement : MonoBehaviour
         else if(rb.velocity.y<-0.0001f)
         {
             currentMovementState=MovementState.falling;
+            
         }   
         anim.SetInteger("currentMovementState", (int)currentMovementState);
     }
+    
 }

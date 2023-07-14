@@ -1,0 +1,1479 @@
+fileFormatVersion: 2
+guid: a37be31d90c3d92419ee9914083106bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 976
+        width: 130
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec73e5ea2a197f542bf71f51bf3b42fe
+      internalID: -1453548283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 977
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0310bb73e6b26ca45a32a724e36182f8
+      internalID: 1951313273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 975
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8dfef4a897d9c41a1aa15a30a3b201
+      internalID: -1837522431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 956
+        width: 125
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec875d1455233f4998e2821d5af8016
+      internalID: -1778219462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 978
+        width: 90
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b411b9ac7a8e742a19f91ee5f3c06f
+      internalID: 78137825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 970
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47caaa8bfc81b3544938ba5ed9b40424
+      internalID: -1450042654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 927
+        width: 130
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189b9cdb271bd7e42952a87be0605d89
+      internalID: -2010832541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 927
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d0cbf3ec5a6684db610420a72c4ba1
+      internalID: -772678176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 914
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9cdd41a7d9297419bd1f34eb0d4f52
+      internalID: 1229374327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 907
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b322d6e4c6274a343a8f92b47aa7a1aa
+      internalID: 850432611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_20
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 963
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b688dd293028a42a42348fc822c077
+      internalID: -1414840495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_21
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 940
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45839791c9bf3744b9fc3156bd621fad
+      internalID: 64363356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 936
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad30685d326695448a3a147fdf947590
+      internalID: 300946732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_26
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 906
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf701adcd7c81a41aa59a28613e45cd
+      internalID: -1331793227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_27
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 907
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906ec1c0ad682c543bb45952efb4f86b
+      internalID: 21911022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_28
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 908
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f9b8ee3d3aaec4a9287c3e32943821
+      internalID: -1090388040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_29
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 929
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e585f2593873dd42a2b5bf65e7b95eb
+      internalID: -1523020572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_30
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 898
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ade876f7a687140a8d23d3ad000cc1
+      internalID: -1462389526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 837
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018f8b2e42897ba4094c48a5dd8f45cd
+      internalID: -582422343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 833
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8146bb3523f180c45aeccd89445c0ace
+      internalID: 1170708031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_34
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 901
+        width: 57
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca7e7b58c2d50845a86909ad20777a2
+      internalID: -1865283641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_35
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 866
+        width: 129
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e5d869364b7d54bb0eba8a0745b9d3
+      internalID: -1812905927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_36
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 866
+        width: 80
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c908bb9aea026b42a6f7032d5693e8c
+      internalID: 169514720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_37
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 854
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016a10c5324514941a0f5f8659eac475
+      internalID: -315240853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_38
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 853
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de29aefe348bfc418c9f64cc1f999dc
+      internalID: -1787234266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 748
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35f724fc1d70374ebfb18e8794d3d94
+      internalID: 1404975602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_40
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 830
+        width: 129
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5856c4d3502a4418ba08575de84de2
+      internalID: 559627139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_41
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 828
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b18ccbe128e8be45b5989ccf28e2e6b
+      internalID: 751104255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_42
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 779
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a449658ecbe559e4586f92c8e28444a1
+      internalID: -533974743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_43
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 805
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6335875e75d28b48b195ef679c105df
+      internalID: 1508525139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_45
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 747
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869968b6668eaab49b0a5ea2ac34f1ca
+      internalID: -2103187351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_46
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 793
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc3d780fbc55044f88a64747f1911a6
+      internalID: -890085617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 776
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4ed54607b67554f8cf9740c57fafe4
+      internalID: 46724894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_48
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 742
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fecc93040309e4a958ad104afdb927
+      internalID: -701787350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_49
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 745
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89cb049a1939234db1411f04e5de32f
+      internalID: 573987891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_50
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 791
+        width: 59
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e08079bb6070e647acb46c305f120d7
+      internalID: -743401829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_51
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 751
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12c149d41f4c8a40be9f585995e5b48
+      internalID: -2143270550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_52
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 742
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361603c10edc90e47ae31687ff9c96a5
+      internalID: -1666846061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_53
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 690
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba517197d992394b8767eb38e513a4d
+      internalID: -495301494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_54
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 567
+        width: 70
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eccf76efff75304cbcf08338f487196
+      internalID: 1522866000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_55
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 602
+        width: 53
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98f7633127f83a47bb94a9a7cd92ccd
+      internalID: 1765970138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 705
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22f198433be5594b991b87544801899
+      internalID: -1147699759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_57
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 694
+        width: 100
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82392c4ca5cd074c8dbdc813faec898
+      internalID: -211515750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_58
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 672
+        width: 130
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3e6a53631b0ed45b0e1ceb75c6a61e
+      internalID: 1221693494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_59
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 691
+        width: 99
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553a0f467fee331408fe3b499335806d
+      internalID: 1793737903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 642
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c46042b4a4acdd43b22d483002b3c93
+      internalID: -1118790460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_64
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 645
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f455d47cd9161d84baaf6641658d6ddf
+      internalID: 2137014175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_65
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 638
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12632f0906dea642827c40942acc8d9
+      internalID: -914665848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_66
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 620
+        width: 89
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3415b221f8255a349aaa3a50f3a99161
+      internalID: -1377650734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_67
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 476
+        width: 99
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3982d135e5bb830498bf6f9dc7f67926
+      internalID: 1035539856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_68
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 476
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d2d2989dc5bb945b21afc1a6e95bf7
+      internalID: -1771774378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 542
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514526ae84430c7438f65d643f4a45f6
+      internalID: -82319171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_70
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 569
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed3c9773e661654eb9b6a4cc3b08a6c
+      internalID: -1533952728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_71
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 476
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78653e954b370574686541a6a22bb715
+      internalID: 517165899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 392
+        width: 51
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c838ab3c5e72f0445aa69538524990f3
+      internalID: 1987601829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_73
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 206
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4f1d8778e8f144980279c92be75768
+      internalID: 651895337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_75
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9
+        width: 291
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07580610e7c9da458eb676bbb3d1660
+      internalID: 2070489416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_76
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3
+        width: 265
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6abdb1f9bda3d84da86cd5e707dfd52
+      internalID: 1869736077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_77
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 3
+        width: 213
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a9109f5250ff74db5b3703575edcb4
+      internalID: -949438836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: churches-field-spritesheet-improved_78
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2
+        width: 183
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c483d49deba2d41948631dce8376bc
+      internalID: 691327736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      churches-field-spritesheet-improved_0: -1453548283
+      churches-field-spritesheet-improved_1: 1951313273
+      churches-field-spritesheet-improved_10: 1788375433
+      churches-field-spritesheet-improved_11: -936949745
+      churches-field-spritesheet-improved_12: -1798970778
+      churches-field-spritesheet-improved_13: 1748194055
+      churches-field-spritesheet-improved_14: -1563910331
+      churches-field-spritesheet-improved_15: 1389531711
+      churches-field-spritesheet-improved_16: -2010832541
+      churches-field-spritesheet-improved_17: -772678176
+      churches-field-spritesheet-improved_18: 1229374327
+      churches-field-spritesheet-improved_19: 850432611
+      churches-field-spritesheet-improved_2: -1837522431
+      churches-field-spritesheet-improved_20: -1414840495
+      churches-field-spritesheet-improved_21: 64363356
+      churches-field-spritesheet-improved_22: 300946732
+      churches-field-spritesheet-improved_23: 1326110548
+      churches-field-spritesheet-improved_24: -698528185
+      churches-field-spritesheet-improved_25: 1870229649
+      churches-field-spritesheet-improved_26: -1331793227
+      churches-field-spritesheet-improved_27: 21911022
+      churches-field-spritesheet-improved_28: -1090388040
+      churches-field-spritesheet-improved_29: -1523020572
+      churches-field-spritesheet-improved_3: -1778219462
+      churches-field-spritesheet-improved_30: -1462389526
+      churches-field-spritesheet-improved_31: -582422343
+      churches-field-spritesheet-improved_32: 1170708031
+      churches-field-spritesheet-improved_33: -82540569
+      churches-field-spritesheet-improved_34: -1865283641
+      churches-field-spritesheet-improved_35: -1812905927
+      churches-field-spritesheet-improved_36: 169514720
+      churches-field-spritesheet-improved_37: -315240853
+      churches-field-spritesheet-improved_38: -1787234266
+      churches-field-spritesheet-improved_39: 1404975602
+      churches-field-spritesheet-improved_4: 78137825
+      churches-field-spritesheet-improved_40: 559627139
+      churches-field-spritesheet-improved_41: 751104255
+      churches-field-spritesheet-improved_42: -533974743
+      churches-field-spritesheet-improved_43: 1508525139
+      churches-field-spritesheet-improved_44: 192387781
+      churches-field-spritesheet-improved_45: -2103187351
+      churches-field-spritesheet-improved_46: -890085617
+      churches-field-spritesheet-improved_47: 46724894
+      churches-field-spritesheet-improved_48: -701787350
+      churches-field-spritesheet-improved_49: 573987891
+      churches-field-spritesheet-improved_5: -1450042654
+      churches-field-spritesheet-improved_50: -743401829
+      churches-field-spritesheet-improved_51: -2143270550
+      churches-field-spritesheet-improved_52: -1666846061
+      churches-field-spritesheet-improved_53: -495301494
+      churches-field-spritesheet-improved_54: 1522866000
+      churches-field-spritesheet-improved_55: 1765970138
+      churches-field-spritesheet-improved_56: -1147699759
+      churches-field-spritesheet-improved_57: -211515750
+      churches-field-spritesheet-improved_58: 1221693494
+      churches-field-spritesheet-improved_59: 1793737903
+      churches-field-spritesheet-improved_6: -425950816
+      churches-field-spritesheet-improved_60: -1118790460
+      churches-field-spritesheet-improved_61: 964239706
+      churches-field-spritesheet-improved_62: 390066335
+      churches-field-spritesheet-improved_63: 1360196159
+      churches-field-spritesheet-improved_64: 2137014175
+      churches-field-spritesheet-improved_65: -914665848
+      churches-field-spritesheet-improved_66: -1377650734
+      churches-field-spritesheet-improved_67: 1035539856
+      churches-field-spritesheet-improved_68: -1771774378
+      churches-field-spritesheet-improved_69: -82319171
+      churches-field-spritesheet-improved_7: 1112616119
+      churches-field-spritesheet-improved_70: -1533952728
+      churches-field-spritesheet-improved_71: 517165899
+      churches-field-spritesheet-improved_72: 1987601829
+      churches-field-spritesheet-improved_73: 651895337
+      churches-field-spritesheet-improved_74: -695568018
+      churches-field-spritesheet-improved_75: 2070489416
+      churches-field-spritesheet-improved_76: 1869736077
+      churches-field-spritesheet-improved_77: -949438836
+      churches-field-spritesheet-improved_78: 691327736
+      churches-field-spritesheet-improved_8: -196328497
+      churches-field-spritesheet-improved_9: 1541395106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
