@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Trap-Spike
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Theme
+    uniqueID: 1373831063
+    locked: 0
   - name: Background
     uniqueID: 981324847
     locked: 0
