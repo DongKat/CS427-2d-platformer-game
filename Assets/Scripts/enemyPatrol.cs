@@ -26,11 +26,11 @@ public class enemyPatrol : MonoBehaviour
     {
         initScale = enemy.localScale;
     }
-    private void OnDisable()
-    {
-        anim.SetBool("idle", false);
-    }
 
+    void OnDisable()
+    {
+        anim.SetBool("running", false);
+    }
     private void Update()
     {
         if (moveChange)

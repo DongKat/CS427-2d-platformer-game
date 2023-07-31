@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class Barabian : MonoBehaviour
+public class arabian : MonoBehaviour
 {
-    [Header ("Attack parameters")]
+    [Header("Attack parameters")]
     [SerializeField] private float attcooldown;
     [SerializeField] private float range;
     private float cooldown = Mathf.Infinity;
@@ -14,10 +12,10 @@ public class Barabian : MonoBehaviour
     [Header("Collider parameters")]
     [SerializeField] private float colliderDistance;
     [SerializeField] private BoxCollider2D boxCollider;
-    
+
     [Header("Player parameters")]
     [SerializeField] private LayerMask playerLayer;
-    
+
     private enemyPatrol enemy_patrol;
     private Animator anim;
     private Animator anim2;
@@ -33,12 +31,13 @@ public class Barabian : MonoBehaviour
         cooldown += Time.deltaTime;
         if (playerInSight())
         {
-            if (cooldown>=attcooldown)
+            if (cooldown >= attcooldown)
             {
                 cooldown = 0;
                 anim.SetTrigger("attack");
-            }
+            }  
         }
+        enemy_patrol.enabled = !playerInSight();
     }
     private bool playerInSight()
     {
