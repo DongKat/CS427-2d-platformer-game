@@ -737,7 +737,7 @@ GameObject:
   - component: {fileID: 543328838}
   - component: {fileID: 543328837}
   - component: {fileID: 543328836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1986,7 +1986,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262946479}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.09, y: -3.23, z: 0}
+  m_LocalPosition: {x: 121.2, y: -3.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2098,8 +2098,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bb92aa4da614483c7d568a6bef76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
   moveSpeed: 7
-  jumpForce: 10
+  jumpForce: 7
 --- !u!251 &1262946486
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -2923,6 +2926,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 329892000973665042, guid: eec828c90c0c27646bc8d492944c3e1b, type: 3}
+      propertyPath: indexbuild
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2498071094186698089, guid: eec828c90c0c27646bc8d492944c3e1b, type: 3}
       propertyPath: m_RootOrder
       value: 5
