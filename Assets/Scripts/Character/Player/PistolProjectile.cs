@@ -8,7 +8,7 @@ public class PistolProjectile : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
 
     private Rigidbody2D rb;
-    private BoxCollider2D coll;
+    private CircleCollider2D coll;
 
 
 
@@ -24,8 +24,7 @@ public class PistolProjectile : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+    private void OnCollisionEnter2D(Collision2D other) {
         Destroy(gameObject);
     }
 }

@@ -5,10 +5,10 @@ using UnityEngine;
 public class KatPlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private BoxCollider2D collider;
+    private BoxCollider2D coll;
+    private SpriteRenderer sr;
 
-    [SerializeField]
-    public PistolProjectile projectilePrefab;
+    
 
     [SerializeField]
     private Transform groundCheck,
@@ -18,14 +18,21 @@ public class KatPlayerMovement : MonoBehaviour
     [SerializeField]
     private LayerMask groundLayer;
 
-    [SerializeField]
-    private float moveSpeed = 7f;
+    [Header("Projectiles")]
+    public PistolProjectile projectilePrefab;
+    public GrenadeProjectile grenadePrefab;
 
-    [SerializeField]
+    [Header("Movement")]
+    private float moveSpeed = 7f;
     private float jumpForce = 7f;
 
     private float dirX = 0f;
-    private SpriteRenderer sr;
+
+    public enum CollectibleType
+    {
+        Grenade,
+        MedKit
+    }
 
     private enum MovementState
     {
@@ -39,7 +46,7 @@ public class KatPlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        collider = GetComponent<BoxCollider2D>();
+        coll = GetComponent<BoxCollider2D>();
         // anim=GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
     }
@@ -65,45 +72,25 @@ public class KatPlayerMovement : MonoBehaviour
             );
             projectile.transform.localScale = transform.localScale;
         }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            // Throw grenade;
+            GrenadeProjectile grenade = Instantiate(
+                grenadePrefab,
+                projectileSpawnPoint.position,
+                transform.rotation
+            );
+            grenade.transform.localScale = transform.localScale;
+        }
 
-        // Stop animation for a while
-        // UpdateAnimationState();
     }
-
-    // private void UpdateAnimationState()
-    // {
-    //     MovementState currentMovementState = MovementState.idle;
-    //     if (dirX > 0f)
-    //     {
-    //         currentMovementState = MovementState.walking;
-    //         sr.flipX = false;
-    //     }
-    //     else if (dirX < 0f)
-    //     {
-    //         currentMovementState = MovementState.walking;
-    //         sr.flipX = true;
-    //     }
-    //     else
-    //     {
-    //         currentMovementState = MovementState.idle;
-    //     }
-    //     if (rb.velocity.y > 0.0001f)
-    //     {
-    //         currentMovementState = MovementState.jumping;
-    //     }
-    //     else if (rb.velocity.y < -0.0001f)
-    //     {
-    //         currentMovementState = MovementState.falling;
-    //     }
-    //     anim.SetInteger("currentMovementState", (int)currentMovementState);
-    // }
 
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer)
             || Physics2D.BoxCast(
-                collider.bounds.center,
-                collider.bounds.size,
+                GetComponent<Collider>().bounds.center,
+                GetComponent<Collider>().bounds.size,
                 0f,
                 Vector2.down,
                 .1f,
