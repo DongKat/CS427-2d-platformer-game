@@ -1,0 +1,1966 @@
+fileFormatVersion: 2
+guid: 9ff55d7ac7a0ae74abcd4647685cfc1b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 642
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4ba64978d30b4449a2a8d719e88691
+      internalID: 762304059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 642
+        width: 36
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe160cdb812be3641beb32ff16ba817f
+      internalID: 428431255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 641
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6383434214c494abfd5a1c8789ff38
+      internalID: 1565789895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 638
+        width: 38
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5939386a4fd6eb040beb562b1bec2e66
+      internalID: 1179032172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 639
+        width: 37
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae50994d823afd4aaf13a4b53a24146
+      internalID: -779343748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 637
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8840bae80b7eb9443b58458dc507ebb8
+      internalID: -150922605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 674
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bb0c3295c3f5f418c0dad2bc2259ae
+      internalID: 57622758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 674
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541d2874e91bf9544a58f33d7bde5f20
+      internalID: -2065139972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_8
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 674
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded6a996c42ba8949b3e029c602905f1
+      internalID: 499594462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 674
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6e66cf72198734691dea3ae0e6b3c8
+      internalID: 1994025999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 674
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10bcd428e8bf4841a8363a95c083303
+      internalID: 1150737447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 671
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7c2dde864c7ca4db43f4cc11cb72be
+      internalID: 858887990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 657
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadad401d72154947b175223fcc4ab31
+      internalID: -1208600101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 530
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069928d446f193e459221a36c8d56340
+      internalID: 1185846945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 527
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af540b69f74ce840a5f6ea953d2a64a
+      internalID: -193891001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 528
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8762823556471f42a6decc06d07e516
+      internalID: 832727479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 529
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8eb8df2105817408f3adb75ddbeeb5
+      internalID: -983990133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 530
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92800af4013b8f14b854f64a9af7b1fa
+      internalID: 1327242219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_18
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 533
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e1622b845ad7a40857239aed6b9e51
+      internalID: 363032569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 533
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf486bf81fef34fa5a227cd2be7e6f
+      internalID: 1548942494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 531
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a7114c612ca0749b98be652e75de06
+      internalID: -1774413193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_21
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 522
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4ef5614b99d5a49b45a377762687db
+      internalID: 819358176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 408
+        width: 42
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08e9cbb562f4a44f935591aa2b6dcaa
+      internalID: -1834781491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_23
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 499
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256140e0c7a1aa045ac013a1ff1e0f15
+      internalID: 282812608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_24
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 499
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f655dfd67b44f0a48afaf6d18ceddf87
+      internalID: 941800436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_25
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 499
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa82de978e7828c40be8d30094ed31e7
+      internalID: 411740410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_26
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 416
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae3fdc6b873c7441b0d1ba2192250ef
+      internalID: 1929457574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_27
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 414
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d406f420facf2684d9efcee5556157b7
+      internalID: -1544037982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 416
+        width: 39
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af56f542331c63145bf37c8e32da99bd
+      internalID: -215460229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 409
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadbff8ae1b95334d82538eaa5d86f23
+      internalID: 821110161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_30
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 406
+        width: 41
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0cc335b089f1246a40a29770b10f67
+      internalID: 1524817822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 406
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fea1b7e4ccb2a47aacf4bdd68f48a2
+      internalID: -658123238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_32
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 406
+        width: 41
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b417b4a520286943abbd5c043a9c68a
+      internalID: 1159411371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_33
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 432
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13f21e0f74f61847a59f100c19bc2ef
+      internalID: -117489268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_34
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 302
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39114fedd7a0d094088067117e16e0e0
+      internalID: -836667267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 301
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008796d7de594494e8aa5ddfe6848e22
+      internalID: -2087560011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_36
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 302
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4025600aaf15da1489f0b017f34dd2bf
+      internalID: -2040009687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 300
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1496c32e872fcd4da3439e2a4f6fb32
+      internalID: -1545641695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_38
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 293
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb781a4d6d1676c488698cd84f330af9
+      internalID: 418853133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 299
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2d5a4454679be42b902184226ecf53
+      internalID: -646378752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_40
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 297
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a35511abd9aedf4fb9cdd9ba5de0fe7
+      internalID: -798116557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_41
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 305
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc8c63672d46264bb1cae2b6257ba2f
+      internalID: 980803915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_42
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 283
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1914f50b2faba614a8201e14663b023f
+      internalID: -124588877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_43
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 283
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d6ea0415e8f314392898ab3033e477
+      internalID: 1592823717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_44
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 283
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de83543dfb563c04dbf779c6946d614c
+      internalID: 1695946990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_45
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 283
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe10750690934df49bac2d6b21d96973
+      internalID: -633445939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_46
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 283
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be9233d07842db418f1ab9f8bcb0ac7
+      internalID: -791976220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_47
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 280
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dac370bcf0b37641b1bef2162eebda7
+      internalID: 793719173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 190
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218bb1df032c3644682f61ef73702204
+      internalID: -848463437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 185
+        width: 45
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c330c6725b4c504e8e87d48d1a834e7
+      internalID: -1040458103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 186
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d5fe1b3e0d16841998469258e1a19e
+      internalID: 146902578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 186
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65aff55abaa8e443ad300b36560081a
+      internalID: -1119380961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_52
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 186
+        width: 48
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f71aa8bbcfc424e88ac02d90492e64
+      internalID: 1084225710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_53
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 189
+        width: 51
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53d7f792549ed245a3d6759d2e53578
+      internalID: -137699727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_54
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 195
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d14a9ff234f1e4799cb50980b16194
+      internalID: 1650489070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_55
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 229
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7119fa5520459a41b3691b0a7f4d8d4
+      internalID: 1597268221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 86
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e80ccfe6a5b02b4b899529e13dce7c8
+      internalID: 794008432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_57
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 88
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04c7bf8ab6d8194a98db761f4998cd9
+      internalID: 1064174763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_58
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 100
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0586d0a3791e049a653c08c59227b6
+      internalID: 1488911347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_59
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 78
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c154bf956f84b44b9b6a3a11ec99c9
+      internalID: 1841605335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_60
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 83
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affada6a6d31f5942b591a81c1b71907
+      internalID: -1299726990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_61
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 94
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881a047202bfb894182874bc98fe847a
+      internalID: -511467108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_62
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 119
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a802ecc58cfbfd548a9352d032f09f65
+      internalID: -1459234111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_63
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 116
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc92b5367020a0340bbe24b2e820f1c6
+      internalID: -1068631238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_64
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 119
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba705dc5b72b6746a3a6c50c3b10ac2
+      internalID: -1951591293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_65
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 116
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777784ae2d1e0184687d01e146afeaad
+      internalID: 1888008259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_66
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 11
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862b672e8e35e9b46b50d78e3b71e94d
+      internalID: 1406791213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_67
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 9
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a0ace9f24b623499c5c2d3561597ca
+      internalID: -836674931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_68
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 6
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6de78040216eb4aa380aee6cae812f
+      internalID: -1019428922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 41
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a764fca4035e349b3fb2172b25a166
+      internalID: 1821080425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_70
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 36
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73384e1d459fe74b84b1ca9cbe33daf
+      internalID: -1142035215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_71
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 29
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4652837d1a981a04b9479b35a74e2546
+      internalID: -1379303848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_72
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 29
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336394256cb0f914dbddbb738ca1f2a2
+      internalID: -1587715608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_73
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 29
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8156046f7bc021146881c6d1bd10f4f8
+      internalID: -1585952806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 29
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccde924194443043bd3c37452daa550
+      internalID: 1417031539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_75
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 29
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc275602ec5a1be4f8b313ebd76a76cb
+      internalID: 972095571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_76
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 29
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dd1963669f50d449b8b020a8ee879c
+      internalID: 2103191135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_77
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 25
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982964a4263687542966eda7cf4a9669
+      internalID: -1726943591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_78
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e8a819bf5c5f749b66b7be6e9b1d2a
+      internalID: 74090108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_79
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8271af1da1822c243a2d50f40134dc0f
+      internalID: -1785028571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_80
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca95bf3793acba2498ffbd28687e12d5
+      internalID: 547865006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_81
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeca016cc27934d419bba554abf79189
+      internalID: 1791049345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Ragnarok Online - Zombie_82
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 14
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aadf13b80572864a9a1d0cf2bdeeb05
+      internalID: 596054449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Ragnarok Online - Zombie_0: 762304059
+      PC Computer - Ragnarok Online - Zombie_1: 428431255
+      PC Computer - Ragnarok Online - Zombie_10: 1150737447
+      PC Computer - Ragnarok Online - Zombie_11: 858887990
+      PC Computer - Ragnarok Online - Zombie_12: -1208600101
+      PC Computer - Ragnarok Online - Zombie_13: 1185846945
+      PC Computer - Ragnarok Online - Zombie_14: -193891001
+      PC Computer - Ragnarok Online - Zombie_15: 832727479
+      PC Computer - Ragnarok Online - Zombie_16: -983990133
+      PC Computer - Ragnarok Online - Zombie_17: 1327242219
+      PC Computer - Ragnarok Online - Zombie_18: 363032569
+      PC Computer - Ragnarok Online - Zombie_19: 1548942494
+      PC Computer - Ragnarok Online - Zombie_2: 1565789895
+      PC Computer - Ragnarok Online - Zombie_20: -1774413193
+      PC Computer - Ragnarok Online - Zombie_21: 819358176
+      PC Computer - Ragnarok Online - Zombie_22: -1834781491
+      PC Computer - Ragnarok Online - Zombie_23: 282812608
+      PC Computer - Ragnarok Online - Zombie_24: 941800436
+      PC Computer - Ragnarok Online - Zombie_25: 411740410
+      PC Computer - Ragnarok Online - Zombie_26: 1929457574
+      PC Computer - Ragnarok Online - Zombie_27: -1544037982
+      PC Computer - Ragnarok Online - Zombie_28: -215460229
+      PC Computer - Ragnarok Online - Zombie_29: 821110161
+      PC Computer - Ragnarok Online - Zombie_3: 1179032172
+      PC Computer - Ragnarok Online - Zombie_30: 1524817822
+      PC Computer - Ragnarok Online - Zombie_31: -658123238
+      PC Computer - Ragnarok Online - Zombie_32: 1159411371
+      PC Computer - Ragnarok Online - Zombie_33: -117489268
+      PC Computer - Ragnarok Online - Zombie_34: -836667267
+      PC Computer - Ragnarok Online - Zombie_35: -2087560011
+      PC Computer - Ragnarok Online - Zombie_36: -2040009687
+      PC Computer - Ragnarok Online - Zombie_37: -1545641695
+      PC Computer - Ragnarok Online - Zombie_38: 418853133
+      PC Computer - Ragnarok Online - Zombie_39: -646378752
+      PC Computer - Ragnarok Online - Zombie_4: -779343748
+      PC Computer - Ragnarok Online - Zombie_40: -798116557
+      PC Computer - Ragnarok Online - Zombie_41: 980803915
+      PC Computer - Ragnarok Online - Zombie_42: -124588877
+      PC Computer - Ragnarok Online - Zombie_43: 1592823717
+      PC Computer - Ragnarok Online - Zombie_44: 1695946990
+      PC Computer - Ragnarok Online - Zombie_45: -633445939
+      PC Computer - Ragnarok Online - Zombie_46: -791976220
+      PC Computer - Ragnarok Online - Zombie_47: 793719173
+      PC Computer - Ragnarok Online - Zombie_48: -848463437
+      PC Computer - Ragnarok Online - Zombie_49: -1040458103
+      PC Computer - Ragnarok Online - Zombie_5: -150922605
+      PC Computer - Ragnarok Online - Zombie_50: 146902578
+      PC Computer - Ragnarok Online - Zombie_51: -1119380961
+      PC Computer - Ragnarok Online - Zombie_52: 1084225710
+      PC Computer - Ragnarok Online - Zombie_53: -137699727
+      PC Computer - Ragnarok Online - Zombie_54: 1650489070
+      PC Computer - Ragnarok Online - Zombie_55: 1597268221
+      PC Computer - Ragnarok Online - Zombie_56: 794008432
+      PC Computer - Ragnarok Online - Zombie_57: 1064174763
+      PC Computer - Ragnarok Online - Zombie_58: 1488911347
+      PC Computer - Ragnarok Online - Zombie_59: 1841605335
+      PC Computer - Ragnarok Online - Zombie_6: 57622758
+      PC Computer - Ragnarok Online - Zombie_60: -1299726990
+      PC Computer - Ragnarok Online - Zombie_61: -511467108
+      PC Computer - Ragnarok Online - Zombie_62: -1459234111
+      PC Computer - Ragnarok Online - Zombie_63: -1068631238
+      PC Computer - Ragnarok Online - Zombie_64: -1951591293
+      PC Computer - Ragnarok Online - Zombie_65: 1888008259
+      PC Computer - Ragnarok Online - Zombie_66: 1406791213
+      PC Computer - Ragnarok Online - Zombie_67: -836674931
+      PC Computer - Ragnarok Online - Zombie_68: -1019428922
+      PC Computer - Ragnarok Online - Zombie_69: 1821080425
+      PC Computer - Ragnarok Online - Zombie_7: -2065139972
+      PC Computer - Ragnarok Online - Zombie_70: -1142035215
+      PC Computer - Ragnarok Online - Zombie_71: -1379303848
+      PC Computer - Ragnarok Online - Zombie_72: -1587715608
+      PC Computer - Ragnarok Online - Zombie_73: -1585952806
+      PC Computer - Ragnarok Online - Zombie_74: 1417031539
+      PC Computer - Ragnarok Online - Zombie_75: 972095571
+      PC Computer - Ragnarok Online - Zombie_76: 2103191135
+      PC Computer - Ragnarok Online - Zombie_77: -1726943591
+      PC Computer - Ragnarok Online - Zombie_78: 74090108
+      PC Computer - Ragnarok Online - Zombie_79: -1785028571
+      PC Computer - Ragnarok Online - Zombie_8: 499594462
+      PC Computer - Ragnarok Online - Zombie_80: 547865006
+      PC Computer - Ragnarok Online - Zombie_81: 1791049345
+      PC Computer - Ragnarok Online - Zombie_82: 596054449
+      PC Computer - Ragnarok Online - Zombie_9: 1994025999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
