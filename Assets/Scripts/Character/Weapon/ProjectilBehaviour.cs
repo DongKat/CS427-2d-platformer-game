@@ -54,6 +54,10 @@ public class ProjectileBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.gameObject.tag == "enemy")
+        {
+            other.gameObject.GetComponent<enemydeath>().death();
+        }
         Destroy(gameObject);
     }
 }
