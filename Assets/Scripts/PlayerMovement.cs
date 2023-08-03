@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private SpawnManager spawnManager;
     private Rigidbody2D rb;
     private BoxCollider2D coll;
     private Animator anim;
@@ -17,15 +18,19 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        spawnManager = FindObjectOfType<SpawnManager>();
+        
         rb=GetComponent<Rigidbody2D>();
         coll=GetComponent<BoxCollider2D>();
         anim=GetComponent<Animator>();
         sr=GetComponent<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
     private void Update()
     {
+        spawnManager.RespawnPlayer();
         dirX= Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX*moveSpeed, rb.velocity.y);
         if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())

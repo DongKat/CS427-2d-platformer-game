@@ -9,10 +9,12 @@ public class Finish : MonoBehaviour
     [SerializeField] private int indexbuild;
 
     private bool levelCompleted = false;
+    private SceneTransistion sceneTransistion;
 
     private void Start()
     {
         finishSound = GetComponent<AudioSource>();
+        sceneTransistion = FindObjectOfType<SceneTransistion>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +29,7 @@ public class Finish : MonoBehaviour
 
     private void CompleteLevel()
     {
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        sceneTransistion.SaveGameState();
         SceneManager.LoadScene(indexbuild, LoadSceneMode.Single);
     }
 }
