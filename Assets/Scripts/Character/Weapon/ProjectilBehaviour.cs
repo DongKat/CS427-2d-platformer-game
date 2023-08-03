@@ -36,11 +36,11 @@ public class ProjectileBehaviour : MonoBehaviour
         if (isThrown)
         {
             var direction = transform.right + Vector3.up;
-            GetComponenet<Rigidbody2D>().AddForce(direction * throwForce, ForceMode2D.Impulse);
+            GetComponent<Rigidbody2D>().AddForce(direction * throwForce, ForceMode2D.Impulse);
         }
-        transform.translate(launchOffset);
+        transform.Translate(launchOffset);
 
-        Destroy(GameObject, 5);
+        Destroy(gameObject, 5);
     }
 
     // Update is called once per frame
