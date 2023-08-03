@@ -15,7 +15,6 @@ public class enemydeath : MonoBehaviour
     }
     public void death()
     {
-        //enemy_patrol.enabled = false;
         anim.SetTrigger("death");
         foreach (Behaviour component in components)
             component.enabled = false;

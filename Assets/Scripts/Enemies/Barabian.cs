@@ -18,6 +18,7 @@ public class Barabian : MonoBehaviour
     
     [Header("Player parameters")]
     [SerializeField] private LayerMask playerLayer;
+    private Transform player;
 
     private Vector3 initScale;
     private enemyPatrol enemy_patrol;
@@ -40,11 +41,8 @@ public class Barabian : MonoBehaviour
             {
                 cooldown = 0;
                 anim.SetTrigger("attack");
-                //transform.localScale = new Vector3(Mathf.Abs(initScale.x) * moveDir,
-                //    initScale.y, initScale.z);
 
-                transform.position = new Vector3(transform.position.x + Time.deltaTime * speed * initScale.x ,
-                    transform.position.y, transform.position.z);
+                transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
             }
         }
         enemy_patrol.enabled = !playerInSight();
@@ -55,8 +53,10 @@ public class Barabian : MonoBehaviour
             Physics2D.BoxCast(boxCollider.bounds.center + transform.right * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
-        if (hit.collider != null)
+        if (hit.collider != null) {
             anim2 = hit.transform.GetComponent<Animator>();
+            player = hit.transform;
+        }
 
         return hit.collider != null;
     }

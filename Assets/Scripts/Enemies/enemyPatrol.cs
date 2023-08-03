@@ -14,7 +14,7 @@ public class enemyPatrol : MonoBehaviour
     [SerializeField] private Transform enemy;
     [SerializeField] private float speed;
     private Vector3 initScale;
-    private bool moveChange;
+    private bool moveChange = false;
 
     [Header("Idle animation")]
     [SerializeField] private float idleDuration;
