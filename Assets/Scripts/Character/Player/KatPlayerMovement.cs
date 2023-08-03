@@ -24,6 +24,7 @@ public class KatPlayerMovement : MonoBehaviour
     private float moveSpeed = 7f;
     private float jumpForce = 7f;
 
+    private float dirY = 0f;
     private float dirX = 0f;
 
     private bool isLookingUp = false;
