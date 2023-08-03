@@ -9,6 +9,7 @@ public class Barabian : MonoBehaviour
     [Header ("Attack parameters")]
     [SerializeField] private float attcooldown;
     [SerializeField] private float range;
+    [SerializeField] private float speed;
     private float cooldown = Mathf.Infinity;
 
     [Header("Collider parameters")]
@@ -17,7 +18,8 @@ public class Barabian : MonoBehaviour
     
     [Header("Player parameters")]
     [SerializeField] private LayerMask playerLayer;
-    
+
+    private Vector3 initScale;
     private enemyPatrol enemy_patrol;
     private Animator anim;
     private Animator anim2;
@@ -30,6 +32,7 @@ public class Barabian : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        initScale = transform.localScale;
         cooldown += Time.deltaTime;
         if (playerInSight())
         {
@@ -37,8 +40,14 @@ public class Barabian : MonoBehaviour
             {
                 cooldown = 0;
                 anim.SetTrigger("attack");
+                //transform.localScale = new Vector3(Mathf.Abs(initScale.x) * moveDir,
+                //    initScale.y, initScale.z);
+
+                transform.position = new Vector3(transform.position.x + Time.deltaTime * speed * initScale.x ,
+                    transform.position.y, transform.position.z);
             }
         }
+        enemy_patrol.enabled = !playerInSight();
     }
     private bool playerInSight()
     {

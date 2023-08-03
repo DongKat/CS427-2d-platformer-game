@@ -7,6 +7,7 @@ public class enemydeath : MonoBehaviour
     // Start is called before the first frame update
     private enemyPatrol enemy_patrol;
     private Animator anim;
+    [SerializeField] private Behaviour[] components;
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -14,8 +15,10 @@ public class enemydeath : MonoBehaviour
     }
     public void death()
     {
-        enemy_patrol.enabled = false;
+        //enemy_patrol.enabled = false;
         anim.SetTrigger("death");
+        foreach (Behaviour component in components)
+            component.enabled = false;
     }
     private void gone()
     {
