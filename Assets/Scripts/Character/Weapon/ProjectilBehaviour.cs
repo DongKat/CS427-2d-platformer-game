@@ -40,7 +40,6 @@ public class ProjectileBehaviour : MonoBehaviour
         }
         transform.Translate(launchOffset);
 
-        Destroy(gameObject, 5);
     }
 
     // Update is called once per frame
