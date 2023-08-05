@@ -71,8 +71,8 @@ public class Barabian : MonoBehaviour
     {
         if (playerInSight())
         {
-            Debug.Log("killing");
-            anim2.SetTrigger("Slug falling");
+            // Debug.Log("killing");
+            // anim2.SetTrigger("Slug falling");
         }
     }
 }

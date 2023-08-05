@@ -18,12 +18,12 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        spawnManager = FindObjectOfType<SpawnManager>();
+        // spawnManager = FindObjectOfType<SpawnManager>();
         rb=GetComponent<Rigidbody2D>();
         coll=GetComponent<BoxCollider2D>();
         anim=GetComponent<Animator>();
         sr=GetComponent<SpriteRenderer>();
-        spawnManager.RespawnPlayer();
+        // spawnManager.RespawnPlayer();
     }
 
     // Update is called once per frame
