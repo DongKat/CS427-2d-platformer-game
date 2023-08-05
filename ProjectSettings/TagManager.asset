@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Trap-Spike
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -11,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - player
+  - enemy
   - 
   - 
   - 
@@ -38,6 +40,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Theme
+    uniqueID: 1373831063
+    locked: 0
+  - name: Background
+    uniqueID: 981324847
+    locked: 0
+  - name: Back Terrain
+    uniqueID: 2752535433
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 3239151327
+    locked: 0
+  - name: Object
+    uniqueID: 1604253289
+    locked: 0
+  - name: Front Terrain
+    uniqueID: 2497197733
     locked: 0
