@@ -8,6 +8,11 @@ public class KatPlayerMovement : MonoBehaviour
     private BoxCollider2D coll;
     private SpriteRenderer sr;
 
+    [Header("Time shoot")]
+    private float shotTime = 0.0f;
+    public float fireDelta = 0.3f;
+    private float nextFire = 0.2f;
+
     [SerializeField]
     private Transform groundCheck,
         ceilCheck,
@@ -18,7 +23,8 @@ public class KatPlayerMovement : MonoBehaviour
     private LayerMask groundLayer;
 
     [Header("Projectiles")]
-    public ProjectileBehaviour projectilePrefab, grenadePrefab;
+    public ProjectileBehaviour projectilePrefab,
+        grenadePrefab;
 
     [Header("Movement")]
     private float moveSpeed = 7f;
@@ -46,7 +52,6 @@ public class KatPlayerMovement : MonoBehaviour
         jumping,
         falling
     };
-
 
     // Start is called before the first frame update
     private void Start()
@@ -91,7 +96,6 @@ public class KatPlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            
             // Throw grenade;
             ProjectileBehaviour grenade = Instantiate(
                 grenadePrefab,
@@ -101,15 +105,10 @@ public class KatPlayerMovement : MonoBehaviour
             grenade.transform.localScale = transform.localScale;
         }
 
-        UpdateAnimationState();
     }
 
-    private void UpdateAnimationState()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        MovementState currentMovementState = MovementState.idle;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) {
         print("Colliding");
     }
 
@@ -119,6 +118,21 @@ public class KatPlayerMovement : MonoBehaviour
         // {
         //     Destroy(collision.gameObject);
         // }
+    }
+
+    private void Fire()
+    {
+        var shootTime = Time.time + shootDelay;
+        if (Input.GetButtonDown("Fire1"))
+        {
+            if (!isFiring)
+                if (canMelee())
+                {
+                    // Animate sth
+                    if (shootTime > nextFire)
+                        nextFire = shootTime + fireDelta;
+                }
+        }
     }
 
     private bool IsGrounded()
