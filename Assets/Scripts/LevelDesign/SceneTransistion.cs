@@ -46,6 +46,7 @@ public class SceneTransistion : MonoBehaviour
         {
             Transform player = GameObject.FindGameObjectWithTag("Player").transform;
             GameManager.instance.playerPosition = player.position;
+            Debug.Log("SaveState");
 
             // Example: Save enemy states
             // GameObject enemy1 = GameObject.Find("Enemy1");

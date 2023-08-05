@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 713b4cce28536df49be515b86e7b4939
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 980
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4153195677c758748b497122bb2c39e0
+      internalID: 384329240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 980
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322b5cb5071607c44bd917225296d6ca
+      internalID: 872413014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 946
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673d37c9c406a9840959a25c4096c24a
+      internalID: -1598840874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 997
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e783d91d390ce9744a9379bc51a28866
+      internalID: -402890556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 935
+        width: 40
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385cd032255aac34091444a61bc3c5b3
+      internalID: -1556048036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 934
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2504e87c13afa245848ad052d311c42
+      internalID: 863535532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 978
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442f3b3377a885e479707c43bc592052
+      internalID: 1776645563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 980
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac5d0350a76d18419ee88cee26c3ef6
+      internalID: -1769479457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 979
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c4a01245c48994cbcbdf5cf832a6c1
+      internalID: -243814079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 719
+        width: 273
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbc370fc2ff94648b4d68f6691aea40
+      internalID: 360858222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 938
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbcb79bab2b9ce438944ec01b4afe1c
+      internalID: -581480443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 938
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4611cba5b46154cbecb497baf4d28c
+      internalID: 1667586916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 966
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a761666904073940a15c3afa146cbe6
+      internalID: -1967052462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 950
+        width: 134
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe65a9c4abe8394eb7e3554cdf60d2f
+      internalID: -1353556896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 933
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3994c81218b82764790792412d231c77
+      internalID: 1381853447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 921
+        width: 67
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a152d3b6146fb41b1e7b126ebbdb2e
+      internalID: -762897362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 564
+        width: 45
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4614671dd36153f4aaa6d4409cce3e7d
+      internalID: 1113491578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 580
+        width: 297
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627fe37121f406b4486c54577ffc5dc2
+      internalID: -1619056033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 853
+        width: 17
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942850082cfbc74da6184fda8268b85
+      internalID: 556617466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 876
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b71b21178cf5eb4f96a23c0315f44e4
+      internalID: 134824436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 545
+        width: 156
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b75aa5ffdf5dd9419c63d60201abff9
+      internalID: -762540185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 545
+        width: 62
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5921e87f82455419de1cb2513dff15
+      internalID: -2085211843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 507
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90da0c0e63117d418d6f6fc8495e500
+      internalID: -635160323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 507
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d637066f40437f4eb334b847b08d1de
+      internalID: 764946886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 508
+        width: 201
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758e0b766ede31b4a8d8db7afe5175a1
+      internalID: 139677480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 441
+        width: 330
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc64f898ebcd2d847900d5dbf547b7bc
+      internalID: 2054286077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combat-arena-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 381
+        width: 330
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6652a5109e6ba439ad81de4bca6ad4
+      internalID: -216525248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      combat-arena-spritesheet_0: 384329240
+      combat-arena-spritesheet_1: 872413014
+      combat-arena-spritesheet_10: -581480443
+      combat-arena-spritesheet_11: 1667586916
+      combat-arena-spritesheet_12: -1967052462
+      combat-arena-spritesheet_13: -1353556896
+      combat-arena-spritesheet_14: 1381853447
+      combat-arena-spritesheet_15: -762897362
+      combat-arena-spritesheet_16: 1113491578
+      combat-arena-spritesheet_17: -1619056033
+      combat-arena-spritesheet_18: 556617466
+      combat-arena-spritesheet_19: 134824436
+      combat-arena-spritesheet_2: -1598840874
+      combat-arena-spritesheet_20: -808030289
+      combat-arena-spritesheet_21: 2088504403
+      combat-arena-spritesheet_22: 222435776
+      combat-arena-spritesheet_23: -1250515224
+      combat-arena-spritesheet_24: -1637553546
+      combat-arena-spritesheet_25: -762540185
+      combat-arena-spritesheet_26: -2085211843
+      combat-arena-spritesheet_27: -635160323
+      combat-arena-spritesheet_28: 764946886
+      combat-arena-spritesheet_29: 139677480
+      combat-arena-spritesheet_3: -402890556
+      combat-arena-spritesheet_30: 2054286077
+      combat-arena-spritesheet_31: -216525248
+      combat-arena-spritesheet_4: -1556048036
+      combat-arena-spritesheet_5: 863535532
+      combat-arena-spritesheet_6: 1776645563
+      combat-arena-spritesheet_7: -1769479457
+      combat-arena-spritesheet_8: -243814079
+      combat-arena-spritesheet_9: 360858222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

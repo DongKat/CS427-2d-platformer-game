@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     // Example: Variables to store the player's position and other relevant data
     public Vector3 playerPosition;
+    public int lastSpawnPointIndex;
     // public bool enemy1IsDead;
     // public bool enemy2IsDead;
     // ... add more variables as needed
