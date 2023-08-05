@@ -54,7 +54,14 @@ public class stupidcrab : MonoBehaviour
                 anim.SetTrigger("ranged");
             }
         }
-        enemy_patrol.enabled = !playerInSight()  && !playerInSight2();
+        else if (enemy_patrol == null)
+        {
+            anim.SetTrigger("idle");
+        }
+        if (enemy_patrol != null)
+        {
+            enemy_patrol.enabled = !playerInSight() && !playerInSight2();
+        }
     }
     private bool playerInSight()
     {
@@ -106,8 +113,8 @@ public class stupidcrab : MonoBehaviour
     {
         if (playerInSight())
         {
-            Debug.Log("killing");
-            anim2.SetTrigger("Slug falling");
+            //Debug.Log("killing");
+            //anim2.SetTrigger("Slug falling");
         }
     }
 }

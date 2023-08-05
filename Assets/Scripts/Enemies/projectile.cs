@@ -27,6 +27,7 @@ public class projectile : MonoBehaviour
     private float lifetime;
     private bool hit = false;
 
+    private Transform parent;
     private Animator anim;
     private Rigidbody2D rb;
     private BoxCollider2D coll;
@@ -39,8 +40,9 @@ public class projectile : MonoBehaviour
 
         if (isThrown)
         {
-            var direction = transform.right + Vector3.up;
-            GetComponent<Rigidbody2D>().AddForce(direction * throwForce, ForceMode2D.Impulse);
+            transform.localScale = new Vector2(-transform.localScale.x,transform.localScale.y);
+            var direction = new Vector2(-transform.localScale.x, Mathf.Tan(throwAngle*Mathf.PI/180));
+            GetComponent<Rigidbody2D>().AddForce(throwForce * direction, ForceMode2D.Impulse);
         }
         transform.Translate(launchOffset);
 
@@ -62,12 +64,11 @@ public class projectile : MonoBehaviour
     }
     public void _reset()
     {
-        coll.enabled = true;
+        //coll.enabled = true;
         hit = false;
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("project collide");
         hit = true;
         coll.enabled = false;
         if (other.gameObject.tag == "Player") 

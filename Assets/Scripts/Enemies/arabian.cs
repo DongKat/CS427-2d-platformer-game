@@ -37,7 +37,14 @@ public class arabian : MonoBehaviour
                 anim.SetTrigger("attack");
             }  
         }
-        enemy_patrol.enabled = !playerInSight();
+        else if (enemy_patrol == null)
+        {
+            anim.SetTrigger("idle");
+        }
+        if (enemy_patrol != null)
+        {
+            enemy_patrol.enabled = !playerInSight();
+        }
     }
     private bool playerInSight()
     {

@@ -1,26 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class Barabian : MonoBehaviour
+public class fatzombie : MonoBehaviour
 {
-    [Header ("Attack parameters")]
+    [Header("Attack parameters")]
+    [SerializeField] private projectile projectilePrefab;
+    [SerializeField] private Transform projectileSpawnPoint;
     [SerializeField] private float attcooldown;
     [SerializeField] private float range;
-    [SerializeField] private float speed;
     private float cooldown = Mathf.Infinity;
 
     [Header("Collider parameters")]
     [SerializeField] private float colliderDistance;
     [SerializeField] private BoxCollider2D boxCollider;
-    
+
     [Header("Player parameters")]
     [SerializeField] private LayerMask playerLayer;
-    private Transform player;
 
-    private Vector3 initScale;
     private enemyPatrol enemy_patrol;
     private Animator anim;
     private Animator anim2;
@@ -33,16 +30,13 @@ public class Barabian : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        initScale = transform.localScale;
         cooldown += Time.deltaTime;
         if (playerInSight())
         {
-            if (cooldown>=attcooldown)
+            if (cooldown >= attcooldown)
             {
                 cooldown = 0;
                 anim.SetTrigger("attack");
-
-                transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
             }
         }
         else if (enemy_patrol == null)
@@ -60,10 +54,8 @@ public class Barabian : MonoBehaviour
             Physics2D.BoxCast(boxCollider.bounds.center + transform.right * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
-        if (hit.collider != null) {
+        if (hit.collider != null)
             anim2 = hit.transform.GetComponent<Animator>();
-            player = hit.transform;
-        }
 
         return hit.collider != null;
     }
@@ -72,6 +64,17 @@ public class Barabian : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
+    }
+
+    private void fireProjectile()
+    {
+        projectile _projectile = Instantiate(
+                projectilePrefab,
+                projectileSpawnPoint.position,
+                transform.rotation
+            );
+        _projectile.transform.localScale = transform.localScale;
+        _projectile.GetComponent<projectile>()._reset();
     }
 
     private void killPlayer()
