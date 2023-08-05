@@ -13,7 +13,7 @@ public class Wait : MonoBehaviour
     }
 
     IEnumerator wait_for_intro(){
-        yield return new WaitforSeconds(wait_time);
+        yield return new WaitForSeconds(wait_time);
         // load menu screen
         // SceneManager.LoadScence("0")
     }
