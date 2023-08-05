@@ -19,18 +19,16 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         spawnManager = FindObjectOfType<SpawnManager>();
-        
         rb=GetComponent<Rigidbody2D>();
         coll=GetComponent<BoxCollider2D>();
         anim=GetComponent<Animator>();
         sr=GetComponent<SpriteRenderer>();
-        
+        spawnManager.RespawnPlayer();
     }
 
     // Update is called once per frame
     private void Update()
     {
-        spawnManager.RespawnPlayer();
         dirX= Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX*moveSpeed, rb.velocity.y);
         if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
