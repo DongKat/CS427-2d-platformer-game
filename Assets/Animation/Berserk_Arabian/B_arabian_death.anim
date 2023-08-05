@@ -95,9 +95,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 1
-    functionName: 
+    functionName: gone
     data: 
-    objectReferenceParameter: {fileID: -1036605047, guid: a6983d826f14f7043a9bbe4e53539612, type: 3}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
