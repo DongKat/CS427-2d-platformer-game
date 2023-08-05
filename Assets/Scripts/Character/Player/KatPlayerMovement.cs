@@ -9,9 +9,10 @@ public class KatPlayerMovement : MonoBehaviour
     private SpriteRenderer sr;
 
     [Header("Time shoot")]
-    private float shotTime = 0.0f;
+    private float shootTime = 0.0f;
     public float fireDelta = 0.3f;
     private float nextFire = 0.2f;
+    private float shootDelay = 0.5f;
 
     [SerializeField]
     private Transform groundCheck,
@@ -126,12 +127,9 @@ public class KatPlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             if (!isFiring)
-                if (canMelee())
-                {
-                    // Animate sth
-                    if (shootTime > nextFire)
-                        nextFire = shootTime + fireDelta;
-                }
+                // Animate sth
+                if (shootTime > nextFire)
+                    nextFire = shootTime + fireDelta;
         }
     }
 
