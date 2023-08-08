@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3dabac2af237d241bcf63de5d10e89c
+guid: ec69e41f4eabe0649a0a4fb4fc9c272d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_walk_to_idle_anim_5
+      name: spit_projectile_destroyed_0
       rect:
         serializedVersion: 2
-        x: 144
+        x: 90
+        y: 101
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e693710906255f46a5bdc4006f2ba6e
+      internalID: -1068671056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spit_projectile_destroyed_4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 41
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15a13cfb3b46864fbb8a7841cf9e768
+      internalID: -162382971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spit_projectile_destroyed_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 5
+        width: 31
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcb0dc2aa6901442b04ab7b66fdaa4a
+      internalID: -71123188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spit_projectile_destroyed_1
+      rect:
+        serializedVersion: 2
+        x: 204
         y: 0
-        width: 150
-        height: 220
+        width: 27
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,62 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 982a960c78e2d154fb86605cf9789cae
-      internalID: -1829574290
+      spriteID: 7a22a7f9a5d745d45bc280915bcfef79
+      internalID: 319650701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_walk_to_idle_anim_4
+      name: spit_projectile_destroyed_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 144
-        height: 231
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60dff1a1ac0e8ab46b9c11f28a315992
-      internalID: -995461710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss_walk_to_idle_anim_0
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 2
-        width: 141
-        height: 223
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e52e54b063b93146a2635d34e3aafcf
-      internalID: 1153718479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss_walk_to_idle_anim_2
-      rect:
-        serializedVersion: 2
-        x: 558
+        x: 169
         y: 0
-        width: 111
-        height: 226
+        width: 35
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,50 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c152c1e364d5f4d4282635f8b046f126
-      internalID: -1026531285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss_walk_to_idle_anim_3
-      rect:
-        serializedVersion: 2
-        x: 669
-        y: 1
-        width: 100
-        height: 224
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d3308d93b8a427409b8e3743504c41c
-      internalID: 1962557445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss_walk_to_idle_anim_1
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 1
-        width: 123
-        height: 223
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 391a37d6e8f6270408a26b7bf98a3869
-      internalID: 1445250558
+      spriteID: f87a8c51852e0484597d1b7d630af341
+      internalID: 701811316
       vertices: []
       indices: 
       edges: []
@@ -259,12 +238,37 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      boss_walk_to_idle_anim_0: 1153718479
-      boss_walk_to_idle_anim_1: 1445250558
-      boss_walk_to_idle_anim_2: -1026531285
-      boss_walk_to_idle_anim_3: 1962557445
-      boss_walk_to_idle_anim_4: -995461710
-      boss_walk_to_idle_anim_5: -1829574290
+      spit_projectile_destroyed_0: -1068671056
+      spit_projectile_destroyed_1: 319650701
+      spit_projectile_destroyed_2: 701811316
+      spit_projectile_destroyed_3: -71123188
+      spit_projectile_destroyed_4: -162382971
+      spit_projectile_destroyed_anim_1: -899237580
+      spit_projectile_destroyed_anim_10: -105888066
+      spit_projectile_destroyed_anim_11: -143246764
+      spit_projectile_destroyed_anim_12: 783715880
+      spit_projectile_destroyed_anim_13: 1423834903
+      spit_projectile_destroyed_anim_14: -160079589
+      spit_projectile_destroyed_anim_15: 483121224
+      spit_projectile_destroyed_anim_16: 1790184537
+      spit_projectile_destroyed_anim_18: -244563213
+      spit_projectile_destroyed_anim_19: -936119100
+      spit_projectile_destroyed_anim_2: 338899872
+      spit_projectile_destroyed_anim_20: -1012560115
+      spit_projectile_destroyed_anim_21: -1021290515
+      spit_projectile_destroyed_anim_22: 520012036
+      spit_projectile_destroyed_anim_23: -805236596
+      spit_projectile_destroyed_anim_24: -1168340909
+      spit_projectile_destroyed_anim_27: -1062371942
+      spit_projectile_destroyed_anim_28: 1051353148
+      spit_projectile_destroyed_anim_29: 1062314265
+      spit_projectile_destroyed_anim_3: -2130712341
+      spit_projectile_destroyed_anim_30: -419173658
+      spit_projectile_destroyed_anim_5: -2044624595
+      spit_projectile_destroyed_anim_6: -1987152389
+      spit_projectile_destroyed_anim_7: -197536089
+      spit_projectile_destroyed_anim_8: 1025191183
+      spit_projectile_destroyed_anim_9: -321918630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
