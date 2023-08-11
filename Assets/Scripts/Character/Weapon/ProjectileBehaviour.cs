@@ -9,7 +9,7 @@ public class ProjectileBehaviour : MonoBehaviour
     public float moveSpeed = 7f;
     public float SplashRange = 5f;
     public float spinSpeed = 360f;
-    public float damage = 100f;
+    public int damage = 100;
 
     [Header("Projectile launch offset")]
     public Vector3 launchOffset;
@@ -71,7 +71,7 @@ public class ProjectileBehaviour : MonoBehaviour
             {
                 if (nearbyObject.gameObject.tag == "enemy")
                 {
-                    nearbyObject.gameObject.GetComponent<enemydeath>().death();
+                    nearbyObject.gameObject.GetComponent<enemydeath>().takeDamage(damage);
                 }
             }
         }
@@ -80,7 +80,7 @@ public class ProjectileBehaviour : MonoBehaviour
             // Damage enemy
             if (other.gameObject.tag == "enemy")
             {
-                other.gameObject.GetComponent<enemydeath>().death();
+                other.gameObject.GetComponent<enemydeath>().takeDamage(damage);
             }
         }
 

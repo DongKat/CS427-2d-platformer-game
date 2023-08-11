@@ -21,7 +21,7 @@ public class bossprojectile : MonoBehaviour
     private Vector3 launchOffset;
 
     [SerializeField]
-    private float damage = 100f;
+    private int damage;
 
     public bool isThrown = false;
     private float lifetime;
@@ -29,12 +29,14 @@ public class bossprojectile : MonoBehaviour
     private bool unravel = false;
 
     private Transform parent;
+    private GameManager gameManager;
     private Animator anim;
     private Rigidbody2D rb;
     private BoxCollider2D coll;
 
     void Start()
     {
+        gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
@@ -74,12 +76,13 @@ public class bossprojectile : MonoBehaviour
         hit = true;
         if (unravel && other.gameObject.tag == "Player")
         {
-            // death
+            gameManager.takeDamage(damage);
         }
         else if (other.gameObject.tag == "Player")
         {
             coll.enabled = false;
             anim.SetTrigger("explode");
+            gameManager.takeDamage(damage);
             //other.gameObject.GetComponent<>().; // call death of player
         }
         else if(other.gameObject.tag == "ground")

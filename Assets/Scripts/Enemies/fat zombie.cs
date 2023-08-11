@@ -76,13 +76,4 @@ public class fatzombie : MonoBehaviour
         _projectile.transform.localScale = transform.localScale;
         _projectile.GetComponent<projectile>()._reset();
     }
-
-    private void killPlayer()
-    {
-        if (playerInSight())
-        {
-            // Debug.Log("killing");
-            // anim2.SetTrigger("Slug falling");
-        }
-    }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class boss : MonoBehaviour
 {
     [Header("Melee attack parameters")]
+    [SerializeField] private int damage;
     [SerializeField] private float attcooldown;
     [SerializeField] private float range;
     [SerializeField] private float range_y;
@@ -29,10 +30,12 @@ public class boss : MonoBehaviour
     [SerializeField] private Transform player;
 
     private bool walk = true;
+    private GameManager gameManager;
     private Animator anim;
     private Animator anim2;
     void Awake()
     {
+        gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();
     }
 
@@ -131,8 +134,7 @@ public class boss : MonoBehaviour
     {
         if (playerInSight())
         {
-            //Debug.Log("killing");
-            //anim2.SetTrigger("Slug falling");
+            gameManager.takeDamage(damage);
         }
     }
 }

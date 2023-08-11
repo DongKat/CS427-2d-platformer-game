@@ -217,6 +217,7 @@ MonoBehaviour:
   attcooldown: 0
   range: 1.13
   speed: 4
+  damage: 0
   colliderDistance: 1.24
   boxCollider: {fileID: 5911525419796697964}
   playerLayer:
@@ -234,6 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db91a22ed1f87ad4b9162f8ca7905b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  health: 100
   components:
   - {fileID: 0}
   - {fileID: 3607552490045604612}

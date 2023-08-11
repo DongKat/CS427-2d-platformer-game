@@ -7,6 +7,7 @@ public class stupidcrab : MonoBehaviour
     [Header("Melee attack parameters")]
     [SerializeField] private float attcooldown;
     [SerializeField] private float range;
+    [SerializeField] private int damage;
     private float cooldown = Mathf.Infinity;
     [SerializeField] private float colliderDistance;
 
@@ -25,10 +26,12 @@ public class stupidcrab : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
 
     private enemyPatrol enemy_patrol;
+    private GameManager gameManager;
     private Animator anim;
     private Animator anim2;
     void Awake()
     {
+        gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();
     }
@@ -113,8 +116,7 @@ public class stupidcrab : MonoBehaviour
     {
         if (playerInSight())
         {
-            //Debug.Log("killing");
-            //anim2.SetTrigger("Slug falling");
+            gameManager.takeDamage(damage);
         }
     }
 }
