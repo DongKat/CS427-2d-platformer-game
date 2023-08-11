@@ -210,7 +210,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1457990699924957061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1a81840926465148a940ecb6299f56f, type: 3}
+  m_Script: {fileID: 11500000, guid: c33223c2e4a749d45a22e9da0ddd77a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
@@ -219,4 +219,4 @@ MonoBehaviour:
   throwAngle: 0
   launchOffset: {x: 0, y: 0, z: 0}
   damage: 100
-  isThrown: 1
+  isThrown: 0

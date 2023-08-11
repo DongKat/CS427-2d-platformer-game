@@ -9,6 +9,7 @@ public class enemydeath : MonoBehaviour
     private Animator anim;
     [SerializeField] private int score;
     [SerializeField] private int health;
+    private GameManager gameManager;
 
     private bool isDead = false;
 
@@ -17,6 +18,7 @@ public class enemydeath : MonoBehaviour
 
     void Awake()
     {
+        gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();
     }
@@ -44,6 +46,7 @@ public class enemydeath : MonoBehaviour
 
     private void gone()
     {
+        gameManager.addScore(score);
         Destroy(gameObject);
     }
 }

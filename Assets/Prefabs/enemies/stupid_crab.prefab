@@ -248,7 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attcooldown: 0
   range: 0.55
-  damage: 0
+  damage: 100
   colliderDistance: 2.16
   projectilePrefab: {fileID: 8592720912876815403, guid: 5530dde8c044955419e266752ca4edf3, type: 3}
   projectileSpawnPoint: {fileID: 1670527083057535772}
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db91a22ed1f87ad4b9162f8ca7905b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
+  score: 100
   health: 100
   components:
   - {fileID: 0}
