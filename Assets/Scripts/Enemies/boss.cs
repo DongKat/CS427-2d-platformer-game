@@ -45,7 +45,6 @@ public class boss : MonoBehaviour
         {
             cooldown2 = 0;
             walk = false;
-            anim.SetBool("walk", false);
             anim.SetTrigger("ranged");
 
         }
@@ -53,7 +52,6 @@ public class boss : MonoBehaviour
         {
             if (cooldown >= attcooldown)
             {
-                anim.SetBool("walk", false);
                 walk = false;
                 cooldown = 0;
                 anim.SetTrigger("attack");
@@ -61,14 +59,13 @@ public class boss : MonoBehaviour
         }
         else if (playerInSight2() && cooldown2 >= attcooldown2)
         {
-            anim.SetBool("walk", false);
             walk = false;
             cooldown2 = 0;
             anim.SetTrigger("ranged");
         }
         else if(walk)
         {
-            anim.SetBool("walk",true);
+            anim.SetTrigger("walk");
             if(transform.position.x > player.position.x)
             {
                 transform.localScale = new Vector2(-1,transform.localScale.y);

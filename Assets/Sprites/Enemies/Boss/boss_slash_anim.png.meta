@@ -441,7 +441,7 @@ TextureImporter:
       name: boss_slash_anim_8
       rect:
         serializedVersion: 2
-        x: 765
+        x: 763
         y: 0
         width: 228
         height: 182
@@ -584,6 +584,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: boss_slash_anim_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1630
+        width: 186
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4078f25724322ac449302a3e77025a14
+      internalID: 1648114453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_slash_anim_23
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 183
+        width: 165
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693fcbca5db0b334388fff33e54f18db
+      internalID: 150071298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -611,6 +653,7 @@ TextureImporter:
       boss_slash_anim_20: -69395000
       boss_slash_anim_21: -1018551305
       boss_slash_anim_22: -1487035452
+      boss_slash_anim_23: 150071298
       boss_slash_anim_25: -1900602764
       boss_slash_anim_26: 57915277
       boss_slash_anim_27: 260693751
@@ -619,6 +662,7 @@ TextureImporter:
       boss_slash_anim_3: 1065092612
       boss_slash_anim_30: 1188112664
       boss_slash_anim_31: -422015857
+      boss_slash_anim_4: 1648114453
       boss_slash_anim_5: 1318117614
       boss_slash_anim_6: -1851524060
       boss_slash_anim_7: 202884320

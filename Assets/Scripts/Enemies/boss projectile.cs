@@ -85,6 +85,7 @@ public class bossprojectile : MonoBehaviour
         else if(other.gameObject.tag == "ground")
         {
             anim.SetTrigger("unravel");
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
             unravel = true;
         }
     }
