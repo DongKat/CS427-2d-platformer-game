@@ -108,11 +108,7 @@ public class GameManager : MonoBehaviour
 
     public void takeDamage(int damage)
     {
-        healthCount -= damage;
-        if (healthCount <= 0)
-        {
-            healthManager.isDead = true;
-        }
+        healthManager.takeDamage(damage);
     }
 
     public bool isPlayerDead()

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
-    [SerializeField] private int indexbuild;
+    [SerializeField] public int indexbuild;
 
     private bool levelCompleted = false;
     private SceneTransistion sceneTransistion;
