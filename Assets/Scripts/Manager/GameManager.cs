@@ -6,9 +6,27 @@ public class GameManager : MonoBehaviour
 {
     // Singleton instance of the GameManager
     public static GameManager instance;
+
+    // Get the indexbuild to reload scene when player die
+    private static Finish finishPoint;
+
+    private HealthManager healthManager;
+
     // Example: Variables to store the player's position and other relevant data
     public Vector3 playerPosition;
     public int lastSpawnPointIndex;
+
+    [Header("Current Values")]
+    public int coinScore = 0;
+    public int grenadeCount = 0;
+    public int ammoCount = 0;
+
+    [Header("Max Values")]
+    public int maxAmmo = 500;
+    public int maxGrenade = 10;
+
+    
+
     // public bool enemy1IsDead;
     // public bool enemy2IsDead;
     // ... add more variables as needed
@@ -26,4 +44,80 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    private void Start()
+    {
+        healthManager = FindObjectOfType<HealthManager>();
+        finishPoint = FindObjectOfType<Finish>();
+    }
+
+    private void Update()
+    {
+    }
+
+    public void SaveGameState()
+    {
+        // Save the player's position and other relevant data
+        playerPosition = GameObject.Find("Slug").transform.position;
+        lastSpawnPointIndex = finishPoint.indexbuild;
+        // ... add more variables as needed
+    }
+
+    public void LoadGameState()
+    {
+        // Load the player's position and other relevant data
+        GameObject.Find("Slug").transform.position = playerPosition;
+        finishPoint.indexbuild = lastSpawnPointIndex;
+        // ... add more variables as needed
+    }
+
+    public void ResetGameState()
+    {
+        // Reset the player's position and other relevant data
+        playerPosition = Vector3.zero;
+        lastSpawnPointIndex = 0;
+        // ... add more variables as needed
+    }
+
+
+
+    public void addCoin(int coinScore)
+    {
+        coinScore += coinScore;
+    }
+
+    public void addAmmo()
+    {
+        ammoCount++;
+    }
+
+    public void addGrenade()
+    {
+        grenadeCount++;
+    }
+
+    public void addScore(int score)
+    {
+        coinScore += score;
+    }
+
+    public void addHealth()
+    {
+        healthManager.heal();
+    }
+
+    public void takeDamage(int damage)
+    {
+        healthCount -= damage;
+        if (healthCount <= 0)
+        {
+            healthManager.isDead = true;
+        }
+    }
+
+    public bool isPlayerDead()
+    {
+        return healthManager.isDead;
+    }
+    
 }

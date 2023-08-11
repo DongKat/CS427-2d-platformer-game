@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class CollectibleController : MonoBehaviour
 {
-
-    GameManager gameManager;
+    public GameManager gameManager;
     public enum CollectibleType
     {
         Grenade,
@@ -33,7 +32,21 @@ public class CollectibleController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-
+            switch(collectibleType)
+            {
+                case CollectibleType.Grenade:
+                    gameManager.addGrenade();
+                    break;
+                case CollectibleType.AmmoCrate:
+                    gameManager.addAmmo();
+                    break;
+                case CollectibleType.MedKit:
+                    gameManager.addHealth();
+                    break;
+                case CollectibleType.Coin:
+                    gameManager.addCoin(amount);
+                    break;
+            }
             Destroy(gameObject);
         }
     }

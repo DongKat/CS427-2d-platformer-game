@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2234408878791364754}
   - component: {fileID: 1509584715495398255}
   - component: {fileID: 2469125479047989051}
-  - component: {fileID: 6727888570046569661}
   - component: {fileID: 4392496471128501264}
+  - component: {fileID: 6727888570046569661}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -29,12 +29,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5811859845711571642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 62.29, y: -4.05, z: 0}
+  m_LocalPosition: {x: 60.133087, y: -4.2232857, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2234408878791364754
 SpriteRenderer:
@@ -154,20 +154,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.375, y: 1.3125}
   m_EdgeRadius: 0
---- !u!114 &6727888570046569661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5811859845711571642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd6abda5071e264449053e02a3b48c04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectibleType: 0
-  amount: 1
 --- !u!50 &4392496471128501264
 Rigidbody2D:
   serializedVersion: 4
@@ -195,3 +181,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
+--- !u!114 &6727888570046569661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5811859845711571642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6abda5071e264449053e02a3b48c04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  collectibleType: 0
+  amount: 1

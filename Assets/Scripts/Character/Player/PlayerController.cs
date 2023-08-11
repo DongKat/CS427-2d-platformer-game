@@ -9,10 +9,13 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private Animator anim;
 
+    private GameManager GameManager;
+
     // Floats
     private float dirX = 0f;
     private float dirY = 0f;
     private float nextFire = 0f;
+
 
     // Booleans
     // private bool isLookingUp = false;
@@ -30,7 +33,6 @@ public class PlayerController : MonoBehaviour
     private bool isThrowingGrenade = false;
 
     [Header("Time shoot")]
-    public float shootTime = 0.0f;
     public float fireRate = 0.5F;
 
     [Header("Spawn Points")]
@@ -64,6 +66,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (GameManager.isPlayerDead())
+        {
+            anim.SetBool("isDead", true);
+            return;
+        }
+
         // Get input from player
         dirX = Input.GetAxis("Horizontal");
         dirY = Input.GetAxis("Vertical");
@@ -186,6 +194,11 @@ public class PlayerController : MonoBehaviour
                 .AddForce(transform.right * 10f, ForceMode2D.Impulse);
             grenade.transform.localScale = transform.localScale;
         }
+    }
+
+    private void takeDamage(int damage)
+    {
+        GameManager.takeDamage(damage);
     }
 
     private bool IsGrounded()
