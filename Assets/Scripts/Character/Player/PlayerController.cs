@@ -66,11 +66,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (GameManager.isPlayerDead())
-        {
-            anim.SetBool("isDead", true);
-            return;
-        }
+        //if (GameManager.isPlayerDead())
+        //{
+        //    anim.SetBool("isDead", true);
+        //    return;
+        //}
 
         // Get input from player
         dirX = Input.GetAxis("Horizontal");
