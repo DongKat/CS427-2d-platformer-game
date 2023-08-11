@@ -151,8 +151,8 @@ TextureImporter:
         y: 990
         width: 205
         height: 185
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,8 +172,8 @@ TextureImporter:
         y: 579
         width: 214
         height: 185
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,8 +193,8 @@ TextureImporter:
         y: 396
         width: 218
         height: 185
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,8 +235,8 @@ TextureImporter:
         y: 184
         width: 218
         height: 209
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,7 +273,7 @@ TextureImporter:
       name: boss_slash_anim_19
       rect:
         serializedVersion: 2
-        x: 676
+        x: 681
         y: 368
         width: 158
         height: 187
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_slash_anim_17
+      name: boss_slash_anim_16
       rect:
         serializedVersion: 2
         x: 1277
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_slash_anim_16
+      name: boss_slash_anim_15
       rect:
         serializedVersion: 2
         x: 1443
@@ -354,7 +354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_slash_anim_15
+      name: boss_slash_anim_17
       rect:
         serializedVersion: 2
         x: 1605
@@ -403,8 +403,8 @@ TextureImporter:
         y: 0
         width: 258
         height: 183
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.3, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -424,8 +424,8 @@ TextureImporter:
         y: 0
         width: 248
         height: 182
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.35, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -445,8 +445,8 @@ TextureImporter:
         y: 0
         width: 228
         height: 182
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -466,8 +466,8 @@ TextureImporter:
         y: 0
         width: 210
         height: 180
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -602,29 +602,28 @@ TextureImporter:
       boss_slash_anim_12: 1645980342
       boss_slash_anim_13: 1151544924
       boss_slash_anim_14: 35745159
-      boss_slash_anim_15: 1564972928
-      boss_slash_anim_16: -866256458
-      boss_slash_anim_17: 151544014
-      boss_slash_anim_18: -1976774470
-      boss_slash_anim_19: -65660082
-      boss_slash_anim_2: -294983601
-      boss_slash_anim_20: -776124163
-      boss_slash_anim_21: -69395000
-      boss_slash_anim_22: -1018551305
-      boss_slash_anim_25: -1487035452
-      boss_slash_anim_26: -1900602764
-      boss_slash_anim_27: 57915277
-      boss_slash_anim_28: 260693751
-      boss_slash_anim_29: -1791694041
-      boss_slash_anim_3: -995657445
-      boss_slash_anim_30: 1065092612
-      boss_slash_anim_31: 1188112664
-      boss_slash_anim_4: -1674039938
-      boss_slash_anim_5: -422015857
-      boss_slash_anim_6: 1318117614
-      boss_slash_anim_7: -1851524060
-      boss_slash_anim_8: 202884320
-      boss_slash_anim_9: -699517871
+      boss_slash_anim_15: -866256458
+      boss_slash_anim_16: 151544014
+      boss_slash_anim_17: 1564972928
+      boss_slash_anim_18: -65660082
+      boss_slash_anim_19: -294983601
+      boss_slash_anim_2: -776124163
+      boss_slash_anim_20: -69395000
+      boss_slash_anim_21: -1018551305
+      boss_slash_anim_22: -1487035452
+      boss_slash_anim_25: -1900602764
+      boss_slash_anim_26: 57915277
+      boss_slash_anim_27: 260693751
+      boss_slash_anim_28: -1791694041
+      boss_slash_anim_29: -995657445
+      boss_slash_anim_3: 1065092612
+      boss_slash_anim_30: 1188112664
+      boss_slash_anim_31: -422015857
+      boss_slash_anim_5: 1318117614
+      boss_slash_anim_6: -1851524060
+      boss_slash_anim_7: 202884320
+      boss_slash_anim_8: -699517871
+      boss_slash_anim_9: -866256458
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

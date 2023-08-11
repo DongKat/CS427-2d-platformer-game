@@ -127,9 +127,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 723
-        y: 3
+        y: 0
         width: 151
-        height: 146
+        height: 149
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,9 +168,9 @@ TextureImporter:
       name: boss_death_2
       rect:
         serializedVersion: 2
-        x: 161
+        x: 158
         y: 0
-        width: 150
+        width: 153
         height: 199
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -189,9 +189,9 @@ TextureImporter:
       name: boss_death_3
       rect:
         serializedVersion: 2
-        x: 318
+        x: 313
         y: 0
-        width: 130
+        width: 135
         height: 182
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -214,8 +214,8 @@ TextureImporter:
         y: 0
         width: 151
         height: 160
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,9 +232,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 599
-        y: 2
-        width: 119
-        height: 162
+        y: 0
+        width: 122
+        height: 164
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
