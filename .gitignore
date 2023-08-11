@@ -34,3 +34,4 @@ sysinfo.txt
 *.apk
 *.symbols.zip
 /Game/*
+*.meta

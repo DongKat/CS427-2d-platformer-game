@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CollectibleController : MonoBehaviour
 {
+
+    GameManager gameManager;
     public enum CollectibleType
     {
         Grenade,
@@ -12,13 +14,17 @@ public class CollectibleController : MonoBehaviour
         Coin
     };
 
+    [SerializeField]
     public CollectibleType collectibleType;
 
+    [SerializeField]
     public int amount = 1;
 
 
     // Start is called before the first frame update
-    void Start() { }
+    void Start() {
+        
+    }
 
     // Update is called once per frame
     void Update() { }
@@ -27,6 +33,7 @@ public class CollectibleController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+
             Destroy(gameObject);
         }
     }
