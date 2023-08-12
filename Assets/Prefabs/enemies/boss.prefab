@@ -101,7 +101,7 @@ Animator:
   m_GameObject: {fileID: 5431704067725882501}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 327e96e8b25ef24449c5f373da43bebf, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8d28b626545bd664a9a95f11a087429e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7110da3dc367b4495a6010c7012ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 10
   attcooldown: 0
   range: 0.75
   range_y: 0.31

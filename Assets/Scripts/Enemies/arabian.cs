@@ -23,7 +23,7 @@ public class arabian : MonoBehaviour
     private Animator anim2;
     void Awake()
     {
-        gameManager = FindAnyObjectByType<GameManager>();
+        gameManager = GameManager.instance;
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();
     }
