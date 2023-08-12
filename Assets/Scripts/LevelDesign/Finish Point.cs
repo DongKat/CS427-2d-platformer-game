@@ -19,7 +19,7 @@ public class Finish : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Slug" && !levelCompleted)
+        if (collision.gameObject.tag == "Player" && !levelCompleted)
         {
             // finishSound.Play();
             levelCompleted = true;
@@ -29,7 +29,6 @@ public class Finish : MonoBehaviour
 
     private void CompleteLevel()
     {
-        sceneTransistion.SaveGameState();
         SceneManager.LoadScene(indexbuild, LoadSceneMode.Single);
     }
 }
