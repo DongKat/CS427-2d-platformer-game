@@ -135,7 +135,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &6366320663164867079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -193,6 +193,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6abda5071e264449053e02a3b48c04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
   collectibleType: 3
   amount: 500

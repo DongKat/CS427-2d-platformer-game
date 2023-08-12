@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,8 +11,6 @@ public class GameManager : MonoBehaviour
     // Get the indexbuild to reload scene when player die
     private static Finish finishPoint;
 
-    private HealthManager healthManager;
-
     // Example: Variables to store the player's position and other relevant data
     public Vector3 playerPosition;
     public int lastSpawnPointIndex;
@@ -20,10 +19,12 @@ public class GameManager : MonoBehaviour
     public int coinScore = 0;
     public int grenadeCount = 0;
     public int ammoCount = 0;
+    public int healthCount = 100;
 
     [Header("Max Values")]
     public int maxAmmo = 500;
     public int maxGrenade = 10;
+    public int maxHealth = 100;
 
     
 
@@ -47,7 +48,6 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        healthManager = FindObjectOfType<HealthManager>();
         finishPoint = FindObjectOfType<Finish>();
     }
 
@@ -88,12 +88,12 @@ public class GameManager : MonoBehaviour
 
     public void addAmmo()
     {
-        ammoCount++;
+        ammoCount = maxAmmo;
     }
 
     public void addGrenade()
     {
-        grenadeCount++;
+        grenadeCount = maxGrenade;
     }
 
     public void addScore(int score)
@@ -103,17 +103,17 @@ public class GameManager : MonoBehaviour
 
     public void addHealth()
     {
-        healthManager.heal();
+        healthCount = maxHealth;
     }
 
     public void takeDamage(int damage)
     {
-        healthManager.takeDamage(damage);
+        healthCount -= damage;
     }
 
     public bool isPlayerDead()
     {
-        return healthManager.isDead;
+        return healthCount <= 0;
     }
     
 }
