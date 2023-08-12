@@ -38,6 +38,7 @@ public class enemydeath : MonoBehaviour
         else
             return;
         anim.SetTrigger("death");
+        gameManager.addScore(score);
         foreach (Behaviour component in components)
         {
             component.enabled = false;
@@ -46,7 +47,6 @@ public class enemydeath : MonoBehaviour
 
     private void gone()
     {
-        gameManager.addScore(score);
         Destroy(gameObject);
     }
 }
