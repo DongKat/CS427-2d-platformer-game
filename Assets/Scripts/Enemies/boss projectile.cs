@@ -76,7 +76,7 @@ public class bossprojectile : MonoBehaviour
         hit = true;
         if (unravel && other.gameObject.tag == "Player")
         {
-            gameManager.takeDamage(damage);
+            //gameManager.takeDamage(damage);
         }
         else if (other.gameObject.tag == "Player")
         {

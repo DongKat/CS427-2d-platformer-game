@@ -218,5 +218,5 @@ MonoBehaviour:
   throwForce: 10
   throwAngle: 20
   launchOffset: {x: 0, y: 0, z: 0}
-  damage: 100
+  damage: 10
   isThrown: 1

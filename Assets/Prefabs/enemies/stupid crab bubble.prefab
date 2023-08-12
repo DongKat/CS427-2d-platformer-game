@@ -127,7 +127,7 @@ MonoBehaviour:
   throwForce: 10
   throwAngle: 45
   launchOffset: {x: 0, y: 0, z: 0}
-  damage: 100
+  damage: 10
   isThrown: 0
 --- !u!50 &3421639994484637682
 Rigidbody2D:
