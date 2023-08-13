@@ -36,7 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4977530693310816232
 SpriteRenderer:
@@ -215,10 +215,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attcooldown: 0
-  range: 1.13
+  range: 0.42
   speed: 4
-  damage: 100
-  colliderDistance: 1.24
+  damage: 5
+  colliderDistance: 0.98
   boxCollider: {fileID: 5911525419796697964}
   playerLayer:
     serializedVersion: 2

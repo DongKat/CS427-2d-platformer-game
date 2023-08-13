@@ -68,7 +68,7 @@ Transform:
   m_Children:
   - {fileID: 1670527083057535772}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2053122383293759756
 SpriteRenderer:
@@ -247,9 +247,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attcooldown: 0
-  range: 0.55
-  damage: 100
-  colliderDistance: 2.16
+  range: 0.57
+  damage: 5
+  colliderDistance: 1.51
   projectilePrefab: {fileID: 8592720912876815403, guid: 5530dde8c044955419e266752ca4edf3, type: 3}
   projectileSpawnPoint: {fileID: 1670527083057535772}
   colliderDistance2: 5.82
