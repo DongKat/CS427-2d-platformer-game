@@ -7,6 +7,10 @@ public class enemydeath : MonoBehaviour
     // Start is called before the first frame update
     private enemyPatrol enemy_patrol;
     private Animator anim;
+    [SerializeField] private int score;
+    [SerializeField] private int health;
+    private GameManager gameManager;
+
     private bool isDead = false;
 
     [SerializeField]
@@ -14,17 +18,27 @@ public class enemydeath : MonoBehaviour
 
     void Awake()
     {
+        gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();
     }
+    public void takeDamage(int dmg)
+    {
+        health -= dmg;
+        if (health <= 0)
+        {
+            death();
+        }
+    }
 
-    public void death()
+    private void death()
     {
         if (!isDead)
             isDead = true;
         else
             return;
         anim.SetTrigger("death");
+        gameManager.addScore(score);
         foreach (Behaviour component in components)
         {
             component.enabled = false;

@@ -10,6 +10,7 @@ public class Barabian : MonoBehaviour
     [SerializeField] private float attcooldown;
     [SerializeField] private float range;
     [SerializeField] private float speed;
+    [SerializeField] private int damage;
     private float cooldown = Mathf.Infinity;
 
     [Header("Collider parameters")]
@@ -21,11 +22,13 @@ public class Barabian : MonoBehaviour
     private Transform player;
 
     private Vector3 initScale;
+    private GameManager gameManager;
     private enemyPatrol enemy_patrol;
     private Animator anim;
     private Animator anim2;
     void Awake()
     {
+        gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();
     }
@@ -78,8 +81,7 @@ public class Barabian : MonoBehaviour
     {
         if (playerInSight())
         {
-            // Debug.Log("killing");
-            // anim2.SetTrigger("Slug falling");
+            gameManager.takeDamage(damage);
         }
     }
 }

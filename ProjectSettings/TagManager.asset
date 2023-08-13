@@ -7,6 +7,7 @@ TagManager:
   - Trap-Spike
   - enemy
   - Bullet
+  - ground
   layers:
   - Default
   - TransparentFX

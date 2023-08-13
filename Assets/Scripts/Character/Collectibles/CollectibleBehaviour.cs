@@ -5,7 +5,8 @@ using UnityEngine;
 public class CollectibleController : MonoBehaviour
 {
 
-    GameManager gameManager;
+    private GameManager gameManager;
+
     public enum CollectibleType
     {
         Grenade,
@@ -23,7 +24,7 @@ public class CollectibleController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
-        
+       gameManager = GameManager.instance;
     }
 
     // Update is called once per frame
@@ -33,7 +34,25 @@ public class CollectibleController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-
+            switch(collectibleType)
+            {
+                case CollectibleType.Grenade:
+                    gameManager.addGrenade();
+                    // GameManager.Instance.addGrenade();
+                    break;
+                case CollectibleType.AmmoCrate:
+                    gameManager.addAmmo();
+                    // GameManager.Instance.addAmmo();
+                    break;
+                case CollectibleType.MedKit:
+                    gameManager.addHealth();
+                    // GameManager.Instance.addHealth();
+                    break;
+                case CollectibleType.Coin:
+                    gameManager.addCoin(amount);
+                    // GameManager.Instance.addCoin(amount);
+                    break;
+            }
             Destroy(gameObject);
         }
     }

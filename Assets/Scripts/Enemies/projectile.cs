@@ -21,12 +21,13 @@ public class projectile : MonoBehaviour
     private Vector3 launchOffset;
 
     [SerializeField]
-    private float damage = 100f;
+    private int damage;
 
     public bool isThrown = false;
     private float lifetime;
     private bool hit = false;
 
+    private GameManager gameManager;
     private Transform parent;
     private Animator anim;
     private Rigidbody2D rb;
@@ -34,6 +35,7 @@ public class projectile : MonoBehaviour
 
     void Start()
     {
+        gameManager = GameManager.instance;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
@@ -74,6 +76,7 @@ public class projectile : MonoBehaviour
         if (other.gameObject.tag == "Player") 
         {
             anim.SetTrigger("explode");
+            gameManager.takeDamage(damage);
             //other.gameObject.GetComponent<>().; // call death of player
         }
     }

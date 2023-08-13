@@ -7,6 +7,7 @@ public class arabian : MonoBehaviour
     [Header("Attack parameters")]
     [SerializeField] private float attcooldown;
     [SerializeField] private float range;
+    [SerializeField] private int damage;
     private float cooldown = Mathf.Infinity;
 
     [Header("Collider parameters")]
@@ -17,10 +18,12 @@ public class arabian : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
 
     private enemyPatrol enemy_patrol;
+    private GameManager gameManager;
     private Animator anim;
     private Animator anim2;
     void Awake()
     {
+        gameManager = GameManager.instance;
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();
     }
@@ -68,8 +71,7 @@ public class arabian : MonoBehaviour
     {
         if (playerInSight())
         {
-            // Debug.Log("killing");
-            // anim2.SetTrigger("Slug falling");
+            gameManager.takeDamage(damage);
         }
     }
 }

@@ -36,7 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &485179155143846016
 SpriteRenderer:
@@ -216,6 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attcooldown: 0
   range: 0.96
+  damage: 5
   colliderDistance: 1.81
   boxCollider: {fileID: 6983240750778750024}
   playerLayer:
@@ -233,6 +234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db91a22ed1f87ad4b9162f8ca7905b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
+  health: 100
   components:
   - {fileID: 8341400196116153375}
   - {fileID: 0}

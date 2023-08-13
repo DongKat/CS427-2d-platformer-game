@@ -16,7 +16,7 @@ public class MenuScript : MonoBehaviour
     // }
     public void newGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
     public void go2Menu()
     {

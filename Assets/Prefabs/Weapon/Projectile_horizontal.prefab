@@ -101,8 +101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 20
   SplashRange: 5
+  spinSpeed: 360
   damage: 100
-  launchOffset: {x: 0.5, y: 0, z: 0}
+  launchOffset: {x: 0, y: 0, z: 0}
   isThrownable: 0
   explosionEffect: {fileID: 0}
 --- !u!61 &7558835986134032711

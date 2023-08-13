@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     private float dirY = 0f;
     private float nextFire = 0f;
 
+
     // Booleans
     // private bool isLookingUp = false;
     // private bool isLookingDown = false;
@@ -33,7 +34,6 @@ public class PlayerController : MonoBehaviour
     private bool isDead = false;
 
     [Header("Time shoot")]
-    public float shootTime = 0.0f;
     public float fireRate = 0.5F;
 
     [Header("Spawn Points")]
@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trap-Spike")
         {
-            anim.SetBool("isDead", true);
+            isDead = true;
         }
     }
 
@@ -218,6 +218,11 @@ public class PlayerController : MonoBehaviour
         {
             isDead = true;
         }
+    }
+
+    private void takeDamage(int damage)
+    {
+        GameManager.takeDamage(damage);
     }
 
     private bool IsGrounded()
