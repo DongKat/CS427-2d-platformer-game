@@ -96,16 +96,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2736682563928684493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bbf09db60eb16b41b4d257418a6957c, type: 3}
+  m_Script: {fileID: 11500000, guid: 51c35c6ee5e9f234f99dd53059f7f646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 1.32
   SplashRange: 5
   spinSpeed: 360
   damage: 100
   launchOffset: {x: 0, y: 0, z: 0}
   isThrownable: 1
-  explosionEffect: {fileID: 2758014688177724178, guid: e97968ee527454042840b6a127c412a3, type: 3}
+  explosionEffect: {fileID: 2758014688177724178, guid: 82666307605cf8b47bbafb19f65bb542, type: 3}
 --- !u!61 &5510611246458381439
 BoxCollider2D:
   m_ObjectHideFlags: 0
