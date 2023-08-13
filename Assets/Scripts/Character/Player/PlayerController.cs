@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     private float dirY = 0f;
     private float nextFire = 0f;
 
-
     // Booleans
     // private bool isLookingUp = false;
     // private bool isLookingDown = false;
@@ -70,7 +69,11 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trap-Spike")
         {
-            isDead = true;
+            if (!isDead)
+            {
+                Debug.Log("Player hit spike");
+                takeDamage(100);
+            }
         }
     }
 
@@ -108,7 +111,6 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Jump") && IsGrounded())
             {
                 // Jump
-                Debug.Log("Jump");
                 isJumping = true;
                 isFalling = false;
                 Jump();
@@ -147,8 +149,12 @@ public class PlayerController : MonoBehaviour
             {
                 isThrowingGrenade = false;
             }
+            UpdateAnimationState();
         }
-        UpdateAnimationState();
+        else
+        {
+            // Disable input when dead
+        }
     }
 
     private void UpdateAnimationState()
@@ -166,11 +172,12 @@ public class PlayerController : MonoBehaviour
         // anim.SetBool("isCrouching", isCrouching);
         // anim.SetBool("isLookingUp", isLookingUp);
         // anim.SetBool("isLookingDown", isLookingDown);
-        
-        anim.SetBool("isDead", isDead);
     }
 
-
+    private void playDeath()
+    {
+        anim.Play("Death_2");
+    }
 
     private void Jump()
     {
@@ -216,13 +223,9 @@ public class PlayerController : MonoBehaviour
         gameManager.takeDamage(damage);
         if (gameManager.isPlayerDead())
         {
-            isDead = true;
+            playDeath();
+            gameManager.gameOver();
         }
-    }
-
-    private void takeDamage(int damage)
-    {
-        GameManager.takeDamage(damage);
     }
 
     private bool IsGrounded()

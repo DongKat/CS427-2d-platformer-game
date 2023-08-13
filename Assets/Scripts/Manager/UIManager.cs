@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI bombs;
     public TextMeshProUGUI ammoText;
 
+    public TextMeshProUGUI gameOverPanel;
+
     void Awake()
     {
         if (instance == null)
@@ -84,6 +86,16 @@ public class UIManager : MonoBehaviour
 
         //Refresh the score
         instance.ammoText.SetText("oo");
+    }
+
+    public static void ShowGameOverPanel()
+    {
+        //If there is no current UIManager, exit
+        if (instance == null)
+            return;
+
+        //Show the game over panel
+        instance.gameOverPanel.gameObject.SetActive(true);
     }
 
 

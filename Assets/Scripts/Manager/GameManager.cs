@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -63,19 +65,34 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (isPlayerDead())
-        {
-            
-        }
+    }
+
+    public void gameOver()
+    {
+        ResetLevel();
+        UIManager.ShowGameOverPanel();
     }
 
     
-    public void ResetGameState()
+    public void ResetLevel()
     {
-        // Reset the player's position and other relevant data
+        // Reset player's position
         playerPosition = Vector3.zero;
-        lastSpawnPointIndex = 0;
-        // ... add more variables as needed
+
+        // Reset player's values
+        coinScore = 0;
+        grenadeCount = 10;
+        ammoCount = 0;
+        healthCount = 100;
+
+        // Reset UI
+        UIManager.UpdateAmmoUI();
+        UIManager.UpdateBombsUI();
+        UIManager.UpdateScoreUI();
+        UIManager.UpdateHealthUI();
+
+        // Load scene again
+        SceneManager.LoadScene(finishPoint.currentIndexBuild);
     }
 
     public void addCoin(int score)
@@ -119,7 +136,7 @@ public class GameManager : MonoBehaviour
     public void throwGrenade()
     {
         grenadeCount--;
-        // UIManager.UpdateBombsUI();
+        UIManager.UpdateBombsUI();
     }
 
     public int getAmmo()
