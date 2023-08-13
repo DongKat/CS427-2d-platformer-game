@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4140604981274143545
 MonoBehaviour:
@@ -55,10 +55,10 @@ MonoBehaviour:
   levelStart: {fileID: 0}
   levelComplete: {fileID: 0}
   okayClip: {fileID: 0}
-  menuSound: {fileID: 0}
-  selectSound: {fileID: 0}
-  musicGroup: {fileID: 0}
-  effectGroup: {fileID: 0}
-  enemyGroup: {fileID: 0}
-  playerGroup: {fileID: 0}
-  voiceGroup: {fileID: 0}
+  menuSound: {fileID: 8300000, guid: 6d3103633d6e544418b8b079d896da29, type: 3}
+  selectSound: {fileID: 8300000, guid: 18be25f19e123db4bbd6715dfac26502, type: 3}
+  musicGroup: {fileID: 4818164736406736341, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
+  effectGroup: {fileID: -8323488521272399063, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
+  enemyGroup: {fileID: -7558209919773159180, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
+  playerGroup: {fileID: -3671558793306375175, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
+  voiceGroup: {fileID: -3095085304745410117, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}

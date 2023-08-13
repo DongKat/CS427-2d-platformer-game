@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3980353370136711566
 MonoBehaviour:
@@ -53,5 +53,5 @@ MonoBehaviour:
   maxAmmo: 500
   maxGrenade: 10
   maxHealth: 100
-  bgmVolume: 5
-  sfxVolume: 5
+  bgmVolume: 0.5
+  sfxVolume: 0.5

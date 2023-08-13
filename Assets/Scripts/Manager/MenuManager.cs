@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
 
     [Header("Menu Groups")]
     public GameObject start;
-    public GameObject choose;
+    public GameObject menu;
     public GameObject settings;
 
     [Header("Settings")]
@@ -66,14 +66,14 @@ public class MenuManager : MonoBehaviour
 
         if (currentMenu == settings)
         {
-            choose.gameObject.SetActive(true);
+            menu.gameObject.SetActive(true);
         }
     }
 
     // Start is called before the first frame update
     public void PressStart()
     {
-        choose.gameObject.SetActive(true);
+        menu.gameObject.SetActive(true);
         start.gameObject.SetActive(false);
         StopCoroutine("blinkStart");
 
@@ -97,7 +97,7 @@ public class MenuManager : MonoBehaviour
     {
         RefreshAudioText();
         settings.gameObject.SetActive(true);
-        choose.gameObject.SetActive(false);
+        menu.gameObject.SetActive(false);
         currentMenu = settings;
 
         //Set the clip for effect audio
