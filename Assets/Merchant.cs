@@ -2,42 +2,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class Merchant : MonoBehaviour
 {    
     public GameObject dialougePanel;
-    public Text dialougeText;
+    public TextMeshProUGUI dialougeText;
     public string[] dialouge;
     private int index;
 
+    public bool playersisClose;
+    public float WordSpeed=0.06f;
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E) && playersisClose)
         {
-            if(dialougePanel.activeInHierarchy)
+            if(index==0)
             {
-                zeroText();
+                dialougePanel.SetActive(true);
+                StartCoroutine(Type());
+                index++;
+            }
+            else if(index < dialouge.Length)
+            {
+                dialougeText.text = "";
+                StartCoroutine(Type());
+                index++;
             }
             else
             {
-                dialougePanel.SetActive(true);
-                dialougeText.text = dialouge[index];
+                zeroText();
             }
         }
     }
-    private onTriggerEnter2D(Collider2D other)
+    IEnumerator Type()
     {
-        if(other.CompareTag("Player"))
+        foreach(char letter in dialouge[index].ToCharArray())
         {
-            // dialougePanel.SetActive(true);
-            // dialougeText.text = dialouge[index];
+            dialougeText.text += letter;
+            yield return new WaitForSeconds(WordSpeed);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
             playersisClose = true;
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if(other.gameObject.tag == "Player")
         {
-            // dialougePanel.SetActive(false);
             playersisClose = false;
             zeroText();
         }
@@ -45,8 +60,8 @@ public class Merchant : MonoBehaviour
 
     public void zeroText()
     {
-        dialougeText.text=""
-        index=0
+        dialougeText.text="";
+        index=0;
         dialougePanel.SetActive(false);
     }
 }
