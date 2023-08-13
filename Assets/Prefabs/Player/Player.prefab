@@ -99,7 +99,7 @@ Transform:
   - {fileID: 5321083470869894705}
   - {fileID: 9115038532734730220}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3945065033030579789
 SpriteRenderer:
@@ -165,7 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697d252d7a1329c4696e350037cc3ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootTime: 0
   fireRate: 0.2
   projectileSpawnPoint: {fileID: 4516770991931429811}
   grenadeSpawnPoint: {fileID: 5321083470869894705}

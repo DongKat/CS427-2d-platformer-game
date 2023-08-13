@@ -18,7 +18,7 @@ public class CollectibleController : MonoBehaviour
     public CollectibleType collectibleType;
 
     [SerializeField]
-    public int amount = 1;
+    public int amount;
 
 
     // Start is called before the first frame update

@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private Animator anim;
 
+    private static GameManager gameManager;
+
     // Floats
     private float dirX = 0f;
     private float dirY = 0f;
@@ -28,6 +30,7 @@ public class PlayerController : MonoBehaviour
 
     // private bool isMelee = false;
     private bool isThrowingGrenade = false;
+    private bool isDead = false;
 
     [Header("Time shoot")]
     public float shootTime = 0.0f;
@@ -59,78 +62,91 @@ public class PlayerController : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+
+        gameManager = GameManager.instance;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Trap-Spike")
+        {
+            anim.SetBool("isDead", true);
+        }
     }
 
     // Update is called once per frame
     private void Update()
     {
-        // Get input from player
-        dirX = Input.GetAxis("Horizontal");
-        dirY = Input.GetAxis("Vertical");
+        if (!isDead)
+        {
+            // Get input from player
+            dirX = Input.GetAxis("Horizontal");
+            dirY = Input.GetAxis("Vertical");
 
-        // Move (horizontal)
-        if (dirX > 0f)
-        {
-            // Moving right
-            rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-            isWalking = true;
-        }
-        else if (dirX < 0f)
-        {
-            // Moving left
-            rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-            isWalking = true;
-        }
-        else
-        {
-            // Idle
-            rb.velocity = new Vector2(0, rb.velocity.y);
-            isWalking = false;
-        }
+            // Move (horizontal)
+            if (dirX > 0f)
+            {
+                // Moving right
+                rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+                isWalking = true;
+            }
+            else if (dirX < 0f)
+            {
+                // Moving left
+                rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+                isWalking = true;
+            }
+            else
+            {
+                // Idle
+                rb.velocity = new Vector2(0, rb.velocity.y);
+                isWalking = false;
+            }
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
-        {
-            // Jump
-            Debug.Log("Jump");
-            isJumping = true;
-            isFalling = false;
-            Jump();
-        }
-        if (rb.velocity.y < 0)
-        {
-            // Falling
-            // Debug.Log("Velocity < 0");
-            isJumping = false;
-            isFalling = true;
-        }
-        else
-        {
-            // Debug.Log("Velocity > 0");
-            isFalling = false;
-        }
+            if (Input.GetButtonDown("Jump") && IsGrounded())
+            {
+                // Jump
+                Debug.Log("Jump");
+                isJumping = true;
+                isFalling = false;
+                Jump();
+            }
+            if (rb.velocity.y < 0)
+            {
+                // Falling
+                // Debug.Log("Velocity < 0");
+                isJumping = false;
+                isFalling = true;
+            }
+            else
+            {
+                // Debug.Log("Velocity > 0");
+                isFalling = false;
+            }
 
-        // Shoot
-        if (Input.GetButtonDown("Fire1"))
-        {
-            isFiring = true;
-            Fire();
-        }
-        else
-        {
-            isFiring = false;
-        }
+            // Shoot
+            if (Input.GetButtonDown("Fire1"))
+            {
+                isFiring = true;
+                Fire();
+            }
+            else
+            {
+                isFiring = false;
+            }
 
-        // Throw grenade;
-        if (Input.GetButtonDown("Fire2"))
-        {
-            isThrowingGrenade = true;
-            ThrowGrenade();
-        }
-        else
-        {
-            isThrowingGrenade = false;
+            // Throw grenade;
+            if (Input.GetButtonDown("Fire2") && gameManager.grenadeCount > 0)
+            {
+                isThrowingGrenade = true;
+                ThrowGrenade();
+            }
+            else
+            {
+                isThrowingGrenade = false;
+            }
         }
         UpdateAnimationState();
     }
@@ -150,7 +166,11 @@ public class PlayerController : MonoBehaviour
         // anim.SetBool("isCrouching", isCrouching);
         // anim.SetBool("isLookingUp", isLookingUp);
         // anim.SetBool("isLookingDown", isLookingDown);
+        
+        anim.SetBool("isDead", isDead);
     }
+
+
 
     private void Jump()
     {
@@ -185,6 +205,18 @@ public class PlayerController : MonoBehaviour
                 .GetComponent<Rigidbody2D>()
                 .AddForce(transform.right * 10f, ForceMode2D.Impulse);
             grenade.transform.localScale = transform.localScale;
+
+            // Reduce grenade count
+            gameManager.throwGrenade();
+        }
+    }
+
+    private void takeDamage(int damage)
+    {
+        gameManager.takeDamage(damage);
+        if (gameManager.isPlayerDead())
+        {
+            isDead = true;
         }
     }
 

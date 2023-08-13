@@ -52,7 +52,7 @@ public class ProjectileBehaviour : MonoBehaviour
         // get object tag
         var tag = other.gameObject.tag;
 
-        Debug.Log("Projectile hit " + tag + " with name " + name);
+        // Debug.Log("Projectile hit " + tag + " with name " + name);
 
         if (isThrownable)
         {
