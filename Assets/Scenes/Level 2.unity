@@ -224,7 +224,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28375203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56.73, y: -16.44, z: 0}
+  m_LocalPosition: {x: 58.42, y: -16.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -292,10 +292,10 @@ MonoBehaviour:
   dialougePanel: {fileID: 437585674}
   dialougeText: {fileID: 47774479}
   dialouge:
-  - 'Oh One Who Grips, finally you have arrived. So the prophecy is true. '
-  - 'Pontiff Sulyvahn hasn''t left his room since The Great Corruption. '
-  - 'You can find him across the room but beware not to fall down to the ground deep
-    below filled with monsters. '
+  - Oh One Who Grips, finally you have arrived. So the prophecy is true.
+  - Pontiff Sulyvahn hasn't left his room since The Great Corruption.
+  - You can find him across the room but beware not to fall down to the ground deep
+    below filled with monsters.
   - Here, tale a look at my wares and equip yourself for the fight.
   button: {fileID: 229390336}
   haveSpoken: 0
@@ -368,7 +368,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3900, y: 470}
+  m_SizeDelta: {x: 3800, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47774479
 MonoBehaviour:
@@ -390,9 +390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: There are many monsters out there waiting to be slayed,The One Who Grips.This
-    old man can give you blessings to do so and need nothing but their Essence in
-    return.
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a7bf3942aebb79341addf26612c8ea3b, type: 2}
   m_sharedMaterial: {fileID: 21947761065530480, guid: a7bf3942aebb79341addf26612c8ea3b, type: 2}
@@ -401,8 +399,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280418284
-  m_fontColor: {r: 0.92634165, g: 1, b: 0.12893075, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1957,7 +1955,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -0.000030517578, y: 189}
-  m_SizeDelta: {x: 4173.9688, y: 584.544}
+  m_SizeDelta: {x: 4000, y: 584.544}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &437585676
 MonoBehaviour:
@@ -1972,7 +1970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.7490196}
+  m_Color: {r: 0.48863363, g: 0.47516906, b: 0.5377358, a: 0.7490196}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2182,7 +2180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.092924, y: -2.3236198, z: -10}
+  m_LocalPosition: {x: -10.280258, y: -2.3236198, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9616,11 +9614,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 89862438138603909, guid: 430b4ff92c92daa478aa73fa9c1b1088, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.23
+      value: -16.96
       objectReference: {fileID: 0}
     - target: {fileID: 89862438138603909, guid: 430b4ff92c92daa478aa73fa9c1b1088, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.1
+      value: -5.39
       objectReference: {fileID: 0}
     - target: {fileID: 89862438138603909, guid: 430b4ff92c92daa478aa73fa9c1b1088, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10142,11 +10140,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 329892000973665042, guid: eec828c90c0c27646bc8d492944c3e1b, type: 3}
       propertyPath: indexbuild
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 329892000973665042, guid: eec828c90c0c27646bc8d492944c3e1b, type: 3}
       propertyPath: currentIndexBuild
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2498071094186698089, guid: eec828c90c0c27646bc8d492944c3e1b, type: 3}
       propertyPath: m_RootOrder
@@ -10620,11 +10618,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3421357269301272836, guid: 8a3c809402ece4b4fbd22c834010a670, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.23
+      value: -16.96
       objectReference: {fileID: 0}
     - target: {fileID: 3421357269301272836, guid: 8a3c809402ece4b4fbd22c834010a670, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.1
+      value: -5.39
       objectReference: {fileID: 0}
     - target: {fileID: 3421357269301272836, guid: 8a3c809402ece4b4fbd22c834010a670, type: 3}
       propertyPath: m_LocalPosition.z

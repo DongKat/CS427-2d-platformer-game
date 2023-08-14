@@ -29,6 +29,7 @@ public class Merchant : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.E) && playersisClose && !haveSpoken)
         {
+            gameManager.isShopping = true;
             if(index==0)
             {
                 dialougePanel.SetActive(true);
@@ -43,6 +44,7 @@ public class Merchant : MonoBehaviour
             }
             else
             {
+                gameManager.isShopping = false;
                 zeroText();
             }
         }

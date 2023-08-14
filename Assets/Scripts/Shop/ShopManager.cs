@@ -63,6 +63,7 @@ public class ShopManager : MonoBehaviour
             GameManager.instance.money -= bombCost;
             
             GameManager.instance.addGrenade();
+            AudioManager.PlayMedKitGrab();
             Debug.Log("Bought Bomb");
         }
         else
@@ -77,6 +78,7 @@ public class ShopManager : MonoBehaviour
         {
             GameManager.instance.money -= potionCost;
             GameManager.instance.addHealth();
+            AudioManager.PlayMedKitGrab();
             Debug.Log("Bought Potion");
         }
         else

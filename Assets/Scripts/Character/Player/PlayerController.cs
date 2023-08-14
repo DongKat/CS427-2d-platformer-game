@@ -84,7 +84,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        // Game Manager listener
         checkEnd();
+        checkShopping();
+
         if (isShopping || isVictory || isDead)
             return;
         else
@@ -198,6 +201,7 @@ public class PlayerController : MonoBehaviour
         if (gameManager.isPlayerShopping())
         {
             isShopping = true;
+            AudioManager.PlayOkayVoice();
         }
         else
         {

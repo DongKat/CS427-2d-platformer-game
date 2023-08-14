@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     public Vector3 playerPosition;
     public int lastSpawnPointIndex = 0;
 
-    private bool isShopping = false;
+    public bool isShopping = false;
 
 
     [Header("Current Values")]
@@ -262,14 +262,12 @@ public class GameManager : MonoBehaviour
     {
         UIManager.ShowShopPanel();
         instance.isShopping = true;
-        player.isShopping = true;
     }
 
     public void closeShop()
     {
         UIManager.HideShopPanel();
         instance.isShopping = false;
-        player.isShopping = false;
     }
 
     public void moneyUpdate()
