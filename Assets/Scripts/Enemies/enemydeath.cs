@@ -47,6 +47,7 @@ public class enemydeath : MonoBehaviour
 
     private void gone()
     {
+        Destroy(enemy_patrol.gameObject);
         Destroy(gameObject);
     }
 }

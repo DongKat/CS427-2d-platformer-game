@@ -9,13 +9,12 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private Animator anim;
 
-    private GameManager GameManager;
+    private static GameManager gameManager;
 
     // Floats
     private float dirX = 0f;
     private float dirY = 0f;
     private float nextFire = 0f;
-
 
     // Booleans
     // private bool isLookingUp = false;
@@ -31,6 +30,10 @@ public class PlayerController : MonoBehaviour
 
     // private bool isMelee = false;
     private bool isThrowingGrenade = false;
+
+    public bool isDead = false;
+    public bool isVictory = false;
+    public bool isShopping = false;
 
     [Header("Time shoot")]
     public float fireRate = 0.5F;
@@ -62,86 +65,97 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
 
+        gameManager = GameManager.instance;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Trap-Spike")
+        {
+            if (!isDead)
+            {
+                Debug.Log("Player hit spike");
+                takeDamage(100);
+            }
+        }
     }
 
     // Update is called once per frame
     private void Update()
     {
-        //if (GameManager.isPlayerDead())
-        //{
-        //    anim.SetBool("isDead", true);
-        //    return;
-        //}
-
-        // Get input from player
-        dirX = Input.GetAxis("Horizontal");
-        dirY = Input.GetAxis("Vertical");
-
-        // Move (horizontal)
-        if (dirX > 0f)
-        {
-            // Moving right
-            rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-            isWalking = true;
-        }
-        else if (dirX < 0f)
-        {
-            // Moving left
-            rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-            isWalking = true;
-        }
+        if (isShopping || isVictory || isDead)
+            return;
         else
         {
-            // Idle
-            rb.velocity = new Vector2(0, rb.velocity.y);
-            isWalking = false;
-        }
+            // Get input from player
+            dirX = Input.GetAxis("Horizontal");
+            dirY = Input.GetAxis("Vertical");
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
-        {
-            // Jump
-            Debug.Log("Jump");
-            isJumping = true;
-            isFalling = false;
-            Jump();
-        }
-        if (rb.velocity.y < 0)
-        {
-            // Falling
-            // Debug.Log("Velocity < 0");
-            isJumping = false;
-            isFalling = true;
-        }
-        else
-        {
-            // Debug.Log("Velocity > 0");
-            isFalling = false;
-        }
+            // Move (horizontal)
+            if (dirX > 0f)
+            {
+                // Moving right
+                rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+                isWalking = true;
+            }
+            else if (dirX < 0f)
+            {
+                // Moving left
+                rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+                isWalking = true;
+            }
+            else
+            {
+                // Idle
+                rb.velocity = new Vector2(0, rb.velocity.y);
+                isWalking = false;
+            }
 
-        // Shoot
-        if (Input.GetButtonDown("Fire1"))
-        {
-            isFiring = true;
-            Fire();
-        }
-        else
-        {
-            isFiring = false;
-        }
+            if (Input.GetButtonDown("Jump") && IsGrounded())
+            {
+                // Jump
+                isJumping = true;
+                isFalling = false;
+                Jump();
+            }
+            if (rb.velocity.y < 0)
+            {
+                // Falling
+                // Debug.Log("Velocity < 0");
+                isJumping = false;
+                isFalling = true;
+            }
+            else
+            {
+                // Debug.Log("Velocity > 0");
+                isFalling = false;
+            }
 
-        // Throw grenade;
-        if (Input.GetButtonDown("Fire2"))
-        {
-            isThrowingGrenade = true;
-            ThrowGrenade();
+            // Shoot
+            if (Input.GetButtonDown("Fire1"))
+            {
+                isFiring = true;
+                Fire();
+            }
+            else
+            {
+                isFiring = false;
+            }
+
+            // Throw grenade;
+            if (Input.GetButtonDown("Fire2") && gameManager.grenadeCount > 0)
+            {
+                isThrowingGrenade = true;
+                ThrowGrenade();
+            }
+            else
+            {
+                isThrowingGrenade = false;
+            }
+            UpdateAnimationState();
         }
-        else
-        {
-            isThrowingGrenade = false;
-        }
-        UpdateAnimationState();
     }
 
     private void UpdateAnimationState()
@@ -161,6 +175,19 @@ public class PlayerController : MonoBehaviour
         // anim.SetBool("isLookingDown", isLookingDown);
     }
 
+    private void playDeath()
+    {
+        anim.Play("Death_2");
+        AudioManager.PlayDeathAudio();
+    }
+
+    private void playVictory()
+    {
+        isVictory = true;
+        anim.SetBool("isVictory", isVictory);
+        AudioManager.PlayLevelCompleteAudio();
+    }
+
     private void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
@@ -178,6 +205,7 @@ public class PlayerController : MonoBehaviour
             );
             projectile.transform.localScale = transform.localScale;
         }
+        AudioManager.PlayNormalShotAudio();
     }
 
     private void ThrowGrenade()
@@ -194,12 +222,20 @@ public class PlayerController : MonoBehaviour
                 .GetComponent<Rigidbody2D>()
                 .AddForce(transform.right * 10f, ForceMode2D.Impulse);
             grenade.transform.localScale = transform.localScale;
+
+            // Reduce grenade count
+            gameManager.throwGrenade();
         }
     }
 
     private void takeDamage(int damage)
     {
-        GameManager.takeDamage(damage);
+        gameManager.takeDamage(damage);
+        if (gameManager.isPlayerDead())
+        {
+            playDeath();
+            gameManager.gameOver();
+        }
     }
 
     private bool IsGrounded()

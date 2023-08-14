@@ -19,7 +19,7 @@ public class CollectibleController : MonoBehaviour
     public CollectibleType collectibleType;
 
     [SerializeField]
-    public int amount = 1;
+    public int amount;
 
 
     // Start is called before the first frame update
@@ -38,18 +38,22 @@ public class CollectibleController : MonoBehaviour
             {
                 case CollectibleType.Grenade:
                     gameManager.addGrenade();
+                    AudioManager.PlayAmmoGrab();
                     // GameManager.Instance.addGrenade();
                     break;
                 case CollectibleType.AmmoCrate:
                     gameManager.addAmmo();
+                    AudioManager.PlayAmmoGrab();
                     // GameManager.Instance.addAmmo();
                     break;
                 case CollectibleType.MedKit:
                     gameManager.addHealth();
+                    AudioManager.PlayMedKitGrab();
                     // GameManager.Instance.addHealth();
                     break;
                 case CollectibleType.Coin:
                     gameManager.addCoin(amount);
+                    AudioManager.PlayMedKitGrab();
                     // GameManager.Instance.addCoin(amount);
                     break;
             }

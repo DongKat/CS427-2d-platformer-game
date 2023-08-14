@@ -7,6 +7,7 @@ public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
     [SerializeField] public int indexbuild;
+    [SerializeField] public int currentIndexBuild;
 
     private bool levelCompleted = false;
     private SceneTransistion sceneTransistion;

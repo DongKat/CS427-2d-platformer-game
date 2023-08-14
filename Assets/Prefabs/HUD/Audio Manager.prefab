@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4140604981274143550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4140604981274143544}
+  - component: {fileID: 4140604981274143545}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140604981274143544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140604981274143550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8055719, y: 0.05947599, z: 0.0087890625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4140604981274143545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140604981274143550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de49682b3fda2b640bb24cc47ed84471, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClip: {fileID: 8300000, guid: d2387b6ca301213468b110314b944239, type: 3}
+  gameOverClip: {fileID: 8300000, guid: 2242ab9cc159a904aaa59359d3f2994d, type: 3}
+  marcoDeathClip: {fileID: 8300000, guid: db970ec1960251b4ab339514113120bc, type: 3}
+  normalShotClip: {fileID: 8300000, guid: 6577de7998dc27d4ab52a4ec16a70577, type: 3}
+  shotHitClip: {fileID: 8300000, guid: 498f31d57280901468afc2f156f25c0d, type: 3}
+  grenadeHitClip: {fileID: 8300000, guid: 1b3c1fed7f60a7146a9e3818a151b8fa, type: 3}
+  collectibleGrabClip: {fileID: 8300000, guid: 3cc730794a3ba2a4f9e950c71e03ff3b, type: 3}
+  grenadeGrabClip: {fileID: 8300000, guid: 8a79f04e8af641e449f7e860318cac62, type: 3}
+  levelStart: {fileID: 0}
+  levelComplete: {fileID: 8300000, guid: d2ccc36f36cadb142900ea9e7e2e7512, type: 3}
+  okayClip: {fileID: 8300000, guid: 5221a0cb32a584944a2a45e3bbc78831, type: 3}
+  menuSound: {fileID: 0}
+  selectSound: {fileID: 0}
+  musicGroup: {fileID: 4818164736406736341, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  effectGroup: {fileID: -8323488521272399063, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  enemyGroup: {fileID: -7558209919773159180, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  playerGroup: {fileID: -3671558793306375175, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  voiceGroup: {fileID: -3095085304745410117, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}

@@ -52,12 +52,13 @@ public class ProjectileBehaviour : MonoBehaviour
         // get object tag
         var tag = other.gameObject.tag;
 
-        Debug.Log("Projectile hit " + tag + " with name " + name);
+        // Debug.Log("Projectile hit " + tag + " with name " + name);
 
         if (isThrownable)
         {
             // Create explosion effect
             GameObject explosion = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            AudioManager.PlayGrenadeHitAudio();
             Destroy(explosion, 0.2f);
             Destroy(gameObject);
 
