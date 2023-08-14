@@ -15,7 +15,7 @@ public class StickyPlatform : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Slug")
+        if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "enemy")
         {
             collision.gameObject.transform.SetParent(null);
         }
