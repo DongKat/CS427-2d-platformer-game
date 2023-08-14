@@ -21,7 +21,7 @@ public class fatzombie : MonoBehaviour
     private enemyPatrol enemy_patrol;
     private Animator anim;
     private Animator anim2;
-    void Awake()
+    void Start()
     {
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();

@@ -112,6 +112,8 @@ public class AudioManager : MonoBehaviour
 
     public static void PlayDeathAudio()
     {
+
+        Debug.Log("PlayDeathAudio");
         //If there is no instance AudioManager, exit
         if (instance == null)
             return;

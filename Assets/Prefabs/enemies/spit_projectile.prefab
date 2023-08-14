@@ -213,9 +213,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6aa098288ac1c947aa4801966b96fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 10
   SplashRange: 0
-  throwForce: 10
+  throwForce: 50
   throwAngle: 0
   launchOffset: {x: 0, y: 0, z: 0}
   normalDamage: 10

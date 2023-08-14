@@ -905,9 +905,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4140604981274143545, guid: d6d359737218e9544ac24a56de1a38ea, type: 3}
+      propertyPath: menuSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d8f1854f55187924ea180008676de5bb, type: 3}
+    - target: {fileID: 4140604981274143545, guid: d6d359737218e9544ac24a56de1a38ea, type: 3}
       propertyPath: musicClip
       value: 
       objectReference: {fileID: 8300000, guid: d8f1854f55187924ea180008676de5bb, type: 3}
+    - target: {fileID: 4140604981274143545, guid: d6d359737218e9544ac24a56de1a38ea, type: 3}
+      propertyPath: selectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ee3989e975b02b143ade86bf2d9db4c6, type: 3}
     - target: {fileID: 4140604981274143550, guid: d6d359737218e9544ac24a56de1a38ea, type: 3}
       propertyPath: m_Name
       value: Audio Manager

@@ -19,6 +19,8 @@ public class boss : MonoBehaviour
     [SerializeField] private float colliderDistance2;
     [SerializeField] private float attcooldown2;
     [SerializeField] private float range2;
+    [SerializeField] private float range_y2;
+
     private float cooldown2 = Mathf.Infinity;
 
     [Header("collider parameters")]
@@ -33,7 +35,7 @@ public class boss : MonoBehaviour
     private GameManager gameManager;
     private Animator anim;
     private Animator anim2;
-    void Awake()
+    void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();
@@ -96,7 +98,7 @@ public class boss : MonoBehaviour
     {
         RaycastHit2D hit =
             Physics2D.BoxCast(boxCollider.bounds.center + transform.right * transform.localScale.x * colliderDistance2,
-            new Vector3(boxCollider.bounds.size.x * range2, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
+            new Vector3(boxCollider.bounds.size.x * range2, boxCollider.bounds.size.y * range_y2, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
         if (hit.collider != null)
         {
@@ -113,7 +115,7 @@ public class boss : MonoBehaviour
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * transform.localScale.x * colliderDistance2,
-            new Vector3(boxCollider.bounds.size.x * range2, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
+            new Vector3(boxCollider.bounds.size.x * range2, boxCollider.bounds.size.y * range_y2, boxCollider.bounds.size.z));
     }
 
     private void fireProjectile()

@@ -81,7 +81,6 @@ public class MenuManager : MonoBehaviour
         AudioManager.PlayMenuSelect();
 
         //Set the clip for music audio, tell it to loop, and then tell it to play
-        AudioManager.PlayMenuBGM();
     }
 
     public void PressStartGame()

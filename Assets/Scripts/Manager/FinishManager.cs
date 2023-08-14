@@ -11,6 +11,8 @@ public class FinishManager : MonoBehaviour
     
     private GameManager gameManager;
 
+    private bool isComplete = false;
+
     private void Start()
     {
         gameManager = GameManager.instance;
@@ -18,8 +20,9 @@ public class FinishManager : MonoBehaviour
 
     private void Update()
     {
-        if (Bossussy.GetComponent<enemydeath>().isDead)
+        if (Bossussy.GetComponent<enemydeath>().isDead && !isComplete)
         {
+            isComplete = true;
             gameManager.gameComplete();
         }
     }

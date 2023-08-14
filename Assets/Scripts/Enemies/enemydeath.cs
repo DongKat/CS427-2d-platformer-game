@@ -9,18 +9,20 @@ public class enemydeath : MonoBehaviour
     private Animator anim;
     [SerializeField] private int score;
     [SerializeField] private int health;
-    private GameManager gameManager;
+    public GameManager gameManager;
 
     public bool isDead = false;
 
     [SerializeField]
     private Behaviour[] components;
 
-    void Awake()
+    void Start()
     {
         gameManager = GameManager.instance;
+        if (gameManager == null)
+            Debug.Log("no game manager");
         anim = GetComponent<Animator>();
-        enemy_patrol = GetComponentInParent<enemyPatrol>();
+        enemy_patrol = GetComponentInParent<enemyPatrol>();   
     }
     public void takeDamage(int dmg)
     {
@@ -38,6 +40,7 @@ public class enemydeath : MonoBehaviour
         else
             return;
         anim.SetTrigger("death");
+        Debug.Log("enemy died");
         gameManager.addScore(score);
         foreach (Behaviour component in components)
         {
@@ -47,7 +50,9 @@ public class enemydeath : MonoBehaviour
 
     private void gone()
     {
-        Destroy(enemy_patrol.gameObject);
+        
+        if (enemy_patrol != null)
+            Destroy(enemy_patrol.gameObject);
         Destroy(gameObject);
     }
 }

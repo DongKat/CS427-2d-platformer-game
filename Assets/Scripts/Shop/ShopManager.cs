@@ -61,6 +61,7 @@ public class ShopManager : MonoBehaviour
         if (playerMoney >= bombCost)
         {
             GameManager.instance.money -= bombCost;
+            
             GameManager.instance.addGrenade();
             Debug.Log("Bought Bomb");
         }

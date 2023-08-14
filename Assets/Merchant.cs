@@ -11,15 +11,24 @@ public class Merchant : MonoBehaviour
     private int index;
     public GameObject button;
 
+    private GameManager gameManager;
+
+    public bool haveSpoken = false;
+
     public bool playersisClose;
     public float WordSpeed=0.06f;
+
+    void Start()
+    {
+        gameManager = GameManager.instance;
+
+    }
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playersisClose)
+
+        if(Input.GetKeyDown(KeyCode.E) && playersisClose && !haveSpoken)
         {
-            // Call GameManager to open shop
-
-
             if(index==0)
             {
                 dialougePanel.SetActive(true);
@@ -37,6 +46,19 @@ public class Merchant : MonoBehaviour
                 zeroText();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            // Call GameManager to open shop
+            if (playersisClose && haveSpoken)
+            {
+                if (!gameManager.isPlayerShopping())
+                    gameManager.openShop();
+                else
+                    gameManager.closeShop();
+            }
+        }
+
     }
     IEnumerator Type()
     {
@@ -71,6 +93,7 @@ public class Merchant : MonoBehaviour
 
     public void zeroText()
     {
+        haveSpoken = true;
         dialougeText.text="";
         index=0;
         dialougePanel.SetActive(false);

@@ -100,7 +100,7 @@ public class UIManager : MonoBehaviour
             return;
 
         //Refresh the score
-        instance.coinText.SetText(gameManager.coinScore.ToString());
+        instance.coinText.SetText(gameManager.money.ToString());
     }
 
     public static void ShowGameOverPanel()

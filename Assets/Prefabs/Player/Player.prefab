@@ -141,7 +141,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1604253289
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -762313026, guid: bdf9ee5496652f646a72544e22bca46e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -165,13 +165,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697d252d7a1329c4696e350037cc3ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDead: 0
+  isVictory: 0
+  isShopping: 0
   fireRate: 0.2
   projectileSpawnPoint: {fileID: 4516770991931429811}
   grenadeSpawnPoint: {fileID: 5321083470869894705}
   groundCheck: {fileID: 9115038532734730220}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 576
   projectilePrefab: {fileID: 6659802351010113676, guid: 7653b3358b523b841ad0927814e48df0, type: 3}
   grenadePrefab: {fileID: 837453329666368000, guid: 067db22fa9d658d418cdd439b130f32a, type: 3}
   moveSpeed: 7

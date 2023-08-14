@@ -26,7 +26,7 @@ public class Barabian : MonoBehaviour
     private enemyPatrol enemy_patrol;
     private Animator anim;
     private Animator anim2;
-    void Awake()
+    void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();

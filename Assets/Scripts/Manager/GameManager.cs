@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     private static UIManager uiManager;
     private static AudioManager audioManager;
 
+    public PlayerController player;
+
     private bool isGameOver = false;
 
 
@@ -60,6 +62,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         finishPoint = FindObjectOfType<Finish>();
+        player = FindObjectOfType<PlayerController>();
         
         uiManager = UIManager.instance;
 
@@ -77,12 +80,17 @@ public class GameManager : MonoBehaviour
             grenadeCount = maxGrenade;
             healthCount = maxHealth;
         }
+
+        moneyUpdate();
     }
+
 
     public void gameOver()
     {
         // When player died
         isGameOver = true;
+
+        // player.playDeath();
 
         UIManager.ShowGameOverPanel();
         AudioManager.PlayGameOverAudio();
@@ -94,6 +102,8 @@ public class GameManager : MonoBehaviour
     {
         // When player reach finish point
         isGameOver = true;
+
+        // player.playVictory();
 
         UIManager.ShowGameCompletePanel();
         AudioManager.PlayLevelCompleteAudio();
@@ -128,7 +138,8 @@ public class GameManager : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        SceneManager.LoadScene(finishPoint.currentIndexBuild);
+        // Hard code to load end scene
+        SceneManager.LoadScene(4);
     }
 
     public void addCoin(int score)
@@ -167,14 +178,31 @@ public class GameManager : MonoBehaviour
 
     public void takeDamage(int damage)
     {
+        if (isPlayerDead())
+            return;
         healthCount -= damage;
+
         UIManager.UpdateHealthUI();
+
+        if (healthCount <= 0)
+        {
+            gameOver();
+        }
+
     }
 
     public void takeDamage(float damage)
     {
+        if (isPlayerDead())
+            return;
         healthCount -= damage;
         UIManager.UpdateHealthUI();
+
+        if (healthCount <= 0)
+        {
+            gameOver();
+        }
+
     }
 
 
@@ -217,7 +245,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator WaitReturnToMenu()
     {
         yield return new WaitForSecondsRealtime(10f);
-        
+        ReturnToMenu();
     }
 
     public bool isPlayerShopping()
@@ -230,15 +258,22 @@ public class GameManager : MonoBehaviour
         return isGameOver;
     }
 
-    private static void openShop()
+    public void openShop()
     {
         UIManager.ShowShopPanel();
         instance.isShopping = true;
+        player.isShopping = true;
     }
 
-    private static void closeShop()
+    public void closeShop()
     {
         UIManager.HideShopPanel();
         instance.isShopping = false;
+        player.isShopping = false;
+    }
+
+    public void moneyUpdate()
+    {
+        UIManager.UpdateCoinUI();
     }
 }

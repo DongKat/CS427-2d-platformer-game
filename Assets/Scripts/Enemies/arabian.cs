@@ -21,7 +21,7 @@ public class arabian : MonoBehaviour
     private GameManager gameManager;
     private Animator anim;
     private Animator anim2;
-    void Awake()
+    void Start()
     {
         gameManager = GameManager.instance;
         anim = GetComponent<Animator>();

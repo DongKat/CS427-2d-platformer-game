@@ -29,7 +29,7 @@ public class stupidcrab : MonoBehaviour
     private GameManager gameManager;
     private Animator anim;
     private Animator anim2;
-    void Awake()
+    void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
         anim = GetComponent<Animator>();

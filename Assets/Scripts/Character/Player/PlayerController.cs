@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 7f;
     public float jumpForce = 7f;
 
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -83,8 +84,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        checkDeath();
-        checkShopping();
+        checkEnd();
         if (isShopping || isVictory || isDead)
             return;
         else
@@ -177,17 +177,19 @@ public class PlayerController : MonoBehaviour
         // anim.SetBool("isLookingDown", isLookingDown);
     }
 
-    private void checkDeath()
+    private void checkEnd()
     {
-        if (gameManager.isPlayerDead())
+        if (gameManager.isPlayerDead() && !isDead)
         {
             isDead = true;
             playDeath();
             gameManager.gameOver();
         }
-        else if (gameManager.isPlayerVictory())
+        else if (gameManager.isPlayerVictory() && !isVictory)
         {
+            isVictory = true;
             playVictory();
+            gameManager.gameComplete();
         }
     }
 
@@ -203,13 +205,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void playDeath()
+    public void playDeath()
     {
+        Debug.Log("Player is dead");
         anim.Play("Death_2");
         AudioManager.PlayDeathAudio();
     }
 
-    private void playVictory()
+    public void playVictory()
     {
         isVictory = true;
         anim.SetBool("isVictory", isVictory);
