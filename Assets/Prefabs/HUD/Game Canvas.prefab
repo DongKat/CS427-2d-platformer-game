@@ -174,7 +174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.999878, y: -84.99997}
+  m_AnchoredPosition: {x: 4.999878, y: -68.99997}
   m_SizeDelta: {x: 682.9297, y: 111.6432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4818964773678456361
@@ -1451,7 +1451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -83, y: 117}
+  m_AnchoredPosition: {x: -83, y: 160}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4839624862078367389
@@ -1590,7 +1590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 56}
+  m_AnchoredPosition: {x: 1, y: 72}
   m_SizeDelta: {x: 682.9297, y: 111.6432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7227032414511312852
@@ -2358,6 +2358,8 @@ MonoBehaviour:
   bombs: {fileID: 7013612829821514906}
   ammoText: {fileID: 7912686890776455077}
   gameOverPanel: {fileID: 1206704438623509438}
+  gameCompletePanel: {fileID: 0}
+  shopPanel: {fileID: 3049018328044491986}
   coinText: {fileID: 6183900062664109617}
 --- !u!1 &7206120474194683159
 GameObject:

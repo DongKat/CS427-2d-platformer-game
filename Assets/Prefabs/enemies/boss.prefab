@@ -212,16 +212,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5431704067725882501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db7110da3dc367b4495a6010c7012ee9, type: 3}
+  m_Script: {fileID: 11500000, guid: eb450c05aa86843478ae74115ef60f57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   attcooldown: 0
   range: 0.75
   range_y: 0.31
   colliderDistance: 7.6
   colliderDistance_y: -3.44
-  projectilePrefab: {fileID: 536647721100878209, guid: e932a577f64f6ef43ba3f916794dbea3, type: 3}
+  projectilePrefab: {fileID: 7091066475494587568, guid: 6e56e2dfde52e4a4bbc1bfd0e31a189a, type: 3}
   projectileSpawnPoint: {fileID: 4747861110093921844}
   colliderDistance2: 14.5
   attcooldown2: 0
@@ -231,7 +231,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  player: {fileID: 89862438138603909, guid: 4079c692a3722a448b871677480adba0, type: 3}
+  player: {fileID: 89862438138603909, guid: 430b4ff92c92daa478aa73fa9c1b1088, type: 3}
 --- !u!114 &6441348429250142077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db91a22ed1f87ad4b9162f8ca7905b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 1000
+  score: 10000
   health: 1000
   components:
   - {fileID: 8265419753341055753}

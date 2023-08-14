@@ -9,6 +9,7 @@ public class Merchant : MonoBehaviour
     public TextMeshProUGUI dialougeText;
     public string[] dialouge;
     private int index;
+    public GameObject button;
 
     public bool playersisClose;
     public float WordSpeed=0.06f;
@@ -16,6 +17,9 @@ public class Merchant : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && playersisClose)
         {
+            // Call GameManager to open shop
+
+
             if(index==0)
             {
                 dialougePanel.SetActive(true);
@@ -47,6 +51,10 @@ public class Merchant : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             playersisClose = true;
+
+            button.SetActive(true);
+
+
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -54,6 +62,9 @@ public class Merchant : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             playersisClose = false;
+
+            // Show 
+            button.SetActive(false);
             zeroText();
         }
     }

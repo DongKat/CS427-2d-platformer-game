@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2337286975229653126}
   - component: {fileID: 4998421169162518465}
-  - component: {fileID: 6659802351010113676}
   - component: {fileID: 7558835986134032711}
   - component: {fileID: 1502436498780480116}
+  - component: {fileID: 6659802351010113676}
   m_Layer: 0
   m_Name: Projectile_horizontal
   m_TagString: Bullet
@@ -87,25 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6659802351010113676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7480073292215209141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51c35c6ee5e9f234f99dd53059f7f646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 20
-  SplashRange: 5
-  spinSpeed: 360
-  damage: 100
-  launchOffset: {x: 0, y: 0, z: 0}
-  isThrownable: 0
-  explosionEffect: {fileID: 0}
 --- !u!61 &7558835986134032711
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -178,3 +159,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 2
+--- !u!114 &6659802351010113676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7480073292215209141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbf09db60eb16b41b4d257418a6957c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 30
+  SplashRange: 5
+  spinSpeed: 360
+  damage: 100
+  launchOffset: {x: 0, y: 0, z: 0}
+  isThrownable: 0
+  explosionEffect: {fileID: 1363658942713580213, guid: 36299132714c36a4d93a232cea044c17, type: 3}

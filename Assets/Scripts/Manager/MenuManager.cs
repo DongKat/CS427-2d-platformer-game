@@ -50,12 +50,12 @@ public class MenuManager : MonoBehaviour
             while (startText.alpha > 0f)
             {
                 startText.alpha -= 0.1f;
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSecondsRealtime(0.05f);
             }
             while (startText.alpha < 1f)
             {
                 startText.alpha += 0.1f;
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSecondsRealtime(0.05f);
             }
         }
     }

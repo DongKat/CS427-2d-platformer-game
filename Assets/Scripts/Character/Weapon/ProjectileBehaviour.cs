@@ -82,11 +82,14 @@ public class ProjectileBehaviour : MonoBehaviour
             if (other.gameObject.tag == "enemy")
             {
                 other.gameObject.GetComponent<enemydeath>().takeDamage(damage);
+                Destroy(gameObject);
             }
+            
         }
-
-
         // Destroy projectile
         Destroy(gameObject);
+
+
+        
     }
 }

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 5345803085225111906}
   - component: {fileID: 5171832300039623736}
   - component: {fileID: 3486342391601458671}
-  - component: {fileID: 536647721100878209}
-  m_Layer: 0
+  - component: {fileID: 7091066475494587568}
+  m_Layer: 9
   m_Name: spit_projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 1457990699924957061}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d44a2d6902e6984cb12f494dd73c99c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4b71c78f2d5a160448fd128d978457c6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -201,7 +201,7 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
---- !u!114 &536647721100878209
+--- !u!114 &7091066475494587568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1457990699924957061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33223c2e4a749d45a22e9da0ddd77a8, type: 3}
+  m_Script: {fileID: 11500000, guid: e6aa098288ac1c947aa4801966b96fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
@@ -218,5 +218,6 @@ MonoBehaviour:
   throwForce: 10
   throwAngle: 0
   launchOffset: {x: 0, y: 0, z: 0}
-  damage: 10
+  normalDamage: 10
+  unravelDamage: 2
   isThrown: 0

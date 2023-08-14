@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4815658872114462140
 MonoBehaviour:
@@ -41,13 +41,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6203688484163785929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7798a1081d3151542ba22e4d6822141e, type: 3}
+  m_Script: {fileID: 11500000, guid: 943dd325c4c3e9741b67c6555fc63d25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startText: {fileID: 0}
   gameManager: {fileID: 0}
   start: {fileID: 0}
-  choose: {fileID: 0}
+  menu: {fileID: 0}
   settings: {fileID: 0}
   bgmText: {fileID: 0}
   sfxText: {fileID: 0}

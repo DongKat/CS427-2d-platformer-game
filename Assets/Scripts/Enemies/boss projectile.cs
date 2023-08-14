@@ -21,7 +21,8 @@ public class bossprojectile : MonoBehaviour
     private Vector3 launchOffset;
 
     [SerializeField]
-    private int damage;
+    public float normalDamage;
+    public float unravelDamage;
 
     public bool isThrown = false;
     private float lifetime;
@@ -76,13 +77,14 @@ public class bossprojectile : MonoBehaviour
         hit = true;
         if (unravel && other.gameObject.tag == "Player")
         {
-            //gameManager.takeDamage(damage);
+            gameManager.takeDamage(unravelDamage);
+            Debug.Log("unravel damage");
         }
         else if (other.gameObject.tag == "Player")
         {
             coll.enabled = false;
             anim.SetTrigger("explode");
-            gameManager.takeDamage(damage);
+            gameManager.takeDamage(normalDamage);
             //other.gameObject.GetComponent<>().; // call death of player
         }
         else if(other.gameObject.tag == "ground")

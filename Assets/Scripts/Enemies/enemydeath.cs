@@ -11,14 +11,14 @@ public class enemydeath : MonoBehaviour
     [SerializeField] private int health;
     private GameManager gameManager;
 
-    private bool isDead = false;
+    public bool isDead = false;
 
     [SerializeField]
     private Behaviour[] components;
 
     void Awake()
     {
-        gameManager = FindAnyObjectByType<GameManager>();
+        gameManager = GameManager.instance;
         anim = GetComponent<Animator>();
         enemy_patrol = GetComponentInParent<enemyPatrol>();
     }

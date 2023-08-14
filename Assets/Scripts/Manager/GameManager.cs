@@ -24,13 +24,15 @@ public class GameManager : MonoBehaviour
     public Vector3 playerPosition;
     public int lastSpawnPointIndex = 0;
 
+    private bool isShopping = false;
+
 
     [Header("Current Values")]
     public int coinScore = 0;
     public int money = 0;
     public int grenadeCount = 10;
     public int ammoCount = 0;
-    public int healthCount = 100;
+    public float healthCount = 100f;
 
     [Header("Max Values")]
     public int maxAmmo = 500;
@@ -88,6 +90,17 @@ public class GameManager : MonoBehaviour
         StartCoroutine(WaitResetLevel());
     }
 
+    public void gameComplete()
+    {
+        // When player reach finish point
+        isGameOver = true;
+
+        UIManager.ShowGameCompletePanel();
+        AudioManager.PlayLevelCompleteAudio();
+
+        StartCoroutine(WaitReturnToMenu());
+    }
+
     
     public void ResetLevel()
     {
@@ -110,6 +123,11 @@ public class GameManager : MonoBehaviour
         UIManager.UpdateHealthUI();
 
         // Load scene again
+        SceneManager.LoadScene(finishPoint.currentIndexBuild);
+    }
+
+    public void ReturnToMenu()
+    {
         SceneManager.LoadScene(finishPoint.currentIndexBuild);
     }
 
@@ -153,6 +171,13 @@ public class GameManager : MonoBehaviour
         UIManager.UpdateHealthUI();
     }
 
+    public void takeDamage(float damage)
+    {
+        healthCount -= damage;
+        UIManager.UpdateHealthUI();
+    }
+
+
     public void throwGrenade()
     {
         grenadeCount--;
@@ -169,7 +194,7 @@ public class GameManager : MonoBehaviour
         return grenadeCount;
     }
 
-    public int getHealth()
+    public float getHealth()
     {
         return healthCount;
     }
@@ -188,5 +213,32 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(10f);
         ResetLevel();
+    }
+    private IEnumerator WaitReturnToMenu()
+    {
+        yield return new WaitForSecondsRealtime(10f);
+        
+    }
+
+    public bool isPlayerShopping()
+    {
+        return isShopping;
+    }
+
+    public bool isPlayerVictory()
+    {
+        return isGameOver;
+    }
+
+    private static void openShop()
+    {
+        UIManager.ShowShopPanel();
+        instance.isShopping = true;
+    }
+
+    private static void closeShop()
+    {
+        UIManager.HideShopPanel();
+        instance.isShopping = false;
     }
 }

@@ -83,6 +83,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        checkDeath();
+        checkShopping();
         if (isShopping || isVictory || isDead)
             return;
         else
@@ -175,6 +177,32 @@ public class PlayerController : MonoBehaviour
         // anim.SetBool("isLookingDown", isLookingDown);
     }
 
+    private void checkDeath()
+    {
+        if (gameManager.isPlayerDead())
+        {
+            isDead = true;
+            playDeath();
+            gameManager.gameOver();
+        }
+        else if (gameManager.isPlayerVictory())
+        {
+            playVictory();
+        }
+    }
+
+    private void checkShopping()
+    {
+        if (gameManager.isPlayerShopping())
+        {
+            isShopping = true;
+        }
+        else
+        {
+            isShopping = false;
+        }
+    }
+
     private void playDeath()
     {
         anim.Play("Death_2");
@@ -231,15 +259,9 @@ public class PlayerController : MonoBehaviour
     private void takeDamage(int damage)
     {
         gameManager.takeDamage(damage);
-        if (gameManager.isPlayerDead())
-        {
-            playDeath();
-            gameManager.gameOver();
-        }
     }
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-    }
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);    }
 }

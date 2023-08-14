@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3163058434500649862}
   - component: {fileID: 7772798689408748298}
-  - component: {fileID: 9022183975336924835}
   - component: {fileID: 5239425949919632081}
   - component: {fileID: 2607077538590803115}
+  - component: {fileID: 9022183975336924835}
   - component: {fileID: 2604213296566889141}
   m_Layer: 0
   m_Name: "\u3046\u3093\u3053"
@@ -88,27 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &9022183975336924835
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2435571160138091382}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b835e83b4a03b7e4e9fd98c4a672f118, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &5239425949919632081
 Rigidbody2D:
   serializedVersion: 4
@@ -181,6 +160,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.125, y: 1.5}
   m_EdgeRadius: 0
+--- !u!95 &9022183975336924835
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2435571160138091382}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b835e83b4a03b7e4e9fd98c4a672f118, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &2604213296566889141
 MonoBehaviour:
   m_ObjectHideFlags: 0

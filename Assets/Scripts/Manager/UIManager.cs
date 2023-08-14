@@ -19,6 +19,8 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI ammoText;
 
     public TextMeshProUGUI gameOverPanel;
+    public TextMeshProUGUI gameCompletePanel;
+    public GameObject shopPanel;
 
     public TextMeshProUGUI coinText;
 
@@ -111,5 +113,34 @@ public class UIManager : MonoBehaviour
         instance.gameOverPanel.gameObject.SetActive(true);
     }
 
+    public static void ShowGameCompletePanel()
+    {
+        //If there is no current UIManager, exit
+        if (instance == null)
+            return;
+
+        //Show the game over panel
+        instance.gameCompletePanel.gameObject.SetActive(true);
+    }
+
+    public static void ShowShopPanel()
+    {
+        //If there is no current UIManager, exit
+        if (instance == null)
+            return;
+
+        //Show the game over panel
+        instance.shopPanel.gameObject.SetActive(true);
+    }
+
+    public static void HideShopPanel()
+    {
+        //If there is no current UIManager, exit
+        if (instance == null)
+            return;
+
+        //Show the game over panel
+        instance.shopPanel.gameObject.SetActive(false);
+    }
 
 }

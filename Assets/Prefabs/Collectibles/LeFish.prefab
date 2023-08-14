@@ -10,7 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3364587178269371569}
   - component: {fileID: 765729755268340359}
+  - component: {fileID: 706578150844638891}
+  - component: {fileID: 6366320663164867079}
   - component: {fileID: 4744201818623767985}
+  - component: {fileID: 5599891035890923737}
   m_Layer: 0
   m_Name: LeFish
   m_TagString: Untagged
@@ -85,27 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4744201818623767985
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4663640265503316305}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 28a4d4d165015fe4e87238167c0a89b8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &706578150844638891
 Rigidbody2D:
   serializedVersion: 4
@@ -178,6 +160,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0263977, y: 0.8759117}
   m_EdgeRadius: 0
+--- !u!95 &4744201818623767985
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663640265503316305}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 28a4d4d165015fe4e87238167c0a89b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5599891035890923737
 MonoBehaviour:
   m_ObjectHideFlags: 0
