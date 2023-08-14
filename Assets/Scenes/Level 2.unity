@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 28375204}
   - component: {fileID: 28375207}
   - component: {fileID: 28375208}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mechant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,8 +202,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1604253289
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 84807949, guid: 8bfa5acf9f5231e48bf4b5ea9dfa1e06, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -288,9 +288,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16c8758ccd032974ab1f85fd41cf2ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialougePanel: {fileID: 0}
-  dialougeText: {fileID: 0}
-  dialouge: []
+  dialougePanel: {fileID: 437585674}
+  dialougeText: {fileID: 47774479}
+  dialouge:
+  - There are many monsters out there waiting to be slayed,The One Who Grips.This
+    old man can give you blessings to do so and need nothing but their Essence in
+    return.
+  - This is sentence number 2.
+  - This is sentence number 3.
+  playersisClose: 1
+  WordSpeed: 0.06
 --- !u!1 &31803054
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,9 +387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: There are many monsters out there waiting to be slayed,The One Who Grips.This
-    old man can give you blessings to do so and need nothing but their Essence in
-    return.
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c324eed50b6937546a3d4b8a6a851a09, type: 2}
   m_sharedMaterial: {fileID: 21947761065530480, guid: c324eed50b6937546a3d4b8a6a851a09, type: 2}
@@ -1883,7 +1888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.81999, y: -16.76667, z: -10}
+  m_LocalPosition: {x: 47.819992, y: -16.76667, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
