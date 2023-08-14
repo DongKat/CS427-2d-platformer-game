@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Current Values")]
     public int coinScore = 0;
+    public int money = 0;
     public int grenadeCount = 10;
     public int ammoCount = 0;
     public int healthCount = 100;
@@ -97,6 +98,7 @@ public class GameManager : MonoBehaviour
 
         // Reset player's values
         coinScore = 0;
+        money = 0;
         grenadeCount = 10;
         ammoCount = 0;
         healthCount = 100;
@@ -114,7 +116,9 @@ public class GameManager : MonoBehaviour
     public void addCoin(int score)
     {
         coinScore += score;
+        money += score;
         UIManager.UpdateScoreUI();
+        UIManager.UpdateCoinUI();
     }
 
     public void addAmmo()
@@ -182,7 +186,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator WaitResetLevel()
     {
-        yield return new WaitForSecondsRealtime(10);
+        yield return new WaitForSecondsRealtime(10f);
         ResetLevel();
     }
 }
