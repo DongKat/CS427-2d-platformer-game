@@ -25,6 +25,6 @@ public class Ending : MonoBehaviour
         yield return new WaitForSecondsRealtime(delayTime);
 
         // Load the new scene
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene(0);
     }
 }

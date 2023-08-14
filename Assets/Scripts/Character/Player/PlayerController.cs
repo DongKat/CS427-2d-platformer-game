@@ -186,13 +186,11 @@ public class PlayerController : MonoBehaviour
         {
             isDead = true;
             playDeath();
-            gameManager.gameOver();
         }
         else if (gameManager.isPlayerVictory() && !isVictory)
         {
             isVictory = true;
             playVictory();
-            gameManager.gameComplete();
         }
     }
 

@@ -113,7 +113,7 @@ public class MenuManager : MonoBehaviour
 
     public void startMission()
     {
-        SceneManager.LoadScene(0); // Load level 1 scene
+        SceneManager.LoadScene(1); // Load level 1 scene
     }
 
     /* Start settings */

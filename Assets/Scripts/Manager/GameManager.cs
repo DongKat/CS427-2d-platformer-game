@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public PlayerController player;
 
     private bool isGameOver = false;
+    public bool isGameVictory = false;
 
 
     // Player's position
@@ -82,6 +83,10 @@ public class GameManager : MonoBehaviour
         }
 
         moneyUpdate();
+        UIManager.UpdateAmmoUI();
+        UIManager.UpdateBombsUI();
+        UIManager.UpdateScoreUI();
+        UIManager.UpdateHealthUI();
     }
 
 
@@ -101,7 +106,7 @@ public class GameManager : MonoBehaviour
     public void gameComplete()
     {
         // When player reach finish point
-        isGameOver = true;
+        isGameVictory = true;
 
         // player.playVictory();
 
@@ -239,12 +244,12 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator WaitResetLevel()
     {
-        yield return new WaitForSecondsRealtime(10f);
+        yield return new WaitForSecondsRealtime(5f);
         ResetLevel();
     }
     private IEnumerator WaitReturnToMenu()
     {
-        yield return new WaitForSecondsRealtime(10f);
+        yield return new WaitForSecondsRealtime(6f);
         ReturnToMenu();
     }
 
@@ -255,7 +260,7 @@ public class GameManager : MonoBehaviour
 
     public bool isPlayerVictory()
     {
-        return isGameOver;
+        return isGameVictory;
     }
 
     public void openShop()

@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class boss : MonoBehaviour
 {
+
     [Header("Melee attack parameters")]
     [SerializeField] private int damage;
     [SerializeField] private float attcooldown;
@@ -30,6 +32,8 @@ public class boss : MonoBehaviour
     [Header("Player parameters")]
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private Transform player;
+    public Slider healthBar;
+
 
     private bool walk = true;
     private GameManager gameManager;
@@ -44,6 +48,8 @@ public class boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         cooldown += Time.deltaTime;
         cooldown2 += Time.deltaTime;
         if(cooldown2 >= 100)
@@ -82,6 +88,12 @@ public class boss : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
         }
     }
+
+    public void updateHealthBar()
+    {
+        healthBar.value = GetComponent<enemydeath>().health;
+    }
+
     private bool playerInSight()
     {
         RaycastHit2D hit =

@@ -8,7 +8,7 @@ public class enemydeath : MonoBehaviour
     private enemyPatrol enemy_patrol;
     private Animator anim;
     [SerializeField] private int score;
-    [SerializeField] private int health;
+    [SerializeField] public int health;
     public GameManager gameManager;
 
     public bool isDead = false;
