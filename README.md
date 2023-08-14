@@ -1,8 +1,10 @@
 # CS427-2d-platformer-game
-20125023: Vũ Hoàng Đạt  
-20125044: Bùi Trọng Nhân  
-20125069: Trần Lạc Việt  
-20125087: Huỳnh Bá Đông Cát   
+- 20125087: Huỳnh Bá Đông Cát  
+- 20125069: Trần Lạc Việt  
+- 20125023: Vũ Hoàng Đạt  
+- 20125044: Bùi Trọng Nhân  
+ 
+
 # About the game:  
 Holy Havoc is a 2D shotting platformer developed as a mid-term project for group 6 (Sigma6). It takes inspiration from various shotter, plaformer and Metroidvania games. We actually used all of our sprites for this project from Metal Slug games and Blasphemous.
 # Resourse reference:
