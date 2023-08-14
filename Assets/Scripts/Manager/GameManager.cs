@@ -10,10 +10,14 @@ public class GameManager : MonoBehaviour
     // Singleton instance of the GameManager
     public static GameManager instance;
 
+    public bool isGod;
+
     // Get the indexbuild to reload scene when player die
     private static Finish finishPoint;
     private static UIManager uiManager;
     private static AudioManager audioManager;
+
+    private bool isGameOver = false;
 
 
     // Player's position
@@ -65,12 +69,22 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if (isGod)
+        {
+            grenadeCount = maxGrenade;
+            healthCount = maxHealth;
+        }
     }
 
     public void gameOver()
     {
-        ResetLevel();
+        // When player died
+        isGameOver = true;
+
         UIManager.ShowGameOverPanel();
+        AudioManager.PlayGameOverAudio();
+
+        StartCoroutine(WaitResetLevel());
     }
 
     
@@ -78,6 +92,8 @@ public class GameManager : MonoBehaviour
     {
         // Reset player's position
         playerPosition = Vector3.zero;
+
+        isGameOver = false;
 
         // Reset player's values
         coinScore = 0;
@@ -162,5 +178,11 @@ public class GameManager : MonoBehaviour
     public bool isPlayerDead()
     {
         return healthCount <= 0;
+    }
+
+    private IEnumerator WaitResetLevel()
+    {
+        yield return new WaitForSecondsRealtime(10);
+        ResetLevel();
     }
 }

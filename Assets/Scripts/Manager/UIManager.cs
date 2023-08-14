@@ -20,6 +20,8 @@ public class UIManager : MonoBehaviour
 
     public TextMeshProUGUI gameOverPanel;
 
+    public TextMeshProUGUI coinText;
+
     void Awake()
     {
         if (instance == null)
@@ -40,6 +42,7 @@ public class UIManager : MonoBehaviour
         // set score text to 0
         UpdateScoreUI();
         UpdateBombsUI();
+        UpdateCoinUI();
     }
 
     // Update is called once per frame
@@ -86,6 +89,16 @@ public class UIManager : MonoBehaviour
 
         //Refresh the score
         instance.ammoText.SetText("oo");
+    }
+
+    public static void UpdateCoinUI()
+    {
+        //If there is no current UIManager, exit
+        if (instance == null)
+            return;
+
+        //Refresh the score
+        instance.coinText.SetText(gameManager.coinScore.ToString());
     }
 
     public static void ShowGameOverPanel()

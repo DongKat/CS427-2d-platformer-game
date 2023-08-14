@@ -58,6 +58,7 @@ public class ProjectileBehaviour : MonoBehaviour
         {
             // Create explosion effect
             GameObject explosion = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            AudioManager.PlayGrenadeHitAudio();
             Destroy(explosion, 0.2f);
             Destroy(gameObject);
 

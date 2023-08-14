@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4140604981274143545
 MonoBehaviour:
@@ -44,19 +44,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de49682b3fda2b640bb24cc47ed84471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicClip: {fileID: 0}
-  gameOverClip: {fileID: 0}
-  marcoDeathClip: {fileID: 0}
-  normalShotClip: {fileID: 0}
-  shotHitClip: {fileID: 0}
-  grenadeHitClip: {fileID: 0}
-  collectibleGrabClip: {fileID: 0}
-  grenadeGrabClip: {fileID: 0}
+  musicClip: {fileID: 8300000, guid: d2387b6ca301213468b110314b944239, type: 3}
+  gameOverClip: {fileID: 8300000, guid: ab4e590dfaf38884d9c4957482e92284, type: 3}
+  marcoDeathClip: {fileID: 8300000, guid: 908569ab6a36d114abf53d1e78f9b8b1, type: 3}
+  normalShotClip: {fileID: 8300000, guid: 8946b764f8047d642b5a7bdb582fef11, type: 3}
+  shotHitClip: {fileID: 8300000, guid: 51577d5da4d4c6b4e846b6fefd7b5e06, type: 3}
+  grenadeHitClip: {fileID: 8300000, guid: 7ed43ab2d2ed061409a40be354473093, type: 3}
+  collectibleGrabClip: {fileID: 8300000, guid: 8059f21498c55404fab41460468c5f37, type: 3}
+  grenadeGrabClip: {fileID: 8300000, guid: b34eab340273a9747b3b0b3f32b3fcc0, type: 3}
   levelStart: {fileID: 0}
-  levelComplete: {fileID: 0}
-  okayClip: {fileID: 0}
-  menuSound: {fileID: 8300000, guid: 6d3103633d6e544418b8b079d896da29, type: 3}
-  selectSound: {fileID: 8300000, guid: 18be25f19e123db4bbd6715dfac26502, type: 3}
+  levelComplete: {fileID: 8300000, guid: 5df41c472e810df4491c0a99b694c6d1, type: 3}
+  okayClip: {fileID: 8300000, guid: 4dad0b648ef59f840901164857d5ea94, type: 3}
+  menuSound: {fileID: 0}
+  selectSound: {fileID: 0}
   musicGroup: {fileID: 4818164736406736341, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
   effectGroup: {fileID: -8323488521272399063, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
   enemyGroup: {fileID: -7558209919773159180, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}

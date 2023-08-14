@@ -177,6 +177,7 @@ public class PlayerController : MonoBehaviour
     private void playDeath()
     {
         anim.Play("Death_2");
+        AudioManager.PlayDeathAudio();
     }
 
     private void Jump()
@@ -196,6 +197,7 @@ public class PlayerController : MonoBehaviour
             );
             projectile.transform.localScale = transform.localScale;
         }
+        AudioManager.PlayNormalShotAudio();
     }
 
     private void ThrowGrenade()
