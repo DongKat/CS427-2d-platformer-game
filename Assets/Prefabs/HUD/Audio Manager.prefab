@@ -45,20 +45,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicClip: {fileID: 8300000, guid: d2387b6ca301213468b110314b944239, type: 3}
-  gameOverClip: {fileID: 8300000, guid: ab4e590dfaf38884d9c4957482e92284, type: 3}
-  marcoDeathClip: {fileID: 8300000, guid: 908569ab6a36d114abf53d1e78f9b8b1, type: 3}
-  normalShotClip: {fileID: 8300000, guid: 8946b764f8047d642b5a7bdb582fef11, type: 3}
-  shotHitClip: {fileID: 8300000, guid: 51577d5da4d4c6b4e846b6fefd7b5e06, type: 3}
-  grenadeHitClip: {fileID: 8300000, guid: 7ed43ab2d2ed061409a40be354473093, type: 3}
-  collectibleGrabClip: {fileID: 8300000, guid: 8059f21498c55404fab41460468c5f37, type: 3}
-  grenadeGrabClip: {fileID: 8300000, guid: b34eab340273a9747b3b0b3f32b3fcc0, type: 3}
+  gameOverClip: {fileID: 8300000, guid: 2242ab9cc159a904aaa59359d3f2994d, type: 3}
+  marcoDeathClip: {fileID: 8300000, guid: db970ec1960251b4ab339514113120bc, type: 3}
+  normalShotClip: {fileID: 8300000, guid: 6577de7998dc27d4ab52a4ec16a70577, type: 3}
+  shotHitClip: {fileID: 8300000, guid: 498f31d57280901468afc2f156f25c0d, type: 3}
+  grenadeHitClip: {fileID: 8300000, guid: 1b3c1fed7f60a7146a9e3818a151b8fa, type: 3}
+  collectibleGrabClip: {fileID: 8300000, guid: 3cc730794a3ba2a4f9e950c71e03ff3b, type: 3}
+  grenadeGrabClip: {fileID: 8300000, guid: 8a79f04e8af641e449f7e860318cac62, type: 3}
   levelStart: {fileID: 0}
-  levelComplete: {fileID: 8300000, guid: 5df41c472e810df4491c0a99b694c6d1, type: 3}
-  okayClip: {fileID: 8300000, guid: 4dad0b648ef59f840901164857d5ea94, type: 3}
+  levelComplete: {fileID: 8300000, guid: d2ccc36f36cadb142900ea9e7e2e7512, type: 3}
+  okayClip: {fileID: 8300000, guid: 5221a0cb32a584944a2a45e3bbc78831, type: 3}
   menuSound: {fileID: 0}
   selectSound: {fileID: 0}
-  musicGroup: {fileID: 4818164736406736341, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
-  effectGroup: {fileID: -8323488521272399063, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
-  enemyGroup: {fileID: -7558209919773159180, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
-  playerGroup: {fileID: -3671558793306375175, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
-  voiceGroup: {fileID: -3095085304745410117, guid: e2d8daef6adb9bd40bd1c3c64fd535af, type: 2}
+  musicGroup: {fileID: 4818164736406736341, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  effectGroup: {fileID: -8323488521272399063, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  enemyGroup: {fileID: -7558209919773159180, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  playerGroup: {fileID: -3671558793306375175, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}
+  voiceGroup: {fileID: -3095085304745410117, guid: 3c6a6249a999d554692e58a21cd0c721, type: 2}

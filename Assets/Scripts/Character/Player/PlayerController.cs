@@ -30,7 +30,10 @@ public class PlayerController : MonoBehaviour
 
     // private bool isMelee = false;
     private bool isThrowingGrenade = false;
-    private bool isDead = false;
+
+    public bool isDead = false;
+    public bool isVictory = false;
+    public bool isShopping = false;
 
     [Header("Time shoot")]
     public float fireRate = 0.5F;
@@ -80,7 +83,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (!isDead)
+        if (isShopping || isVictory || isDead)
+            return;
+        else
         {
             // Get input from player
             dirX = Input.GetAxis("Horizontal");
@@ -151,10 +156,6 @@ public class PlayerController : MonoBehaviour
             }
             UpdateAnimationState();
         }
-        else
-        {
-            // Disable input when dead
-        }
     }
 
     private void UpdateAnimationState()
@@ -178,6 +179,13 @@ public class PlayerController : MonoBehaviour
     {
         anim.Play("Death_2");
         AudioManager.PlayDeathAudio();
+    }
+
+    private void playVictory()
+    {
+        isVictory = true;
+        anim.SetBool("isVictory", isVictory);
+        AudioManager.PlayLevelCompleteAudio();
     }
 
     private void Jump()

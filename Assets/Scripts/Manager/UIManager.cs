@@ -43,12 +43,12 @@ public class UIManager : MonoBehaviour
         UpdateScoreUI();
         UpdateBombsUI();
         UpdateCoinUI();
+        UpdateHealthUI();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
      public static void UpdateScoreUI()
