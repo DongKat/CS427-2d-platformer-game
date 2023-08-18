@@ -22,3 +22,5 @@ The game includes many aspects of Metroidvania and platformer like:
 - Collectibles and shop system
 - Adequate audio and visaul representations
 
+# Itch.io
+https://akumabear.itch.io/holyhavoc
